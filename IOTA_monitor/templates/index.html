@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard IOTA</title>
+    <link href="{{ url_for('static', filename='reset.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet">
+</head>
+<body>
+
+<aside>
+
+    <h1>IOTA project</h1>
+
+    <ul>
+
+        <li {% block analytics %} {% endblock %}><a  href="{{ url_for('analytics') }}"><i class="fa fa-line-chart"></i>Analytics</a></li>
+
+        <li {% block transactions %} {% endblock %}><a  href="{{ url_for('transactions') }}"><i class="fa fa-folder-open"></i>View Transactions</a><span class="notification">4</span></li>
+
+        <li {% block settings %} {% endblock %}><a  href="{{ url_for('settings') }}"><i class="fa fa-wrench"></i>Settings</a></li>
+
+    </ul>
+
+</aside>
+
+{% block body %}
+{% endblock %}
+{% block script %}
+{% endblock %}
+
+
+</body>
+</html>

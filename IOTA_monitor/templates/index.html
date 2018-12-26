@@ -5,6 +5,15 @@
     <title>Dashboard IOTA</title>
     <link href="{{ url_for('static', filename='reset.css') }}" rel="stylesheet">
     <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet">
+
+    {% block headscript %}
+
+    {% endblock %}
+
+{#    <script type="text/javascript" src="{{ url_for('static',filename='bundle.js') }}"></script>#}
+
+
+    {#    <script type="text/javascript" src="{{ url_for('static', filename='getData.js') }}"></script>#}
 </head>
 <body>
 
@@ -14,11 +23,14 @@
 
     <ul>
 
-        <li {% block analytics %} {% endblock %}><a  href="{{ url_for('analytics') }}"><i class="fa fa-line-chart"></i>Analytics</a></li>
+        <li {% block analytics %} {% endblock %}><a href="{{ url_for('analytics') }}"><i class="fa fa-line-chart"></i>Analytics</a>
+        </li>
 
-        <li {% block transactions %} {% endblock %}><a  href="{{ url_for('transactions') }}"><i class="fa fa-folder-open"></i>View Transactions</a><span class="notification">4</span></li>
+        <li {% block transactions %} {% endblock %}><a href="{{ url_for('transactions') }}"><i
+                class="fa fa-folder-open"></i>View Transactions</a><span class="notification">4</span></li>
 
-        <li {% block settings %} {% endblock %}><a  href="{{ url_for('settings') }}"><i class="fa fa-wrench"></i>Settings</a></li>
+        <li {% block settings %} {% endblock %}><a href="{{ url_for('settings') }}"><i class="fa fa-wrench"></i>Settings</a>
+        </li>
 
     </ul>
 
@@ -27,6 +39,7 @@
 {% block body %}
 {% endblock %}
 {% block script %}
+
 {% endblock %}
 
 

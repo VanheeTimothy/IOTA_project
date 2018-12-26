@@ -1,17 +1,27 @@
 {% extends 'index.html' %}
 
+{% block headscript %}
+        <script type="text/javascript">
+        var tempdata = {{ tempdata  }};
+    </script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='graphs.js') }}"></script>
 
-{%  block analytics %}
+{% endblock %}
+
+{% block analytics %}
     class="active"
 {% endblock %}
 
 
-{%  block body %}
-{{ tempvalue }}
+{% block body %}
+    <div class="dashboard">
+
+        <canvas id="myChart"></canvas>
+    </div>
 {% endblock %}
 
 {% block script %}
-    <script>
 
-    </script>
 {% endblock %}

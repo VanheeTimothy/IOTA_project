@@ -1,52 +1,72 @@
-/*Usage:
-1)  You can change the default settings: MODE or SIDEKEY
-    If you do, make the same changes in mam_publish.js and mam_sensor.js files.
-2)  Start the app: node mam_receive.js <root>
-More information:
-https://www.mobilefish.com/developer/iota/iota_quickguide_raspi_mam.html
-*/
+console.log("I'm correct loaded");
 
-const Mam = require('./lib/mam.client.js');
-const IOTA = require('iota.lib.js');
-const iota = new IOTA({ provider: 'https://nodes.testnet.iota.org:443' });
 
-const MODE = 'restricted'; // public, private or restricted
-const SIDEKEY = 'mysecret'; // Enter only ASCII characters. Used only in restricted mode
+var IOTA = require('../../node_modules/iota.lib.js/lib/iota'); // load iota.lib.js
 
-var root;
-var key;
+// # ctor initialization of the iota.lib.js library
+var iota = new IOTA({
+    'provider': 'https://nodes.thetangle.org:443'
+});
 
-// Check the arguments
-const args = process.argv;
-if(args.length !=3) {
-    console.log('Missing root as argument: node mam_receive.js <root>');
-    process.exit();
-} else if(!iota.valid.isAddress(args[2])){
-    console.log('You have entered an invalid root: '+ args[2]);
-    process.exit();
-} else {
-    root = args[2];
-}
+// // basic API call to double check health conditions
+// iota.api.getNodeInfo(function (error, success) {
+//     if (error) {
+//         // unable to perform getNodeInfo call
+//         console.error(error);
+//     } else {
+//         // result is printed out
+//         console.log(success);
+//
+//         // Basic check whether node is in sync or not
+//         // Elementary rule is that "latestMilestoneIndex" should equal to "latestSolidSubtangleMilestoneIndex" or be very close
+//         if (Math.abs(success['latestMilestoneIndex'] - success['latestSolidSubtangleMilestoneIndex']) > 3) {
+//             console.log('\r\nNode is probably not synced!');
+//         } else {
+//             console.log('\r\nNode is probably synced!');
+//         }
+//     }
+// });
 
-// Initialise MAM State
-var mamState = Mam.init(iota);
 
-// Set channel mode
-if (MODE == 'restricted') {
-    key = iota.utils.toTrytes(SIDEKEY);
-    mamState = Mam.changeMode(mamState, MODE, key);
-} else {
-    mamState = Mam.changeMode(mamState, MODE);
-}
 
-// Receive data from the tangle
-const executeDataRetrieval = async function(rootVal, keyVal) {
-    let resp = await Mam.fetch(rootVal, MODE, keyVal, function(data) {
-        var json = JSON.parse(iota.utils.fromTrytes(data));
 
-    });
+var MySeed = "9EJ9QUK9PJYJGNSOZPZLB99VMBQQPMYYFIMFPOFJHWIIPLFAELRYSVZCEXZRGLJHGUKLFZORQWZAZYPK9";
 
-    executeDataRetrieval(resp.nextRoot, keyVal);
-}
 
-executeDataRetrieval(root, key);
+
+//Let's generate 3 addresses using default security level=2.
+//It is deterministic function - it always generates same addresses as long as the Seed, Security Level and Index are the same
+
+// Please note, it is async method - result is returned via callback function
+
+// iota.api.getNewAddress(MySeed,
+//     { "index": 0, "total": 3, "security": 2 },
+//     function (error, success) {
+//         if (error) {
+//             console.log("Error occured: %s", error);
+//         } else {
+//             console.log();
+//             console.log(success); //returned addresses are printed out
+//         }
+//     });
+//
+//
+// "use strict";
+
+iota.api.getAccountData(MySeed, {
+  start: 0,
+  security: 2
+},function (accountData) {
+  var addresses = accountData.addresses,
+      inputs = accountData.inputs,
+      transactions = accountData.transactions,
+      balance = accountData.balance;
+  console.log(transactions);
+  // ...
+    return transactions
+});
+
+
+
+
+// iota.api.getTransfers(MySeed);

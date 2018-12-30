@@ -1,4 +1,4 @@
-console.log("tripshit");
+
 
 // Line Chart
 

@@ -39,19 +39,19 @@ var MySeed = "9EJ9QUK9PJYJGNSOZPZLB99VMBQQPMYYFIMFPOFJHWIIPLFAELRYSVZCEXZRGLJHGU
 
 // Please note, it is async method - result is returned via callback function
 
-// iota.api.getNewAddress(MySeed,
-//     { "index": 0, "total": 3, "security": 2 },
-//     function (error, success) {
-//         if (error) {
-//             console.log("Error occured: %s", error);
-//         } else {
-//             console.log();
-//             console.log(success); //returned addresses are printed out
-//         }
-//     });
-//
-//
-// "use strict";
+iota.api.getNewAddress(MySeed,
+    { "index": 0, "total": 3, "security": 2 },
+    function (error, success) {
+        if (error) {
+            console.log("Error occured: %s", error);
+        } else {
+            console.log();
+            console.log(success); //returned addresses are printed out
+        }
+    });
+
+
+"use strict";
 
 iota.api.getAccountData(MySeed, {
   start: 0,

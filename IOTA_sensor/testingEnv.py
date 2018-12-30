@@ -7,12 +7,15 @@ from pprint import pprint
 from time import time
 import sys
 sys.path.append('/home/pi/IOTA_sensor/model')
-import OneWire
+from model import OneWire
 from time import sleep
 targetAddress_mainNet = "CPEIQD9UTUGPVBYRCUYYFISJARRBWNXBTANAINNYAVHJAOGTQWJGPORHXYXPVCJBH9XSVRCXVQHBFBNWD"
 mySeed_mainNet = "QG9PRLCNUGJRE9XLJUXJLP9ZQKBSCQXCDMWHWZWYSVMYFXYWDSJFTTUMVMFHKUSJNJATWUFVIKUPVPVIN"
 mainNet = "https://nodes.thetangle.org:443"
 
+mySeed_devnet = "SAEWHQJPUIGDKLB9FQ9XTNYZTWRRYVLZAFMGRYYNAFIEMUWNUADVTZTMLYQCLPSJVKJHZTSMYZWWIFXSW"
+targetAddress_devnet = b'TQJWJAD9MPSLOMUFZHMBKBYKPSSLLVILWAIEBKVIGOJDNE9DEFHB9KZROLRRQCOSEYVWEMO9TJURLZD9Y'
+devnet = "https://nodes.devnet.iota.org:443"
 
 sensor_file = '/sys/bus/w1/devices/28-0516739dfeff/w1_slave'
 GPIO.setmode(GPIO.BCM)
@@ -26,14 +29,14 @@ def prepare_transaction(targetAddress, msg,tag, value):
                                   value=value)
     return pt
 
-api = iota.Iota(mainNet,seed=mySeed_mainNet )
+api = iota.Iota(devnet,seed=mySeed_devnet )
 while 1:
     start = time()
     tempStr = str(sensor.read_temp())
     print("reading temp: ")
     print(tempStr)
     print("prepare transaction")
-    pt = prepare_transaction(targetAddress_mainNet, tempStr, 'ONEWIRESENSORIOTA', 0)
+    pt = prepare_transaction(targetAddress_devnet, tempStr, 'ONEWIRESENSORIOTA', 0)
     print("send transfer")
     FinalBundle = api.send_transfer(depth=3, transfers=[pt], min_weight_magnitude=14)["bundle"]
     stop = time()

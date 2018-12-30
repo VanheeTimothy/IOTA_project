@@ -336,7 +336,68 @@ iota.api.getAccountData(MySeed, {
 
 
 // iota.api.getTransfers(MySeed);
-},{"../../node_modules/iota.lib.js/lib/iota":53}],4:[function(require,module,exports){
+},{"../../node_modules/iota.lib.js/lib/iota":54}],4:[function(require,module,exports){
+
+
+// Line Chart
+
+function getData() {
+    return tempdata;
+}
+
+var arraylabel = [];
+for (i = 0; i < tempdata.length; i++) {
+    arraylabel.push(i);
+}
+
+var lineChartData = {
+    labels:arraylabel,
+    datasets: [{
+        label: "one-wire",
+        fill: true,
+        lineTension: 0.9,
+        backgroundColor: "rgba(75,192,192,0.4)",
+        borderColor: "rgba(75,192,192,1)",
+        borderCapStyle: "butt",
+        borderdash: [],
+
+        fillColor: "rgba(41, 128, 185, 0.5)",
+        strokeColor: "none",
+        pointColor: "rgba(41, 128, 185, 0.9)",
+        pointStrokeColor: "rgba(41, 128, 185, 0)",
+        pointHighlightFill: "rgba(41, 128, 185, 0.9)",
+        pointHighlightStroke: "rgba(41, 128, 185, 0)",
+        data: getData()
+    }]
+};
+
+window.onload = function () {
+    var ctx1 = document.getElementById("myChart").getContext("2d");
+    window.myLine = new Chart(ctx1, {
+            type: "line",
+            data: lineChartData,
+            responsive: true,
+            options: {
+                scales: {
+                    xAxes: [{
+                        display: false,
+                        labelString: "time (t)"
+                    }],
+                    yAxes:[{
+                        stacked: true
+                    }]
+                }
+
+            }
+
+        }
+    )
+    ;
+}
+;
+
+
+},{}],5:[function(require,module,exports){
 (function (process,global,setImmediate){
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
@@ -5949,7 +6010,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 })));
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("timers").setImmediate)
-},{"_process":1,"timers":2}],5:[function(require,module,exports){
+},{"_process":1,"timers":2}],6:[function(require,module,exports){
 /*! bignumber.js v4.1.0 https://github.com/MikeMcl/bignumber.js/LICENCE */
 
 ;(function (globalObj) {
@@ -8685,7 +8746,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
     }
 })(this);
 
-},{}],6:[function(require,module,exports){
+},{}],7:[function(require,module,exports){
 ;(function (root, factory, undef) {
 	if (typeof exports === "object") {
 		// CommonJS
@@ -8918,7 +8979,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 	return CryptoJS.AES;
 
 }));
-},{"./cipher-core":7,"./core":8,"./enc-base64":9,"./evpkdf":11,"./md5":16}],7:[function(require,module,exports){
+},{"./cipher-core":8,"./core":9,"./enc-base64":10,"./evpkdf":12,"./md5":17}],8:[function(require,module,exports){
 ;(function (root, factory, undef) {
 	if (typeof exports === "object") {
 		// CommonJS
@@ -9799,7 +9860,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 
 }));
-},{"./core":8,"./evpkdf":11}],8:[function(require,module,exports){
+},{"./core":9,"./evpkdf":12}],9:[function(require,module,exports){
 ;(function (root, factory) {
 	if (typeof exports === "object") {
 		// CommonJS
@@ -10560,7 +10621,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 	return CryptoJS;
 
 }));
-},{}],9:[function(require,module,exports){
+},{}],10:[function(require,module,exports){
 ;(function (root, factory) {
 	if (typeof exports === "object") {
 		// CommonJS
@@ -10696,7 +10757,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 	return CryptoJS.enc.Base64;
 
 }));
-},{"./core":8}],10:[function(require,module,exports){
+},{"./core":9}],11:[function(require,module,exports){
 ;(function (root, factory) {
 	if (typeof exports === "object") {
 		// CommonJS
@@ -10846,7 +10907,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 	return CryptoJS.enc.Utf16;
 
 }));
-},{"./core":8}],11:[function(require,module,exports){
+},{"./core":9}],12:[function(require,module,exports){
 ;(function (root, factory, undef) {
 	if (typeof exports === "object") {
 		// CommonJS
@@ -10979,7 +11040,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 	return CryptoJS.EvpKDF;
 
 }));
-},{"./core":8,"./hmac":13,"./sha1":32}],12:[function(require,module,exports){
+},{"./core":9,"./hmac":14,"./sha1":33}],13:[function(require,module,exports){
 ;(function (root, factory, undef) {
 	if (typeof exports === "object") {
 		// CommonJS
@@ -11046,7 +11107,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 	return CryptoJS.format.Hex;
 
 }));
-},{"./cipher-core":7,"./core":8}],13:[function(require,module,exports){
+},{"./cipher-core":8,"./core":9}],14:[function(require,module,exports){
 ;(function (root, factory) {
 	if (typeof exports === "object") {
 		// CommonJS
@@ -11190,7 +11251,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 
 }));
-},{"./core":8}],14:[function(require,module,exports){
+},{"./core":9}],15:[function(require,module,exports){
 ;(function (root, factory, undef) {
 	if (typeof exports === "object") {
 		// CommonJS
@@ -11209,7 +11270,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 	return CryptoJS;
 
 }));
-},{"./aes":6,"./cipher-core":7,"./core":8,"./enc-base64":9,"./enc-utf16":10,"./evpkdf":11,"./format-hex":12,"./hmac":13,"./lib-typedarrays":15,"./md5":16,"./mode-cfb":17,"./mode-ctr":19,"./mode-ctr-gladman":18,"./mode-ecb":20,"./mode-ofb":21,"./pad-ansix923":22,"./pad-iso10126":23,"./pad-iso97971":24,"./pad-nopadding":25,"./pad-zeropadding":26,"./pbkdf2":27,"./rabbit":29,"./rabbit-legacy":28,"./rc4":30,"./ripemd160":31,"./sha1":32,"./sha224":33,"./sha256":34,"./sha3":35,"./sha384":36,"./sha512":37,"./tripledes":38,"./x64-core":39}],15:[function(require,module,exports){
+},{"./aes":7,"./cipher-core":8,"./core":9,"./enc-base64":10,"./enc-utf16":11,"./evpkdf":12,"./format-hex":13,"./hmac":14,"./lib-typedarrays":16,"./md5":17,"./mode-cfb":18,"./mode-ctr":20,"./mode-ctr-gladman":19,"./mode-ecb":21,"./mode-ofb":22,"./pad-ansix923":23,"./pad-iso10126":24,"./pad-iso97971":25,"./pad-nopadding":26,"./pad-zeropadding":27,"./pbkdf2":28,"./rabbit":30,"./rabbit-legacy":29,"./rc4":31,"./ripemd160":32,"./sha1":33,"./sha224":34,"./sha256":35,"./sha3":36,"./sha384":37,"./sha512":38,"./tripledes":39,"./x64-core":40}],16:[function(require,module,exports){
 ;(function (root, factory) {
 	if (typeof exports === "object") {
 		// CommonJS
@@ -11286,7 +11347,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 	return CryptoJS.lib.WordArray;
 
 }));
-},{"./core":8}],16:[function(require,module,exports){
+},{"./core":9}],17:[function(require,module,exports){
 ;(function (root, factory) {
 	if (typeof exports === "object") {
 		// CommonJS
@@ -11555,7 +11616,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 	return CryptoJS.MD5;
 
 }));
-},{"./core":8}],17:[function(require,module,exports){
+},{"./core":9}],18:[function(require,module,exports){
 ;(function (root, factory, undef) {
 	if (typeof exports === "object") {
 		// CommonJS
@@ -11634,7 +11695,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 	return CryptoJS.mode.CFB;
 
 }));
-},{"./cipher-core":7,"./core":8}],18:[function(require,module,exports){
+},{"./cipher-core":8,"./core":9}],19:[function(require,module,exports){
 ;(function (root, factory, undef) {
 	if (typeof exports === "object") {
 		// CommonJS
@@ -11751,7 +11812,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 	return CryptoJS.mode.CTRGladman;
 
 }));
-},{"./cipher-core":7,"./core":8}],19:[function(require,module,exports){
+},{"./cipher-core":8,"./core":9}],20:[function(require,module,exports){
 ;(function (root, factory, undef) {
 	if (typeof exports === "object") {
 		// CommonJS
@@ -11810,7 +11871,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 	return CryptoJS.mode.CTR;
 
 }));
-},{"./cipher-core":7,"./core":8}],20:[function(require,module,exports){
+},{"./cipher-core":8,"./core":9}],21:[function(require,module,exports){
 ;(function (root, factory, undef) {
 	if (typeof exports === "object") {
 		// CommonJS
@@ -11851,7 +11912,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 	return CryptoJS.mode.ECB;
 
 }));
-},{"./cipher-core":7,"./core":8}],21:[function(require,module,exports){
+},{"./cipher-core":8,"./core":9}],22:[function(require,module,exports){
 ;(function (root, factory, undef) {
 	if (typeof exports === "object") {
 		// CommonJS
@@ -11906,7 +11967,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 	return CryptoJS.mode.OFB;
 
 }));
-},{"./cipher-core":7,"./core":8}],22:[function(require,module,exports){
+},{"./cipher-core":8,"./core":9}],23:[function(require,module,exports){
 ;(function (root, factory, undef) {
 	if (typeof exports === "object") {
 		// CommonJS
@@ -11956,7 +12017,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 	return CryptoJS.pad.Ansix923;
 
 }));
-},{"./cipher-core":7,"./core":8}],23:[function(require,module,exports){
+},{"./cipher-core":8,"./core":9}],24:[function(require,module,exports){
 ;(function (root, factory, undef) {
 	if (typeof exports === "object") {
 		// CommonJS
@@ -12001,7 +12062,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 	return CryptoJS.pad.Iso10126;
 
 }));
-},{"./cipher-core":7,"./core":8}],24:[function(require,module,exports){
+},{"./cipher-core":8,"./core":9}],25:[function(require,module,exports){
 ;(function (root, factory, undef) {
 	if (typeof exports === "object") {
 		// CommonJS
@@ -12042,7 +12103,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 	return CryptoJS.pad.Iso97971;
 
 }));
-},{"./cipher-core":7,"./core":8}],25:[function(require,module,exports){
+},{"./cipher-core":8,"./core":9}],26:[function(require,module,exports){
 ;(function (root, factory, undef) {
 	if (typeof exports === "object") {
 		// CommonJS
@@ -12073,7 +12134,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 	return CryptoJS.pad.NoPadding;
 
 }));
-},{"./cipher-core":7,"./core":8}],26:[function(require,module,exports){
+},{"./cipher-core":8,"./core":9}],27:[function(require,module,exports){
 ;(function (root, factory, undef) {
 	if (typeof exports === "object") {
 		// CommonJS
@@ -12119,7 +12180,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 	return CryptoJS.pad.ZeroPadding;
 
 }));
-},{"./cipher-core":7,"./core":8}],27:[function(require,module,exports){
+},{"./cipher-core":8,"./core":9}],28:[function(require,module,exports){
 ;(function (root, factory, undef) {
 	if (typeof exports === "object") {
 		// CommonJS
@@ -12265,7 +12326,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 	return CryptoJS.PBKDF2;
 
 }));
-},{"./core":8,"./hmac":13,"./sha1":32}],28:[function(require,module,exports){
+},{"./core":9,"./hmac":14,"./sha1":33}],29:[function(require,module,exports){
 ;(function (root, factory, undef) {
 	if (typeof exports === "object") {
 		// CommonJS
@@ -12456,7 +12517,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 	return CryptoJS.RabbitLegacy;
 
 }));
-},{"./cipher-core":7,"./core":8,"./enc-base64":9,"./evpkdf":11,"./md5":16}],29:[function(require,module,exports){
+},{"./cipher-core":8,"./core":9,"./enc-base64":10,"./evpkdf":12,"./md5":17}],30:[function(require,module,exports){
 ;(function (root, factory, undef) {
 	if (typeof exports === "object") {
 		// CommonJS
@@ -12649,7 +12710,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 	return CryptoJS.Rabbit;
 
 }));
-},{"./cipher-core":7,"./core":8,"./enc-base64":9,"./evpkdf":11,"./md5":16}],30:[function(require,module,exports){
+},{"./cipher-core":8,"./core":9,"./enc-base64":10,"./evpkdf":12,"./md5":17}],31:[function(require,module,exports){
 ;(function (root, factory, undef) {
 	if (typeof exports === "object") {
 		// CommonJS
@@ -12789,7 +12850,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 	return CryptoJS.RC4;
 
 }));
-},{"./cipher-core":7,"./core":8,"./enc-base64":9,"./evpkdf":11,"./md5":16}],31:[function(require,module,exports){
+},{"./cipher-core":8,"./core":9,"./enc-base64":10,"./evpkdf":12,"./md5":17}],32:[function(require,module,exports){
 ;(function (root, factory) {
 	if (typeof exports === "object") {
 		// CommonJS
@@ -13057,7 +13118,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 	return CryptoJS.RIPEMD160;
 
 }));
-},{"./core":8}],32:[function(require,module,exports){
+},{"./core":9}],33:[function(require,module,exports){
 ;(function (root, factory) {
 	if (typeof exports === "object") {
 		// CommonJS
@@ -13208,7 +13269,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 	return CryptoJS.SHA1;
 
 }));
-},{"./core":8}],33:[function(require,module,exports){
+},{"./core":9}],34:[function(require,module,exports){
 ;(function (root, factory, undef) {
 	if (typeof exports === "object") {
 		// CommonJS
@@ -13289,7 +13350,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 	return CryptoJS.SHA224;
 
 }));
-},{"./core":8,"./sha256":34}],34:[function(require,module,exports){
+},{"./core":9,"./sha256":35}],35:[function(require,module,exports){
 ;(function (root, factory) {
 	if (typeof exports === "object") {
 		// CommonJS
@@ -13489,7 +13550,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 	return CryptoJS.SHA256;
 
 }));
-},{"./core":8}],35:[function(require,module,exports){
+},{"./core":9}],36:[function(require,module,exports){
 ;(function (root, factory, undef) {
 	if (typeof exports === "object") {
 		// CommonJS
@@ -13813,7 +13874,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 	return CryptoJS.SHA3;
 
 }));
-},{"./core":8,"./x64-core":39}],36:[function(require,module,exports){
+},{"./core":9,"./x64-core":40}],37:[function(require,module,exports){
 ;(function (root, factory, undef) {
 	if (typeof exports === "object") {
 		// CommonJS
@@ -13897,7 +13958,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 	return CryptoJS.SHA384;
 
 }));
-},{"./core":8,"./sha512":37,"./x64-core":39}],37:[function(require,module,exports){
+},{"./core":9,"./sha512":38,"./x64-core":40}],38:[function(require,module,exports){
 ;(function (root, factory, undef) {
 	if (typeof exports === "object") {
 		// CommonJS
@@ -14221,7 +14282,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 	return CryptoJS.SHA512;
 
 }));
-},{"./core":8,"./x64-core":39}],38:[function(require,module,exports){
+},{"./core":9,"./x64-core":40}],39:[function(require,module,exports){
 ;(function (root, factory, undef) {
 	if (typeof exports === "object") {
 		// CommonJS
@@ -14992,7 +15053,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 	return CryptoJS.TripleDES;
 
 }));
-},{"./cipher-core":7,"./core":8,"./enc-base64":9,"./evpkdf":11,"./md5":16}],39:[function(require,module,exports){
+},{"./cipher-core":8,"./core":9,"./enc-base64":10,"./evpkdf":12,"./md5":17}],40:[function(require,module,exports){
 ;(function (root, factory) {
 	if (typeof exports === "object") {
 		// CommonJS
@@ -15297,7 +15358,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 	return CryptoJS;
 
 }));
-},{"./core":8}],40:[function(require,module,exports){
+},{"./core":9}],41:[function(require,module,exports){
 var apiCommands     =   require('./apiCommands')
 var errors          =   require('../errors/inputErrors');
 var inputValidator  =   require('../utils/inputValidator');
@@ -17338,7 +17399,7 @@ api.prototype.wereAddressesSpentFrom = function (addresses, callback) {
 
 module.exports = api
 
-},{"../crypto/bundle/bundle":42,"../crypto/converter/converter":43,"../crypto/hmac/hmac":47,"../crypto/signing/signing":50,"../errors/inputErrors":51,"../utils/inputValidator":58,"../utils/utils":60,"./apiCommands":41,"async":4}],41:[function(require,module,exports){
+},{"../crypto/bundle/bundle":43,"../crypto/converter/converter":44,"../crypto/hmac/hmac":48,"../crypto/signing/signing":51,"../errors/inputErrors":52,"../utils/inputValidator":59,"../utils/utils":61,"./apiCommands":42,"async":5}],42:[function(require,module,exports){
 /**
 *   @method attachToTangle
 *   @param {string} trunkTransaction
@@ -17613,7 +17674,7 @@ module.exports = {
     wereAddressesSpentFrom      : wereAddressesSpentFrom
 }
 
-},{}],42:[function(require,module,exports){
+},{}],43:[function(require,module,exports){
 var Curl = require("../curl/curl");
 var Kerl = require("../kerl/kerl");
 var Converter = require("../converter/converter");
@@ -17792,7 +17853,7 @@ Bundle.prototype.normalizedBundle = function(bundleHash) {
 
 module.exports = Bundle;
 
-},{"../converter/converter":43,"../curl/curl":45,"../helpers/adder":46,"../kerl/kerl":48}],43:[function(require,module,exports){
+},{"../converter/converter":44,"../curl/curl":46,"../helpers/adder":47,"../kerl/kerl":49}],44:[function(require,module,exports){
 /**
  *
  *   Conversion functions
@@ -17988,7 +18049,7 @@ module.exports = {
     fromValue       : fromValue
 };
 
-},{}],44:[function(require,module,exports){
+},{}],45:[function(require,module,exports){
 var INT_LENGTH = 12;
 var BYTE_LENGTH = 48;
 var RADIX = 3;
@@ -18282,7 +18343,7 @@ module.exports = {
     words_to_trits: words_to_trits
 };
 
-},{}],45:[function(require,module,exports){
+},{}],46:[function(require,module,exports){
 var Converter = require("../converter/converter");
 
 /**
@@ -18399,7 +18460,7 @@ Curl.prototype.transform = function() {
 
 module.exports = Curl
 
-},{"../converter/converter":43}],46:[function(require,module,exports){
+},{"../converter/converter":44}],47:[function(require,module,exports){
 /* copyright Paul Handy, 2017 */
 
 function sum( a, b ) {
@@ -18477,7 +18538,7 @@ function add( a, b ) {
 
 module.exports = add;
 
-},{}],47:[function(require,module,exports){
+},{}],48:[function(require,module,exports){
 var Curl = require("../curl/curl");
 var Converter = require("../converter/converter");
 var HMAC_ROUNDS = 27;
@@ -18505,7 +18566,7 @@ hmac.prototype.addHMAC = function(bundle) {
 
 module.exports = hmac;
 
-},{"../converter/converter":43,"../curl/curl":45}],48:[function(require,module,exports){
+},{"../converter/converter":44,"../curl/curl":46}],49:[function(require,module,exports){
 var CryptoJS = require("crypto-js");
 var Converter = require("../converter/converter");
 var Curl = require("../curl/curl");
@@ -18597,7 +18658,7 @@ Kerl.prototype.squeeze = function(trits, offset, length) {
 
 module.exports = Kerl;
 
-},{"../converter/converter":43,"../converter/words":44,"../curl/curl":45,"crypto-js":14}],49:[function(require,module,exports){
+},{"../converter/converter":44,"../converter/words":45,"../curl/curl":46,"crypto-js":15}],50:[function(require,module,exports){
 var Curl = require("../curl/curl");
 var Converter = require("../converter/converter");
 var Bundle = require("../bundle/bundle");
@@ -18808,7 +18869,7 @@ module.exports = {
     validateSignatures  : validateSignatures
 }
 
-},{"../bundle/bundle":42,"../converter/converter":43,"../curl/curl":45,"../helpers/adder":46}],50:[function(require,module,exports){
+},{"../bundle/bundle":43,"../converter/converter":44,"../curl/curl":46,"../helpers/adder":47}],51:[function(require,module,exports){
 var Curl = require("../curl/curl");
 var Kerl = require("../kerl/kerl");
 var Converter = require("../converter/converter");
@@ -19026,7 +19087,7 @@ module.exports = {
     validateSignatures  : validateSignatures
 }
 
-},{"../../errors/inputErrors":51,"../bundle/bundle":42,"../converter/converter":43,"../curl/curl":45,"../helpers/adder":46,"../kerl/kerl":48,"./oldSigning":49}],51:[function(require,module,exports){
+},{"../../errors/inputErrors":52,"../bundle/bundle":43,"../converter/converter":44,"../curl/curl":46,"../helpers/adder":47,"../kerl/kerl":49,"./oldSigning":50}],52:[function(require,module,exports){
 
 module.exports = {
 
@@ -19074,7 +19135,7 @@ module.exports = {
     }
 }
 
-},{}],52:[function(require,module,exports){
+},{}],53:[function(require,module,exports){
 
 module.exports = {
 
@@ -19089,7 +19150,7 @@ module.exports = {
   }
 }
 
-},{}],53:[function(require,module,exports){
+},{}],54:[function(require,module,exports){
 var utils = require("./utils/utils");
 var makeRequest = require('./utils/makeRequest');
 var api = require("./api/api");
@@ -19146,7 +19207,7 @@ IOTA.prototype.changeNode = function(settings) {
 
 module.exports = IOTA;
 
-},{"../package.json":61,"./api/api":40,"./multisig/multisig":55,"./utils/inputValidator":58,"./utils/makeRequest":59,"./utils/utils":60}],54:[function(require,module,exports){
+},{"../package.json":62,"./api/api":41,"./multisig/multisig":56,"./utils/inputValidator":59,"./utils/makeRequest":60,"./utils/utils":61}],55:[function(require,module,exports){
 var Converter      =  require('../crypto/converter/converter');
 var Curl           =  require('../crypto/curl/curl');
 var Kerl           =  require('../crypto/kerl/kerl');
@@ -19233,7 +19294,7 @@ Address.prototype.finalize = function (digest) {
 
 module.exports = Address;
 
-},{"../crypto/converter/converter":43,"../crypto/curl/curl":45,"../crypto/kerl/kerl":48,"../crypto/signing/signing":50,"../utils/inputValidator":58,"../utils/utils":60}],55:[function(require,module,exports){
+},{"../crypto/converter/converter":44,"../crypto/curl/curl":46,"../crypto/kerl/kerl":49,"../crypto/signing/signing":51,"../utils/inputValidator":59,"../utils/utils":61}],56:[function(require,module,exports){
 var Signing         =  require('../crypto/signing/signing');
 var Converter       =  require('../crypto/converter/converter');
 var Kerl            =  require('../crypto/kerl/kerl');
@@ -19582,7 +19643,7 @@ Multisig.prototype.addSignature = function(bundleToSign, inputAddress, key, call
 
 module.exports = Multisig;
 
-},{"../crypto/bundle/bundle":42,"../crypto/converter/converter":43,"../crypto/curl/curl":45,"../crypto/kerl/kerl":48,"../crypto/signing/signing":50,"../errors/inputErrors":51,"../utils/inputValidator":58,"../utils/utils":60,"./address":54}],56:[function(require,module,exports){
+},{"../crypto/bundle/bundle":43,"../crypto/converter/converter":44,"../crypto/curl/curl":46,"../crypto/kerl/kerl":49,"../crypto/signing/signing":51,"../errors/inputErrors":52,"../utils/inputValidator":59,"../utils/utils":61,"./address":55}],57:[function(require,module,exports){
 //
 //  Conversion of ascii encoded bytes to trytes.
 //  Input is a string (can be stringified JSON object), return value is Trytes
@@ -19683,7 +19744,7 @@ module.exports = {
     fromTrytes: fromTrytes
 }
 
-},{}],57:[function(require,module,exports){
+},{}],58:[function(require,module,exports){
 var ascii = require("./asciiToTrytes");
 var inputValidator = require("./inputValidator");
 
@@ -19783,7 +19844,7 @@ function extractJson(bundle) {
 
 module.exports = extractJson;
 
-},{"./asciiToTrytes":56,"./inputValidator":58}],58:[function(require,module,exports){
+},{"./asciiToTrytes":57,"./inputValidator":59}],59:[function(require,module,exports){
 var ascii = require("./asciiToTrytes");
 
 /**
@@ -20272,7 +20333,7 @@ module.exports = {
     isTritArray: isTritArray
 }
 
-},{"./asciiToTrytes":56}],59:[function(require,module,exports){
+},{"./asciiToTrytes":57}],60:[function(require,module,exports){
 var async = require("async");
 var errors = require("../errors/requestErrors");
 
@@ -20641,7 +20702,7 @@ makeRequest.prototype.prepareResult = function(result, requestCommand, callback)
 
 module.exports = makeRequest;
 
-},{"../errors/requestErrors":52,"async":4}],60:[function(require,module,exports){
+},{"../errors/requestErrors":53,"async":5}],61:[function(require,module,exports){
 var inputValidator  =   require("./inputValidator");
 var makeRequest     =   require("./makeRequest");
 var Curl            =   require("../crypto/curl/curl");
@@ -21151,7 +21212,7 @@ module.exports = {
     isBundle            : isBundle
 }
 
-},{"../crypto/converter/converter":43,"../crypto/curl/curl":45,"../crypto/kerl/kerl":48,"../crypto/signing/signing":50,"./asciiToTrytes":56,"./extractJson":57,"./inputValidator":58,"./makeRequest":59,"bignumber.js":5,"crypto-js":14}],61:[function(require,module,exports){
+},{"../crypto/converter/converter":44,"../crypto/curl/curl":46,"../crypto/kerl/kerl":49,"../crypto/signing/signing":51,"./asciiToTrytes":57,"./extractJson":58,"./inputValidator":59,"./makeRequest":60,"bignumber.js":6,"crypto-js":15}],62:[function(require,module,exports){
 module.exports={
   "_from": "iota.lib.js",
   "_id": "iota.lib.js@0.5.1",
@@ -21231,4 +21292,4 @@ module.exports={
   "version": "0.5.1"
 }
 
-},{}]},{},[3]);
+},{}]},{},[3,4]);

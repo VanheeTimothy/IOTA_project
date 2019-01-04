@@ -22,8 +22,7 @@ class FetchIotaTxs():
                 values.append(float(Tx.signature_message_fragment.decode()))
             except:
                 pass
-        print(values)
-        print(len(values))
+
         return values
 
 

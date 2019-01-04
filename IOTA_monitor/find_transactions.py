@@ -55,8 +55,5 @@ for tx in transactions["hashes"]:
 # print("duration :" +str(stop-start))
 # print(len(transactions["hashes"]))
 
-test =iter_used_addresses(mainNet,seed="QG9PRLCNUGJRE9XLJUXJLP9ZQKBSCQXCDMWHWZWYSVMYFXYWDSJFTTUMVMFHKUSJNJATWUFVIKUPVPVIN",start=0)
-
-for x in test:
-    print(x)
-    print("-----")
+# test =iter_used_addresses(mainNet,seed="QG9PRLCNUGJRE9XLJUXJLP9ZQKBSCQXCDMWHWZWYSVMYFXYWDSJFTTUMVMFHKUSJNJATWUFVIKUPVPVIN",start=0)
+print(transaction_list)

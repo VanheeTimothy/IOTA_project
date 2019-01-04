@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7497524c-2b01-4dff-8b95-c2ce23465813" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOTA_monitor/static/bundje.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/IOTA_monitor/receiver.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/IOTA_monitor/test_PYOTA.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/IOTA_monitor/testget_transfers.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOTA_monitor/.idea/workspace.xml" afterPath="$PROJECT_DIR$/IOTA_monitor/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOTA_monitor/IOTA_monitor.py" afterPath="$PROJECT_DIR$/IOTA_monitor/IOTA_monitor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOTA_monitor/static/bundle.js" afterPath="$PROJECT_DIR$/IOTA_monitor/static/bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOTA_monitor/static/getData.js" afterPath="$PROJECT_DIR$/IOTA_monitor/static/getData.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOTA_monitor/static/graphs.js" afterPath="$PROJECT_DIR$/IOTA_monitor/static/graphs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOTA_monitor/templates/index.html" afterPath="$PROJECT_DIR$/IOTA_monitor/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOTA_monitor/test_file_v2.py" afterPath="$PROJECT_DIR$/IOTA_monitor/test_file_v2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOTA_monitor/FetchIotaTxs.py" afterPath="$PROJECT_DIR$/IOTA_monitor/FetchIotaTxs.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="receiver.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/IOTA_monitor/receiver.py">
+      <file leaf-file-name="get_new_address.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/IOTA_monitor/get_new_address.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="126">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding>
                 <element signature="e#0#77#0" expanded="true" />
               </folding>
@@ -68,6 +64,7 @@
         <option value="$PROJECT_DIR$/IOTA_monitor/templates/main.html" />
         <option value="$PROJECT_DIR$/IOTA_monitor/templates/index.html" />
         <option value="$PROJECT_DIR$/IOTA_monitor/dashboard.py" />
+        <option value="$PROJECT_DIR$/IOTA_monitor/get_new_address.py" />
       </list>
     </option>
   </component>
@@ -81,10 +78,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="960" />
+    <option name="height" value="1030" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -101,7 +96,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,12 +124,13 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/virtualenv/iota_project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/IOTA_monitor" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RunDashboard">
@@ -248,7 +243,25 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/IOTA_monitor/receiver.py">
+    <entry file="file://$PROJECT_DIR$/IOTA_monitor/get_new_address.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IOTA_monitor/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IOTA_monitor/get_new_address.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -275,10 +288,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IOTA_monitor/receiver.py">
+    <entry file="file://$PROJECT_DIR$/IOTA_monitor/get_new_address.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="126">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
             <element signature="e#0#77#0" expanded="true" />
           </folding>

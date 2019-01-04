@@ -14,7 +14,11 @@ devnet = "https://nodes.devnet.iota.org:443"
 mySeed  = "EXSZTFGBBNOPETQGSZEOP9DUBQEFH9XKSB9RTRR9RFCCPLEQZAGEJ9LLYWSUAWWMLURNJBFWOPVWTLBWP"
 
 
-api = iota.Iota(devnet,seed=mySeed )
+mainNet = "https://nodes.thetangle.org:443"
+mySeed_mainNet = "9EJ9QUK9PJYJGNSOZPZLB99VMBQQPMYYFIMFPOFJHWIIPLFAELRYSVZCEXZRGLJHGUKLFZORQWZAZYPK9"
+
+
+api = iota.Iota(mainNet,seed=mySeed_mainNet )
 
 addresses = api.get_new_addresses(index=0, count=3, security_level=2)
 

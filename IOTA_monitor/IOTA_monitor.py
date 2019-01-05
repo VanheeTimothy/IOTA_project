@@ -46,6 +46,7 @@ app = Flask(__name__)
 def analytics():
     test1 = FetchIotaTxs(mainNet, mySeed_mainNet, [address_mainNet])
     tempdata = test1.getSensorValue()
+    print(len(tempdata))
     return render_template('Analytics.html', tempdata=tempdata)
 
 

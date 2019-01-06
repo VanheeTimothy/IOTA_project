@@ -27,27 +27,30 @@ class FetchIotaTxs():
 
 
     def get_transactions_info(self):
-        Txs= []
+        Txs= {"value":[],"tag":[],"datetime":[]}
         try:
             for tx in self.fetchTxs():
-                Txs.append((float(tx.signature_message_fragment.decode()),
-                            str(tx.tag).strip("9"),
-                            datetime.utcfromtimestamp(int(tx.timestamp)).strftime('%Y-%m-%d %H:%M:%S')))
+                Txs["value"].append(float(tx.signature_message_fragment.decode()))
+                Txs["tag"].append(str(tx.tag).strip("9"))
+                Txs["datetime"].append(datetime.utcfromtimestamp(int(tx.timestamp)).strftime('%Y-%m-%d %H:%M:%S'))
+                # Txs.append([float(tx.signature_message_fragment.decode()),
+                #             str(tx.tag).strip("9"),
+                #             datetime.utcfromtimestamp(int(tx.timestamp)).strftime('%Y-%m-%d %H:%M:%S')])
         except Exception as e:
-            print(e)
-        return sorted(Txs, key=lambda tup: tup[2])
+            pass
+        return Txs
 
 
 
 
 
 
-mainNet = "https://nodes.thetangle.org:443"
-mySeed_mainNet = "9EJ9QUK9PJYJGNSOZPZLB99VMBQQPMYYFIMFPOFJHWIIPLFAELRYSVZCEXZRGLJHGUKLFZORQWZAZYPK9"
-address_mainNet = "CPEIQD9UTUGPVBYRCUYYFISJARRBWNXBTANAINNYAVHJAOGTQWJGPORHXYXPVCJBH9XSVRCXVQHBFBNWD"
-test1 = FetchIotaTxs(mainNet, mySeed_mainNet, [address_mainNet])
-TxInfo = test1.get_transactions_info()
-print(vars(TxInfo))
+# mainNet = "https://nodes.thetangle.org:443"
+# mySeed_mainNet = "9EJ9QUK9PJYJGNSOZPZLB99VMBQQPMYYFIMFPOFJHWIIPLFAELRYSVZCEXZRGLJHGUKLFZORQWZAZYPK9"
+# address_mainNet = "CPEIQD9UTUGPVBYRCUYYFISJARRBWNXBTANAINNYAVHJAOGTQWJGPORHXYXPVCJBH9XSVRCXVQHBFBNWD"
+# test1 = FetchIotaTxs(mainNet, mySeed_mainNet, [address_mainNet])
+# TxInfo = test1.get_transactions_info()
+# print(TxInfo)
 
 # print(TxInfo[0])
 #

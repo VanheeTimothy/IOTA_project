@@ -87,6 +87,7 @@ aside a {
     padding-right: 0;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 5%;
     display: block;
     background: #2c3e50;
     width: 80%;
@@ -99,8 +100,41 @@ canvas {
     padding-right: 0;
     margin-left: auto;
     margin-right: auto;
+    /*margin-top: 5%;*/
     display: block;
     width: 99% !important;
+}
+
+.dataframe {
+    float: right;
+    width: 80%;
+    /*margin-right: 25%;*/
+    /*margin-top: 5%;*/
+
+}
+
+thead {
+    background-color: rgba(255, 255, 255, 0.3);
+
+}
+
+th {
+    padding: 20px 15px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+td {
+    padding: 15px;
+    text-align: left;
+    vertical-align: middle;
+    font-weight: 300;
+    font-size: 12px;
+    color: #fff;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.1);
 }
 
 .row {
@@ -116,20 +150,6 @@ canvas {
     width: 60%;
     font-size: 14px;
     font-size: 0.875rem;
-}
-
-.profits {
-    background: #283949;
-    width: 50%;
-    height: auto;
-    float: left;
-}
-
-.expenses {
-    background: #233140;
-    width: 50%;
-    height: auto;
-    float: right;
 }
 
 .info {
@@ -179,58 +199,123 @@ canvas {
     font-size: 1.25rem;
 }
 
-@media screen and (max-width: 1100px) {
-    aside {
-        visibility: hidden;
+/*@media screen and (max-width: 1100px) {*/
+/*aside {*/
+/*visibility: hidden;*/
+/*}*/
+
+/*.profits, .expenses {*/
+/*width: 100%;*/
+/*}*/
+
+/*.dashboard {*/
+/*width: 100%;*/
+/*margin-top: 50px;*/
+/*}*/
+
+/*.account {*/
+/*visibility: hidden;*/
+/*}*/
+
+/*.menu {*/
+/*width: 100vw;*/
+/*height: 100vh;*/
+/*background: #2c3e50;*/
+/*margin: 0 0;*/
+/*padding-bottom: 60px;*/
+/*}*/
+
+/*.menu ul {*/
+/*margin: -50px 30px;*/
+/*text-align: left;*/
+/*}*/
+
+/*.menu li {*/
+/*list-style: none;*/
+/*padding: 20px 0;*/
+/*margin: 0 0;*/
+/*}*/
+
+/*.menu a {*/
+/*text-decoration: none;*/
+/*color: #fff;*/
+/*}*/
+
+/*.menu p {*/
+/*background: #253443;*/
+/*padding: 20px;*/
+/*color: #fff;*/
+/*text-align: center;*/
+/*margin: 90px 0;*/
+/*font-weight: 700;*/
+/*}*/
+
+/*.fa.fa-bars {*/
+/*visibility: visible;*/
+/*}*/
+/*}*/
+
+@media screen and (max-width: 1200px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        float: left;
     }
 
-    .profits, .expenses {
-        width: 100%;
+    .sidebar li {
+
+        margin-top: 0;
+        margin-bottom: 1%;
+        background: #233140;
+        text-align: center;
+
     }
 
     .dashboard {
+        width: 95%;
+        height: 90%;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        float: none;
+
+        margin: auto;
+    }
+
+    .dataframe{
+        float: none;
+        width: 99%;
+        margin: 0 auto;
+
+    }
+
+    ul {
+        display: table;
         width: 100%;
-        margin-top: 50px;
     }
 
-    .account {
-        visibility: hidden;
+    li {
+        display: table-cell;
     }
 
-    .menu {
-        width: 100vw;
-        height: 100vh;
-        background: #2c3e50;
-        margin: 0 0;
-        padding-bottom: 60px;
+    aside ul {
+        margin: 0;
     }
 
-    .menu ul {
-        margin: -50px 30px;
-        text-align: left;
+    aside.content {
+        margin-left: 0;
     }
+}
 
-    .menu li {
-        list-style: none;
-        padding: 20px 0;
-        margin: 0 0;
-    }
-
-    .menu a {
-        text-decoration: none;
-        color: #fff;
-    }
-
-    .menu p {
-        background: #253443;
-        padding: 20px;
-        color: #fff;
+@media screen and (max-width: 400px) {
+    ul li {
         text-align: center;
-        margin: 90px 0;
-        font-weight: 700;
+        float: none;
     }
 
-    .fa.fa-bars {
-        visibility: visible;
+    li {
+        display: list-item;
     }
 }

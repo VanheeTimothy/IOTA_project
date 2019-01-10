@@ -29,10 +29,10 @@ runs = 10
 #     logging.warning("duraction FetchIotaTxs: " +str(stop-start))
 #     logging.warning("# datasamples: "+str(len(data2))+"\n\n")
 
-import pandas as pd
-fetcher2 = FetchIotaTxs(mainNet, mySeed_mainNet, [address_mainNet])
-dd =fetcher2.get_transactions_info()
-
-df = pd.DataFrame.from_dict(dd)
-with pd.option_context('display.max_rows', None, 'display.max_columns', None):
-    print(df)
+# import pandas as pd
+# fetcher2 = FetchIotaTxs(mainNet, mySeed_mainNet, [address_mainNet])
+# dd =fetcher2.get_transactions_info()
+#
+# df = pd.DataFrame.from_dict(dd)
+# with pd.option_context('display.max_rows', None, 'display.max_columns', None):
+#     print(df)

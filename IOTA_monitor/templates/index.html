@@ -5,6 +5,7 @@
     <title>Dashboard IOTA</title>
     <link href="{{ url_for('static', filename='reset.css') }}" rel="stylesheet">
     <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet">
+    <script type="text/javascript" src="{{ url_for('static', filename='dropdownbutton.js') }}"></script>
 
 
     {% block headscript %}
@@ -17,17 +18,24 @@
     {#    <script type="text/javascript" src="{{ url_for('static', filename='getData.js') }}"></script>#}
 </head>
 <body>
-<div class="container_div">
+
 <aside class="sidebar">
 
     <h1>IOTA project</h1>
 
     <ul>
 
-        <li {% block analytics %} {% endblock %}><a href="{{ url_for('analytics') }}"><i class="fa fa-line-chart"></i>Analytics</a>
+        <li class="analytics" {% block analytics %} {% endblock %}><a href="{{ url_for('analytics') }}"
+                                                                      onmouseover="show_hide_dropdown();"
+                                                                      class="analytics_link"><i class="triangle"></i>Analytics</a>
+            <div class="dropdown-container">
+                <a href="{{ url_for('graphsdaily') }}">day</a>
+                <a href="{{ url_for('grahpsweekly') }}">week</a>
+                <a href="{{ url_for('graphsmonthly') }}">month</a>
+            </div>
         </li>
 
-        <li {% block transactions %} {% endblock %}><a href="{{ url_for('transactions') }}"><i
+        <li  {% block transactions %} {% endblock %}><a href="{{ url_for('transactions') }}"><i
                 class="fa fa-folder-open"></i>View Transactions</a></li>
 
         <li {% block settings %} {% endblock %}><a href="{{ url_for('settings') }}"><i class="fa fa-wrench"></i>Settings</a>
@@ -35,11 +43,12 @@
 
     </ul>
 
+
 </aside>
+
 
 {% block body %}
 {% endblock %}
-</div>
 {% block script %}
 
 {% endblock %}

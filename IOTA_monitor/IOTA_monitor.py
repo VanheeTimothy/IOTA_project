@@ -3,7 +3,6 @@ import requests
 from decimal import Decimal
 import asyncio
 from collections import defaultdict
-import iota
 from iota import Address, ProposedTransaction, Tag, Transaction
 from time import time
 import re
@@ -11,7 +10,6 @@ from iota.adapter import HttpAdapter
 from FetchIotaTxs import FetchIotaTxs
 from iota.crypto.types import Seed  #importing PyOTA library to interact with
 from iota.crypto.addresses import AddressGenerator
-import iota
 import datetime
 import pandas as pd
 import os.path
@@ -19,8 +17,9 @@ import os.path
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 file_to_path = os.path.join(BASE_DIR, 'dummydata.txt')
 
-tempdata = []
+
 def readDummyData(file_to_path):
+    tempdata = []
     fo = open(file_to_path)
     c = 0
     for line in fo:
@@ -29,33 +28,53 @@ def readDummyData(file_to_path):
             c+=1
         tempdata.append(float(line))
     print(c)
-# readDummyData(file_to_path)
+    return tempdata
 
 
-aa = HttpAdapter("https://nodes.thetangle.org:443")
+
 mainNet = "https://nodes.thetangle.org:443"
 mySeed_mainNet = "9EJ9QUK9PJYJGNSOZPZLB99VMBQQPMYYFIMFPOFJHWIIPLFAELRYSVZCEXZRGLJHGUKLFZORQWZAZYPK9"
 address_mainNet = "CPEIQD9UTUGPVBYRCUYYFISJARRBWNXBTANAINNYAVHJAOGTQWJGPORHXYXPVCJBH9XSVRCXVQHBFBNWD"
 
-test1 = FetchIotaTxs(mainNet, mySeed_mainNet, [address_mainNet])
+devnet = "https://nodes.devnet.iota.org:443"
+address_devNet = b'TQJWJAD9MPSLOMUFZHMBKBYKPSSLLVILWAIEBKVIGOJDNE9DEFHB9KZROLRRQCOSEYVWEMO9TJURLZD9Y'
+mySeed_devNet  = "EXSZTFGBBNOPETQGSZEOP9DUBQEFH9XKSB9RTRR9RFCCPLEQZAGEJ9LLYWSUAWWMLURNJBFWOPVWTLBWP"
+
+
+test1 = FetchIotaTxs(devnet, mySeed_devNet, [address_devNet])
 
 app = Flask(__name__)
 @app.route('/')
 def analytics():
-    # tempdata = test1.getSensorValue()
-    readDummyData(file_to_path)
+    tempdata = test1.getSensorValue()
+    # tempdata = readDummyData(file_to_path)   #dummy data
 
     print(len(tempdata))
     return render_template('Analytics.html', tempdata=tempdata)
 
 
+@app.route('/graphsdaily')
+def graphsdaily():
+    return render_template('GraphsDaily.html')
+
+
+@app.route('/graphsweekly')
+def grahpsweekly():
+    return render_template('GraphsWeekly.html')
+
+@app.route('/graphsmontly')
+def graphsmonthly():
+    return render_template('GraphsMonthly.html')
+
+
+
 @app.route('/transactions')
 def transactions():
-    # dd = test1.get_transactions_info()
-    # Txs_len = len(dd)
-    # print(Txs_len)
-    dd = {'value': [], 'tag': [], 'datetime': []}        # TODO delete dummy data
-    # dd = {"value":22.2,"tag":"iotasensor","datetime":"11/11/2018 14:14:14:00"}
+    dd = test1.get_transactions_info()
+    print(dd)
+    Txs_len = len(dd["value"])
+    print(Txs_len)
+    # dd = {'value': [], 'tag': [], 'datetime': []}        # TODO delete dummy data
     df = pd.DataFrame.from_dict(dd)
     df_html = df.to_html( index=False).replace('border="1"','border="0"')
     return render_template("Transactions.html",table_html=df_html)

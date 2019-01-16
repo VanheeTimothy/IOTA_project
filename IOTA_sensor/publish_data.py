@@ -5,6 +5,7 @@ import datetime
 from pprint import pprint
 from time import time
 
+
 devnet = "https://nodes.devnet.iota.org:443"
 mainNet = "https://nodes.thetangle.org:443"
 # new seed

@@ -8,31 +8,33 @@ import iota
 newSeed = Seed.random()
 print(newSeed)
 
-# seed devnet
+
+
+
+
+# params devNet
 devnet = "https://nodes.devnet.iota.org:443"
-mySeed_devnet  = "EXSZTFGBBNOPETQGSZEOP9DUBQEFH9XKSB9RTRR9RFCCPLEQZAGEJ9LLYWSUAWWMLURNJBFWOPVWTLBWP"
-mySeed_devnet_v2 = "FDRQXHXXCCJSTNRPRNOX9QXJFE9HR9JJQMCOUCBGR9DMTYUYFVPGXVCCUNMPHYKZ9ZKVICHNWTGQMUFIY"
-# seed mainnet
-mainNet = "https://nodes.thetangle.org:443"
-mySeed_mainNet = "9EJ9QUK9PJYJGNSOZPZLB99VMBQQPMYYFIMFPOFJHWIIPLFAELRYSVZCEXZRGLJHGUKLFZORQWZAZYPK9"
-
-
-api = iota.Iota(devnet,seed=mySeed_devnet )
-
-addresses = api.get_new_addresses(index=0, count=3, security_level=2)
-
-print(addresses)
+seed_DevNet = "FTQSBBKPGXFGBYOMWSAB9PIRSFWCJRAGHVVWGY9JJAOQQIMRVQCXWVWBGPYSRKWYBWUHMBEXRBSPHPCNN"
+api = iota.Iota(devnet,seed=seed_DevNet )
+addrs = api.get_new_addresses(index=1, count=1, security_level=2)
+print(addrs)
 
 
 
-print("Checking for total balance. This may take some time...")
 
 
-from time import time
-# now we can find out whether there are any tokens left
 
-SenderBalance = api.get_account_data(start=0,
-                                    stop=None)
-
-
-print(SenderBalance)
+# # seed devnet
+# devnet = "https://nodes.devnet.iota.org:443"
+# mySeed_devnet  = "EXSZTFGBBNOPETQGSZEOP9DUBQEFH9XKSB9RTRR9RFCCPLEQZAGEJ9LLYWSUAWWMLURNJBFWOPVWTLBWP"
+# mySeed_devnet_v2 = "FDRQXHXXCCJSTNRPRNOX9QXJFE9HR9JJQMCOUCBGR9DMTYUYFVPGXVCCUNMPHYKZ9ZKVICHNWTGQMUFIY"
+# # seed mainnet
+# mainNet = "https://nodes.thetangle.org:443"
+# mySeed_mainNet = "9EJ9QUK9PJYJGNSOZPZLB99VMBQQPMYYFIMFPOFJHWIIPLFAELRYSVZCEXZRGLJHGUKLFZORQWZAZYPK9"
+#
+#
+# api = iota.Iota(devnet,seed=mySeed_devnet )
+#
+# addresses = api.get_new_addresses(index=0, count=3, security_level=2)
+#
+# print(addresses)

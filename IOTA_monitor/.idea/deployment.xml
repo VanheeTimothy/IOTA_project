@@ -5,7 +5,7 @@
       <paths name="IOTA_monitor">
         <serverdata>
           <mappings>
-            <mapping deploy="/home/pi/Documents/IOTA_monitor" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/home/pi/IOTA_project" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>

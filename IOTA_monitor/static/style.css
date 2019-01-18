@@ -140,12 +140,14 @@ canvas {
     width: 99% !important;
 }
 
-.dataframe {
-    float: right;
+.table_container{
     width: 80%;
-    /*margin-right: 25%;*/
-    /*margin-top: 5%;*/
+    float: right;
+}
 
+
+.transactions{
+    width: 100%;
 }
 
 thead {

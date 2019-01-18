@@ -5,7 +5,7 @@ from influxdb import InfluxDBClient
 
 from model.FetchIotaTxs import FetchIotaTxs
 
-logging.basicConfig(filename='logs/updatedatabase.log', level=logging.INFO, format='%(asctime)s %(message)s')
+logging.basicConfig(filename='logs/updatedatabase.log', level=logging.INFO, format='%(levelname)s %(asctime)s %(message)s')
 
 
 
@@ -23,6 +23,7 @@ temp_data, humm_data = test1.get_querry_list()
 stop  = time()
 print("duration= "+str(stop-start))
 logging.info("fetch iota's duration: "+str(stop-start)+" s")
+logging.info("total length samples "+str(len(temp_data)+len(humm_data)))
 
 
 s = time()

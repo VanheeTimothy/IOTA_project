@@ -55,6 +55,7 @@ class FetchIotaTxs():
         # Txs = {"value": [], "tag": [], "datetime": []}
         try:
             for tx in self.fetchTxs():
+                print(vars(tx))
                 if str(tx.tag).rstrip("9") == "DHTIOTA":
                     humm_data.append({"measurement":"hummidity",
                                       "tags":{
@@ -107,39 +108,9 @@ class FetchIotaTxs():
 
 
 
-
-
-
-
-
-            # mainNet = "https://nodes.thetangle.org:443"
-            # mySeed_mainNet = "9EJ9QUK9PJYJGNSOZPZLB99VMBQQPMYYFIMFPOFJHWIIPLFAELRYSVZCEXZRGLJHGUKLFZORQWZAZYPK9"
-            # address_mainNet = "CPEIQD9UTUGPVBYRCUYYFISJARRBWNXBTANAINNYAVHJAOGTQWJGPORHXYXPVCJBH9XSVRCXVQHBFBNWD"
-            # test1 = FetchIotaTxs(mainNet, mySeed_mainNet, [address_mainNet])
-            # TxInfo = test1.get_transactions_info()
-            # print(TxInfo)
-
-            # print(TxInfo[0])
-            #
-            # for tx in TxInfo:
-            #     print(str(tx["tag"]).strip("9"))
-            #     print(datetime.utcfromtimestamp(int(tx["timestamp"])).strftime('%Y-%m-%d %H:%M:%S'))
-            #     print(str(tx["signature_message_fragment"].decode()))
-
-
-            # api = iota.Iota(mainNet,seed=mySeed_mainNet)
-            #
-            #
-            # start = time.time()
-            # list_add = ["CPEIQD9UTUGPVBYRCUYYFISJARRBWNXBTANAINNYAVHJAOGTQWJGPORHXYXPVCJBH9XSVRCXVQHBFBNWD"]
-            # transactions = find_transaction_objects(adapter=aa,addresses=list_add)
-            # print("------------------------\n{}\n--------".format(transactions))
-            # i = 0
-            # for transaction in transactions:
-            #     print(transaction.signature_message_fragment.decode())
-            #     i+=1
-            # stop = time.time()
-            #
-            # print("duration: {}".format(stop-start))
-            # print("total tXs: {}".format(i))
-            # print("total txs in transactions {}".format(len(transactions)))
+if __name__ == '__main__':
+    mainNet = "https://nodes.thetangle.org:443"
+    seed_main_monitor = "CUTFTOMSWETGHFQQGLXOXLDSLRTQQZUPI9QJUHESFLNZGSUOLABWXIIYOGMJJNYBVBIKNSCWZZRITUKLV"
+    target_addres = "9PGAPJOUSVS9TVTLVYNMWEJIMBQVKAYKF9CMGVN9SINNLUDJFVDJCGN9JTJ9SCW9HWMCRCKHCSJPSPDZD"
+    test1 = FetchIotaTxs(mainNet, seed_main_monitor, [target_addres])
+    temp_data, humm_data = test1.get_querry_list()

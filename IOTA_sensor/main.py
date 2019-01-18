@@ -5,7 +5,7 @@ from model.TransferIotaTxs import TransferIotaTxs
 from model import DHT11
 from model import OneWire
 
-logging.basicConfig(filename='logs/main.log', level=logging.INFO, format='%(asctime)s %(message)s')
+logging.basicConfig(filename='logs/main.log', level=logging.INFO, format='%(levelname)s %(asctime)s %(message)s')
 
 print("script running")
 

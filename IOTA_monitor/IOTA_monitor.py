@@ -31,26 +31,40 @@ from influxdb import InfluxDBClient
 # mySeed_devNet  = "EXSZTFGBBNOPETQGSZEOP9DUBQEFH9XKSB9RTRR9RFCCPLEQZAGEJ9LLYWSUAWWMLURNJBFWOPVWTLBWP"
 # test1 = FetchIotaTxs(devnet, mySeed_devNet, [address_devNet])
 
+
+import datetime
+
+
+start = time()
 port = 8086
 host = 'localhost'
-client = InfluxDBClient(host=host,port=port)
+client = InfluxDBClient(host=host, port=port)
 client.switch_database("sensorvaluesiota")
+stop = time()
 
-
-
+print("duration connect to influxdb: "+str(stop-start))
 
 
 app = Flask(__name__)
 @app.route('/')
 def analytics():
+    temp_points, humm_points = [],[]
     s = time()
-    data = client.query('SELECT "value" FROM temperature')
+    temp = client.query('SELECT "value" FROM temperature')
+    humm = client.query('SELECT "value" FROM hummidity ')
     st = time()
-    print(data)
+    # print(data)
     print("duration: " + str(st-s))
+    temp_raw = temp.raw["series"][0]["values"]
+    temp_points = [l[1] for l in temp_raw]
+    humm_raw = humm.raw["series"][0]["values"]
+    humm_points = [l[1] for l in humm_raw]
 
 
-    return render_template('Analytics.html', tempdata=data.raw["series"][0]["values"])
+
+
+
+    return render_template('Analytics.html', tempdata=temp_points, hummdata=humm_points)
 
 
 @app.route('/graphsdaily')
@@ -70,6 +84,17 @@ def graphsmonthly():
 
 @app.route('/transactions')
 def transactions():
+    temp = client.query('SELECT * FROM temperature')
+    humm = client.query('SELECT "value" FROM hummidity ')
+    humm_raw = humm.raw["series"][0]["values"]
+
+    temp_raw = temp.raw["series"][0]["values"]
+    table_data = humm_raw + temp_raw
+    # formatted_temp = simpletable.fit_data_to_columns(temp_raw, 3)
+    # temp_table = simpletable.SimpleTable(formatted_temp)
+    # temp_html = simpletable.HTMLPage(temp_table)
+
+
     # dd = test1.get_transactions_info()
     # print(dd)
     # Txs_len = len(dd["value"])
@@ -77,16 +102,16 @@ def transactions():
     # # dd = {'value': [], 'tag': [], 'datetime': []}        # TODO delete dummy data
     # df = pd.DataFrame.from_dict(dd)
     # df_html = df.to_html( index=False).replace('border="1"','border="0"')
-    return render_template("Transactions.html",table_html=df_html)
+    return render_template("Transactions.html",table_html=table_data)
 
 
 
-@app.route('/settings')
-def settings():
-    return render_template('Settings.html')
+@app.route('/logs')
+def logs():
+    return render_template('Logs.html')
 
 
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, host="0.0.0.0")

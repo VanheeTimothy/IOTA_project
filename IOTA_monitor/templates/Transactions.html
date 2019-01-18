@@ -6,7 +6,28 @@
 
 
 {%  block body %}
-{{ table_html | safe }}
+<div class="table_container">
+<table class="transactions">
+    <thead>
+    <tr>
+        <th scope="col">DateTime</th>
+        <th scope="col">sensor</th>
+        <th scope="col">value</th>
+    </tr>
+    </thead>
+    <tbody>
+
+    {% for txs in table_html %}
+    <tr>
+        <td>{{ txs[0] }}</td>
+        <td>{{ txs[1] }}</td>
+        <td>{{ txs[2] }}</td>
+
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+</div>
 
 {% endblock %}
 

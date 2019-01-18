@@ -1,0 +1,614 @@
+INFO:root:sending transaction to the tangle: devNet
+INFO:root:duration reading sensors: 1.3201115131378174
+INFO:root:reading temp: 21.5°C
+INFO:root:reading hummidity 19%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0071942806243896484
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 1.0074353218078613
+INFO:root:reading temp: 21.5°C
+INFO:root:reading hummidity 19%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.003206014633178711
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 1.0016305446624756
+INFO:root:reading temp: 21.5°C
+INFO:root:reading hummidity 40%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.003194093704223633
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.979907751083374
+INFO:root:reading temp: 21.937°C
+INFO:root:reading hummidity 40%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0038454532623291016
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 1.1001067161560059
+INFO:root:reading temp: 21.937°C
+INFO:root:reading hummidity 40%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0034499168395996094
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 1.1060490608215332
+INFO:root:reading temp: 21.937°C
+INFO:root:reading hummidity 40%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0032889842987060547
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 1.1039009094238281
+INFO:root:reading temp: 22.0°C
+INFO:root:reading hummidity 41%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0033376216888427734
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9936339855194092
+INFO:root:reading temp: 22.0°C
+INFO:root:reading hummidity 19%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0033111572265625
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9793472290039062
+INFO:root:reading temp: 22.0°C
+INFO:root:reading hummidity 41%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0071125030517578125
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 1.0907561779022217
+INFO:root:reading temp: 22.062°C
+INFO:root:reading hummidity 40%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.003234386444091797
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9993529319763184
+INFO:root:reading temp: 22.062°C
+INFO:root:reading hummidity 19%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0032203197479248047
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 1.3333423137664795
+INFO:root:reading temp: 22.062°C
+INFO:root:reading hummidity 19%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0031616687774658203
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9704091548919678
+INFO:root:reading temp: 22.062°C
+INFO:root:reading hummidity 19%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.003226041793823242
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9412038326263428
+INFO:root:reading temp: 22.125°C
+INFO:root:reading hummidity 40%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0032372474670410156
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9541473388671875
+INFO:root:reading temp: 22.125°C
+INFO:root:reading hummidity 40%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0032253265380859375
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 1.0926423072814941
+INFO:root:reading temp: 22.125°C
+INFO:root:reading hummidity 41%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.003217935562133789
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9421694278717041
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 19%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0037038326263427734
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9615802764892578
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 42%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0032167434692382812
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9668369293212891
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 41%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0032110214233398438
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9635350704193115
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 41%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0032138824462890625
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 1.0902867317199707
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 40%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.003286600112915039
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9668097496032715
+INFO:root:reading temp: 22.375°C
+INFO:root:reading hummidity 19%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.003210783004760742
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 1.3149280548095703
+INFO:root:reading temp: 22.375°C
+INFO:root:reading hummidity 19%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.003243684768676758
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 1.0058770179748535
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 19%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0031974315643310547
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.971602201461792
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 40%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.003210306167602539
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9776368141174316
+INFO:root:reading temp: 22.375°C
+INFO:root:reading hummidity 40%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.003206491470336914
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9853823184967041
+INFO:root:reading temp: 22.375°C
+INFO:root:reading hummidity 41%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0032105445861816406
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 1.0027344226837158
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 40%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0032045841217041016
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9428558349609375
+INFO:root:reading temp: 22.375°C
+INFO:root:reading hummidity 42%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0031790733337402344
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9642739295959473
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 40%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0032057762145996094
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9510321617126465
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 40%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0032083988189697266
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 1.1282341480255127
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 41%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0032448768615722656
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.973365306854248
+INFO:root:reading temp: 22.375°C
+INFO:root:reading hummidity 19%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0031805038452148438
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9678184986114502
+INFO:root:reading temp: 22.375°C
+INFO:root:reading hummidity 40%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0032148361206054688
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 1.127340316772461
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 41%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0032165050506591797
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9702103137969971
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 19%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0032014846801757812
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 1.5801894664764404
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 19%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.003155946731567383
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9749138355255127
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 18%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0032052993774414062
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9821162223815918
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 41%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0032939910888671875
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 1.338754653930664
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 25%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.003186464309692383
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9397778511047363
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 19%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0032105445861816406
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 1.0144705772399902
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 43%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.003212451934814453
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9732556343078613
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 42%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0032777786254882812
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 1.0047221183776855
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 42%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.003205537796020508
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.995018720626831
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 42%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0032737255096435547
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9882855415344238
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 42%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0032167434692382812
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9904444217681885
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 42%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.003236532211303711
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9772329330444336
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 42%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.003244161605834961
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9716236591339111
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 41%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0032122135162353516
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9630317687988281
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 40%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.003247976303100586
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 1.0173516273498535
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 41%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0032432079315185547
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9769132137298584
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 41%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.003244638442993164
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9552311897277832
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 40%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.003248929977416992
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.958427906036377
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 40%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0032482147216796875
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 1.3551037311553955
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 19%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.003194093704223633
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9895339012145996
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 19%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0032358169555664062
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 1.0033507347106934
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 41%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.003248929977416992
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9987978935241699
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 40%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0032529830932617188
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9810042381286621
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 41%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0032358169555664062
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9822187423706055
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 40%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.003247499465942383
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9473690986633301
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 41%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.003242015838623047
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9729068279266357
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 41%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0032455921173095703
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9573638439178467
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 40%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.003239154815673828
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9948470592498779
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 41%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0032444000244140625
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9640274047851562
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 41%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0032432079315185547
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9853682518005371
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 41%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.003280162811279297
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9986565113067627
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 41%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0032618045806884766
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 1.0014114379882812
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 40%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0032396316528320312
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9842643737792969
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 41%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0032896995544433594
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9480020999908447
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 41%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0032808780670166016
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 1.1013786792755127
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 41%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.003376483917236328
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9781582355499268
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 19%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0032024383544921875
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 1.094585657119751
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 41%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0032873153686523438
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.991607666015625
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 19%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0032455921173095703
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+ERROR:root:'RGBmixer' object has no attribute 'green'
+INFO:root:duration reading sensors: 1.1304564476013184
+INFO:root:reading temp: 22.375°C
+INFO:root:reading hummidity 40%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.007155656814575195
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9848172664642334
+INFO:root:reading temp: 22.25°C
+INFO:root:reading hummidity 19%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0037393569946289062
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 1.0051851272583008
+INFO:root:reading temp: 22.25°C
+INFO:root:reading hummidity 41%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.003264904022216797
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9703254699707031
+INFO:root:reading temp: 22.25°C
+INFO:root:reading hummidity 40%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.003202676773071289
+INFO:root:send transfer
+ERROR:root:("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",)
+INFO:root:duration reading sensors: 0.9914243221282959
+INFO:root:reading temp: 22.25°C
+INFO:root:reading hummidity 41%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.003197908401489258
+INFO:root:send transfer
+INFO:root:duration reading sensors: 0.9920825958251953
+INFO:root:reading temp: 22.0°C
+INFO:root:reading hummidity 40%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.008277654647827148
+INFO:root:send transfer
+ERROR:root:500 response from node: Invalid transaction hash
+INFO:root:duration reading sensors: 0.984546422958374
+INFO:root:reading temp: 22.0°C
+INFO:root:reading hummidity 43%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0032935142517089844
+INFO:root:send transfer
+INFO:root:duration reading sensors: 0.9608423709869385
+INFO:root:reading temp: 22.375°C
+INFO:root:reading hummidity 42%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.007246255874633789
+INFO:root:send transfer
+INFO:root:duration reading sensors: 1.0059897899627686
+INFO:root:reading temp: 22.375°C
+INFO:root:reading hummidity 41%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.003743886947631836
+INFO:root:send transfer
+ERROR:root:500 response from node: Invalid transaction hash
+INFO:root:duration reading sensors: 0.976036548614502
+INFO:root:reading temp: 22.375°C
+INFO:root:reading hummidity 40%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0033004283905029297
+INFO:root:send transfer
+ERROR:root:500 response from node: Invalid transaction hash
+INFO:root:duration reading sensors: 1.1556117534637451
+INFO:root:reading temp: 22.375°C
+INFO:root:reading hummidity 40%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0033152103424072266
+INFO:root:send transfer
+ERROR:root:500 response from node: Invalid transaction hash
+INFO:root:duration reading sensors: 1.0160462856292725
+INFO:root:reading temp: 22.375°C
+INFO:root:reading hummidity 19%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0032548904418945312
+INFO:root:send transfer
+ERROR:root:500 response from node: Invalid transaction hash
+INFO:root:duration reading sensors: 0.9787135124206543
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 42%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0032732486724853516
+INFO:root:send transfer
+ERROR:root:500 response from node: Invalid transaction hash
+INFO:root:duration reading sensors: 0.9569056034088135
+INFO:root:reading temp: 22.437°C
+INFO:root:reading hummidity 41%
+INFO:root:prepare transaction
+INFO:root:duration prepare transactions: 0.0032482147216796875
+INFO:root:send transfer

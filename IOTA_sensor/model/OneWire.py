@@ -1,4 +1,3 @@
-import time
 from RPi import GPIO
 
 class OneWire:

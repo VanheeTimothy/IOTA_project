@@ -1,8 +1,8 @@
 from FetchIotaTransfers import FetchIotaTranfers
-from FetchIotaTxs import FetchIotaTxs
+from model.FetchIotaTxs import FetchIotaTxs
 from time import time
 import logging
-logging.basicConfig(filename='fetchTxs.log',level=logging.WARNING)
+logging.basicConfig(filename='logs/fetchTxs.log',level=logging.WARNING)
 
 mainNet = "https://nodes.thetangle.org:443"
 mySeed_mainNet = "9EJ9QUK9PJYJGNSOZPZLB99VMBQQPMYYFIMFPOFJHWIIPLFAELRYSVZCEXZRGLJHGUKLFZORQWZAZYPK9"

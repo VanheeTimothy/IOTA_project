@@ -1,21 +1,13 @@
 import logging
 from time import time
-
 from influxdb import InfluxDBClient
-
 from model.FetchIotaTxs import FetchIotaTxs
 
 logging.basicConfig(filename='logs/updatedatabase.log', level=logging.INFO, format='%(levelname)s %(asctime)s %(message)s')
 
-
-
 mainNet = "https://nodes.thetangle.org:443"
-seed_main_monitor = "CUTFTOMSWETGHFQQGLXOXLDSLRTQQZUPI9QJUHESFLNZGSUOLABWXIIYOGMJJNYBVBIKNSCWZZRITUKLV"
-target_addres = "9PGAPJOUSVS9TVTLVYNMWEJIMBQVKAYKF9CMGVN9SINNLUDJFVDJCGN9JTJ9SCW9HWMCRCKHCSJPSPDZD"
-
-
-
-
+seed_main_monitor = "CEKYETVXHVZOFEABGSTROBTGPGGGVSBMPYTDCTRCULBWRMDLFXQZ9CQBHUMWVKHOEYXQZG9DEWXJRMLCT"
+target_addres = "OOJTC99SSUPQIQCPVDUBXR9HM9FBZ9PXPNJAWUVRWHEPJWIGUFERAJYWOZCDXRSICYLVRBBYNEXBTEEVD"
 
 start = time()
 test1 = FetchIotaTxs(mainNet, seed_main_monitor, [target_addres])

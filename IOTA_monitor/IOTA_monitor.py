@@ -3,7 +3,8 @@ from time import time
 # import pandas as pd
 from flask import Flask, render_template
 from influxdb import InfluxDBClient
-
+from model.Logreader import LogReader
+from time import sleep
 # BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 # file_to_path = os.path.join(BASE_DIR, 'dummydata.txt')
 
@@ -45,6 +46,8 @@ stop = time()
 print("duration connect to influxdb: "+str(stop-start))
 
 
+
+
 app = Flask(__name__)
 @app.route('/')
 def analytics():
@@ -84,31 +87,26 @@ def graphsmonthly():
 
 @app.route('/transactions')
 def transactions():
-    temp = client.query('SELECT * FROM temperature')
-    humm = client.query('SELECT "value" FROM hummidity ')
-    humm_raw = humm.raw["series"][0]["values"]
-
-    temp_raw = temp.raw["series"][0]["values"]
-    table_data = humm_raw + temp_raw
-    # formatted_temp = simpletable.fit_data_to_columns(temp_raw, 3)
-    # temp_table = simpletable.SimpleTable(formatted_temp)
-    # temp_html = simpletable.HTMLPage(temp_table)
-
-
-    # dd = test1.get_transactions_info()
-    # print(dd)
-    # Txs_len = len(dd["value"])
-    # print(Txs_len)
-    # # dd = {'value': [], 'tag': [], 'datetime': []}        # TODO delete dummy data
-    # df = pd.DataFrame.from_dict(dd)
-    # df_html = df.to_html( index=False).replace('border="1"','border="0"')
+    temp, humm = client.query('SELECT * FROM temperature'), client.query('SELECT * FROM hummidity ')
+    humm_raw, temp_raw = humm.raw["series"][0]["values"], temp.raw["series"][0]["values"]
+    print(humm_raw)
+    table_data = humm_raw + temp_raw #TODO sort values when None is
     return render_template("Transactions.html",table_html=table_data)
 
 
 
 @app.route('/logs')
 def logs():
-    return render_template('Logs.html')
+    readDbLog = LogReader("updatedatabase.log")
+    readSensorLog = LogReader("sensor.log")
+    dbLog = readDbLog.readlog()
+    sensorLog = readSensorLog.readlog()
+
+    return render_template('Logs.html', databaselog=dbLog, sensorlog=sensorLog ) #TODO add sensorlog=sensorLog
+
+
+
+    # return app.response_class(generate(), mimetype='text/plain')
 
 
 

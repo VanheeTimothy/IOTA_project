@@ -3,6 +3,51 @@
     padding: 0;
 }
 
+
+
+
+body::-webkit-scrollbar {
+    width: 20px;
+}
+
+body::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-left: 9px solid #2c3e50;
+    border-right: 9px solid #2c3e50;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: black;
+    border-left: 7px solid #2c3e50;
+    border-right: 7px solid #2c3e50
+}
+
+.logfile::-webkit-scrollbar {
+    width: 20px;
+}
+
+.logfile::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-left: 9px solid #2c3e50;
+    border-right: 9px solid #2c3e50;
+}
+
+.logfile::-webkit-scrollbar-thumb {
+    background: black;
+    border-left: 7px solid #2c3e50;
+    border-right: 7px solid #2c3e50
+}
+
+
+
+
+
+
+
+
+
+
+
 html, body {
     background: #2c3e50;
     font-family: "Source Sans Pro", sans-serif;
@@ -90,32 +135,14 @@ aside a {
     padding-left: 20px;
     font-weight: 400;
     text-transform: uppercase;
-    font-size: 12.5px;
-    font-size: 0.78125rem;
-}
 
+}
 .dropdown-container {
     display: none;
     padding-left: 8px;
 }
 
-.notification {
-    background: rgb(41, 128, 185);
-    width: 20px;
-    height: 20px;
-    padding: 2px;
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-    border-radius: 100%;
-    color: #fff;
-    font-weight: 400;
-    float: right;
-    margin-top: -2px;
-    margin-right: 10px;
-    font-size: 14px;
-    font-size: 0.875rem;
-}
+
 
 .dashboard {
     padding-left: 0;
@@ -140,23 +167,20 @@ canvas {
     width: 99% !important;
 }
 
-.table_container{
+.table_container {
     width: 80%;
     float: right;
 }
 
-
-.transactions{
+.logtable {
+    table-layout: fixed;
+    border-collapse: collapse;
     width: 100%;
 }
 
-thead {
-    background-color: rgba(41, 128, 185, 0.1);
-    /*background: #1a252f;*/
-    /*background: #2c3e50;*/
-    /*background: #233140;*/
 
-}
+
+
 
 th {
     padding: 15px 15px;
@@ -192,44 +216,6 @@ td {
     font-size: 0.875rem;
 }
 
-.info {
-    padding: 25px;
-}
-
-.circle {
-    width: 100px;
-    height: 100px;
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-    border-radius: 50%;
-    border: 10px solid #273646;
-    color: #fff;
-}
-
-.c-profits {
-    background: transparent;
-    border-top-color: #2980b9;
-    border-right-color: #2980b9;
-    border-bottom-color: #2980b9;
-}
-
-.c-expenses {
-    background: transparent;
-    border-top-color: #9b59b6;
-    border-right-color: #9b59b6;
-}
-
-.fa {
-    color: #fff;
-    padding-right: 10px;
-    font-size: 12.5px !important;
-    font-size: 0.78125rem;
-}
-
-/*.fa.fa-caret-down {*/
-/*margin: 0 10px;*/
-/*}*/
 
 .fa.fa-bars {
     float: right;
@@ -239,61 +225,41 @@ td {
     font-size: 1.25rem;
 }
 
-/*@media screen and (max-width: 1100px) {*/
-/*aside {*/
-/*visibility: hidden;*/
-/*}*/
+.flex-container {
+    /*background-color: blanchedalmond;*/
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 80%;
+    height: 100%;
+}
 
-/*.profits, .expenses {*/
-/*width: 100%;*/
-/*}*/
+.flex_child {
+    width: 99%;
+    height: 48%;
+    color: black;
+}
 
-/*.dashboard {*/
-/*width: 100%;*/
-/*margin-top: 50px;*/
-/*}*/
+.flex_child_th {
+    padding: 1%;
+    text-align: left;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #fff;
+    text-transform: uppercase;
+    width: 100%;
+    background-color: rgba(41, 128, 185, 0.1);
 
-/*.account {*/
-/*visibility: hidden;*/
-/*}*/
+}
 
-/*.menu {*/
-/*width: 100vw;*/
-/*height: 100vh;*/
-/*background: #2c3e50;*/
-/*margin: 0 0;*/
-/*padding-bottom: 60px;*/
-/*}*/
+#transaction-container{
+    height: 100%;
+}
 
-/*.menu ul {*/
-/*margin: -50px 30px;*/
-/*text-align: left;*/
-/*}*/
-
-/*.menu li {*/
-/*list-style: none;*/
-/*padding: 20px 0;*/
-/*margin: 0 0;*/
-/*}*/
-
-/*.menu a {*/
-/*text-decoration: none;*/
-/*color: #fff;*/
-/*}*/
-
-/*.menu p {*/
-/*background: #253443;*/
-/*padding: 20px;*/
-/*color: #fff;*/
-/*text-align: center;*/
-/*margin: 90px 0;*/
-/*font-weight: 700;*/
-/*}*/
-
-/*.fa.fa-bars {*/
-/*visibility: visible;*/
-/*}*/
-/*}*/
+.logfile {
+    overflow: auto;
+    width: 100%;
+}
 
 @media screen and (max-width: 1200px) {
     .sidebar {
@@ -329,6 +295,15 @@ td {
         width: 99%;
         margin: 0 auto;
 
+    }
+
+    .flex-container{
+        width: 100%;
+    }
+
+    .flex_child{
+        height: 46%;
+        margin: 1% 0;
     }
 
     ul {

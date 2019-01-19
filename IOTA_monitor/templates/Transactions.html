@@ -5,29 +5,30 @@
 {% endblock %}
 
 
-{%  block body %}
-<div class="table_container">
-<table class="transactions">
-    <thead>
-    <tr>
-        <th scope="col">DateTime</th>
-        <th scope="col">sensor</th>
-        <th scope="col">value</th>
-    </tr>
-    </thead>
-    <tbody>
+{% block body %}
+    <div class="flex-container">
+        <div class="flex_child_th ">Transactions</div>
 
-    {% for txs in table_html %}
-    <tr>
-        <td>{{ txs[0] }}</td>
-        <td>{{ txs[1] }}</td>
-        <td>{{ txs[2] }}</td>
 
-    </tr>
-    {% endfor %}
-    </tbody>
-</table>
-</div>
+        <div id="transaction-container" class="flex_child logfile">
+            <table class="transactions">
+
+                <tbody>
+
+                {% for txs in table_html %}
+                    <tr>
+                        <td>{{ txs[0] }}</td>
+                        <td>{{ txs[2] }}</td>
+                        <td>{{ txs[3] }}</td>
+                        <td>{{ txs[1] }}</td>
+
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+    </div>
 
 {% endblock %}
 

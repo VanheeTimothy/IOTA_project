@@ -4,10 +4,44 @@
     class="active"
 {% endblock %}
 
+{% block headscript %}
+
+{% endblock %}
 
 
-{%  block body %}
+{% block body %}
+    <div class="flex-container">
+    <div class="flex_child_th sensorheader">sensorlog</div>
+        <div class="flex_child logfile">
+            <table class="logtable">
 
+                <tbody>
+                {% for line in sensorlog %}
+                    <tr >
+                        <td class="loglines">{{ line }}</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        <div class="flex_child_th sensorheader">databaselog</div>
+
+        <div id="databaselogfile" class="flex_child logfile">
+            <table class="logtable">
+
+                <tbody>
+                {% for line in databaselog  %}
+                <tr>
+                    <td class="loglines">{{ line }}</td>
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+
+        </div>
+
+
+    </div>
 {% endblock %}
 
 {% block script %}

@@ -42,9 +42,7 @@ class FetchIotaTxs():
                 Txs["value"].append(float(tx.signature_message_fragment.decode()))
                 Txs["tag"].append(str(tx.tag).strip("9"))
                 Txs["datetime"].append(datetime.utcfromtimestamp(int(tx.timestamp)).strftime('%Y-%m-%d %H:%M:%S'))
-                # Txs.append([float(tx.signature_message_fragment.decode()),
-                #             str(tx.tag).strip("9"),
-                #             datetime.utcfromtimestamp(int(tx.timestamp)).strftime('%Y-%m-%d %H:%M:%S')])
+
         except Exception as e:
             pass
         return Txs
@@ -59,46 +57,25 @@ class FetchIotaTxs():
                 if str(tx.tag).rstrip("9") == "DHTIOTA":
                     humm_data.append({"measurement":"hummidity",
                                       "tags":{
-                                          "sensor":"DHT11"
+                                          "sensor":"DHT11",
+                                          "hash": tx.hash
                                       },
                                       "time":datetime.utcfromtimestamp(int(tx.timestamp)).strftime('%Y-%m-%d %H:%M:%S'),
                                       "fields":{
                                           "value": float(tx.signature_message_fragment.decode())
                                       }})
-                    # temp_data.append('INSERT temperature, tag="onewire" value={} {}'.format(
-                    #     float(tx.signature_message_fragment.decode()), tx.timestamp))
+
                 else:
                     temp_data.append({"measurement":"temperature",
                                       "tags":{
-                                          "sensor":"onewire"
+                                          "sensor":"onewire",
+                                          "hash":tx.hash
                                       },
                                       "time":datetime.utcfromtimestamp(int(tx.timestamp)).strftime('%Y-%m-%d %H:%M:%S'),
                                       "fields":{
                                           "value": float(tx.signature_message_fragment.decode())
                                       }})
-                    # humm_data.append('INSERT hummidity, tag="DHT11" value={} {}'.format(
-                    #     float(tx.signature_message_fragment.decode()), tx.timestamp))
 
-                    # humm_data.append({'measurement':"DHT11",
-                    #                   'tag':str(tx.tag).strip("9"),
-                    #                   'datetime':datetime.utcfromtimestamp(int(tx.timestamp)).strftime('%Y-%m-%d %H:%M:%S'),
-                    #                   'fields':{
-                    #                       'value': float(tx.signature_message_fragment.decode())
-                    #                   }})
-                    # humm_data.append({"value":float(tx.signature_message_fragment.decode()),
-                    #                 "tag":str(tx.tag).strip("9"),
-                    #                 "datetime":datetime.utcfromtimestamp(int(tx.timestamp)).strftime('%Y-%m-%d %H:%M:%S')})
-                # else:
-                    # temp_data.append({'measurement':"onewire",
-                    #                   'tag':str(tx.tag).strip("9"),
-                    #                   'datetime':datetime.utcfromtimestamp(int(tx.timestamp)).strftime('%Y-%m-%d %H:%M:%S'),
-                    #                   'fields':{
-                    #                       'value': float(tx.signature_message_fragment.decode())
-                    #                   }})
-                    # # temp_data.append({"value": float(tx.signature_message_fragment.decode()),
-                    # #                   "tag": str(tx.tag).strip("9"),
-                    # #                   "datetime": datetime.utcfromtimestamp(int(tx.timestamp)).strftime(
-                    # #                       '%Y-%m-%d %H:%M:%S')})
 
         except Exception as e:
             pass

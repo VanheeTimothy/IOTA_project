@@ -1,0 +1,30 @@
+Folder PATH listing for volume local Disk
+Volume serial number is B6CF-5117
+D:.
++---.idea
++---IOTA_monitor
+|   |   get_new_address.py
+|   |   IOTA_monitor.py
+|   |   update_database.py
+|   +---.idea
+|   |   \---inspectionProfiles
+|   +---model
+|   |       FetchIotaTxs.py
+|   |       Logreader.py
+|   +---static
+|   |   +---img
+|   |   \---lib
+|   +---templates
+|   \---__pycache__
+\---IOTA_sensor
+    |   generate_seed.py
+    |   led.py
+    |   main.py
+    +---.idea
+    |   \---inspectionProfiles
+    \---model
+        |   DHT11.py
+        |   OneWire.py
+        |   RGBmixer.py
+        |   TransferIotaTxs.py
+        \---__pycache__

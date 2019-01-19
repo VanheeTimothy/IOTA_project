@@ -3,9 +3,6 @@
     padding: 0;
 }
 
-
-
-
 body::-webkit-scrollbar {
     width: 20px;
 }
@@ -17,7 +14,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-    background: black;
+    background: rgba(41, 128, 185, 0.2);
     border-left: 7px solid #2c3e50;
     border-right: 7px solid #2c3e50
 }
@@ -33,20 +30,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 .logfile::-webkit-scrollbar-thumb {
-    background: black;
+    background: rgba(41, 128, 185, 0.2);
     border-left: 7px solid #2c3e50;
     border-right: 7px solid #2c3e50
 }
-
-
-
-
-
-
-
-
-
-
 
 html, body {
     background: #2c3e50;
@@ -79,9 +66,7 @@ aside h1 {
     font-size: 2.5rem;
 }
 
-aside ul {
-    margin: 40px 0;
-}
+
 
 aside li {
     list-style: none;
@@ -137,12 +122,11 @@ aside a {
     text-transform: uppercase;
 
 }
+
 .dropdown-container {
     display: none;
     padding-left: 8px;
 }
-
-
 
 .dashboard {
     padding-left: 0;
@@ -178,10 +162,6 @@ canvas {
     width: 100%;
 }
 
-
-
-
-
 th {
     padding: 15px 15px;
     text-align: left;
@@ -216,7 +196,6 @@ td {
     font-size: 0.875rem;
 }
 
-
 .fa.fa-bars {
     float: right;
     margin: 30px 20px;
@@ -228,17 +207,22 @@ td {
 .flex-container {
     /*background-color: blanchedalmond;*/
     display: flex;
-    flex-direction: column;
+    /*flex-wrap: wrap;*/
+    flex-flow: row wrap;
+    flex-direction: row;
     float: right;
     width: 80%;
     height: 100%;
 }
 
 .flex_child {
+    flex: 1 0 48%;
     width: 99%;
     height: 48%;
     color: black;
+    overflow: hidden;
 }
+
 
 .flex_child_th {
     padding: 1%;
@@ -252,13 +236,19 @@ td {
 
 }
 
-#transaction-container{
+#transaction-container {
     height: 100%;
+    overflow-y: hidden;
+}
+
+.transactions {
+    width: 100%;
 }
 
 .logfile {
-    overflow: auto;
+    overflow: scroll;
     width: 100%;
+    height: 98%;
 }
 
 @media screen and (max-width: 1200px) {
@@ -297,11 +287,11 @@ td {
 
     }
 
-    .flex-container{
+    .flex-container {
         width: 100%;
     }
 
-    .flex_child{
+    .flex_child {
         height: 46%;
         margin: 1% 0;
     }

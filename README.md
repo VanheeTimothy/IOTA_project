@@ -6,3 +6,32 @@ Nowadays security has reached an unseen level of awareness. The need of tamperpr
 
 ### Proof 
 This project will demonstrate how to send sensor data from a Raspberry Pi to the Tangle. All data will be displayed on a dashboard which is running on a Flask webserver.
+
+### Project structure
++---.idea
++---IOTA_monitor
+|   |   get_new_address.py
+|   |   IOTA_monitor.py
+|   |   update_database.py
+|   +---.idea
+|   |   \---inspectionProfiles
+|   +---model
+|   |       FetchIotaTxs.py
+|   |       Logreader.py
+|   +---static
+|   |   +---img
+|   |   \---lib
+|   +---templates
+|   \---__pycache__
+\---IOTA_sensor
+    |   generate_seed.py
+    |   led.py
+    |   main.py
+    +---.idea
+    |   \---inspectionProfiles
+    \---model
+        |   DHT11.py
+        |   OneWire.py
+        |   RGBmixer.py
+        |   TransferIotaTxs.py
+        \---__pycache__

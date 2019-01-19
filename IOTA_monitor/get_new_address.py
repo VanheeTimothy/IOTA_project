@@ -3,13 +3,9 @@ from iota.crypto.addresses import AddressGenerator
 import iota
 
 
-
 # generate new seed
 newSeed = Seed.random()
 print(newSeed)
-
-
-
 
 
 # params devNet
@@ -18,9 +14,6 @@ seed_DevNet = "FTQSBBKPGXFGBYOMWSAB9PIRSFWCJRAGHVVWGY9JJAOQQIMRVQCXWVWBGPYSRKWYB
 api = iota.Iota(devnet,seed=seed_DevNet )
 addrs = api.get_new_addresses(index=1, count=1, security_level=2)
 print(addrs)
-
-
-
 
 
 

@@ -1,6 +1,6 @@
 {% extends 'index.html' %}
 
-{% block settings %}
+{% block logs %}
     class="active"
 {% endblock %}
 
@@ -11,8 +11,13 @@
 
 {% block body %}
     <div class="flex-container">
+
+
+
+
+<div class="flex_child">
     <div class="flex_child_th sensorheader">sensorlog</div>
-        <div class="flex_child logfile">
+        <div id="sensorlogfile" class="logfile">
             <table class="logtable">
 
                 <tbody>
@@ -24,9 +29,12 @@
                 </tbody>
             </table>
         </div>
+</div>
+
+<div class="flex_child">
         <div class="flex_child_th sensorheader">databaselog</div>
 
-        <div id="databaselogfile" class="flex_child logfile">
+        <div id="databaselogfile" class="logfile">
             <table class="logtable">
 
                 <tbody>
@@ -39,6 +47,28 @@
             </table>
 
         </div>
+</div>
+
+    <div class="flex_child">
+            <div class="flex_child_th sensorheader">Flask log</div>
+
+        <div id="databaselogfile" class="logfile">
+            <table class="logtable">
+
+                <tbody>
+                {% for line in flasklog  %}
+                <tr>
+                    <td class="loglines">{{ line }}</td>
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+
+
+
 
 
     </div>

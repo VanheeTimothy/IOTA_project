@@ -47,7 +47,7 @@ def run():
             start_1 = time()
             tempStr, humidityStr = read_sensors()
             stop_1 = time()
-            logging.info("duration reading sensors: " + str(stop_1 - start_1))
+            logging.info("duration reading sensors: " + str(round(stop_1 - start_1,3)))
             logging.info("reading temp: " + tempStr + "°C")
             logging.info("reading hummidity " + humidityStr + "%")
 
@@ -57,7 +57,7 @@ def run():
             pt = manager.prepare_transaction(target_addres_monitor, tempStr, 'ONEWIREIOTA', 0)
             pt2 = manager.prepare_transaction(target_addres_monitor, humidityStr, 'DHTIOTA', 0)
             stop_2 = time()
-            logging.info("duration prepare transactions: " + str(stop_2 - start_2))
+            logging.info("duration prepare transactions: " + str(round(stop_2 - start_2,3)))
 
             print("send transfer")
             logging.info("send transfer")
@@ -65,9 +65,9 @@ def run():
             manager.send_transfers(_DEPTH, [pt, pt2], _WEIGHT)
 
             stop_3 = time()
-            logging.info("Duration send transfer: " + str(stop_3 - start_3))
-            print(("Duration send transfer: " + str(stop_3 - start_3)))
-            logging.info("Duration of sequence: " + str(stop_3 - start_1))
+            logging.info("Duration send transfer: " + str(round(stop_3 - start_3,3)))
+            print(("Duration send transfer: " + str(round(stop_3 - start_3,3))))
+            logging.info("Duration of sequence: " + str(round(stop_3 - start_1,3)))
             sleep_timer = 60 * _INTERVAL_MIN - (stop_3 - start_1)
             RGBmixer.blue()
             sleep(sleep_timer)

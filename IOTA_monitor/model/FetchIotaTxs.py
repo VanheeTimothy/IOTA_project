@@ -68,7 +68,7 @@ class FetchIotaTxs():
                 else:
                     temp_data.append({"measurement":"temperature",
                                       "tags":{
-                                          "sensor":"onewire",
+                                          "sensor":"DS18B20",
                                           "hash":tx.hash
                                       },
                                       "time":datetime.utcfromtimestamp(int(tx.timestamp)).strftime('%Y-%m-%d %H:%M:%S'),

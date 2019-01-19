@@ -7,36 +7,37 @@ import logging
 logging.basicConfig(filename='logs/flask.log', level=logging.INFO, format='%(levelname)s %(asctime)s %(message)s')
 
 
-start = time()
-port = 8086
-host = 'localhost'
-dbname ="dbname"
-client = InfluxDBClient(host=host, port=port)
-client.switch_database(dbname)
-stop = time()
-logging.info("connected to influxdb using database: {}".format(dbname))
-print("duration connect to influxdb: "+str(stop-start))
 
+try:
 
+    start = time()
+    port = 8086
+    host = 'localhost'
+    dbname ="sensorvaluesiota"
+    client = InfluxDBClient(host=host, port=port)
+    client.switch_database(dbname)
+    stop = time()
+    logging.info("connected to influxdb using database: {}".format(dbname))
+    print("duration connect to influxdb: "+str(stop-start))
+except Exception as e:
+    logging.error(e)
 
 
 app = Flask(__name__)
 @app.route('/')
 def analytics():
-    s = time()
-    temp = client.query('SELECT "value" FROM temperature')
-    humm = client.query('SELECT "value" FROM hummidity ')
-    st = time()
-    print("duration: " + str(st-s))
-    logging.info("fetching temp and humm values from influxdb: {}s".format(st-s))
-    temp_raw = temp.raw["series"][0]["values"]
-    temp_points = [l[1] for l in temp_raw]
-    humm_raw = humm.raw["series"][0]["values"]
-    humm_points = [l[1] for l in humm_raw]
+    try:
+        s = time()
+        temp = client.query('SELECT "value" FROM temperature')
+        humm = client.query('SELECT "value" FROM hummidity ')
+        st = time()
+        print("duration: " + str(st-s))
+        logging.info("fetching temp and humm values from influxdb: {}s".format(round(st-s,3)))
+        temp_raw, humm_raw = temp.raw["series"][0]["values"], humm.raw["series"][0]["values"]
+        temp_points, humm_points = [l[1] for l in temp_raw], [l[1] for l in humm_raw]
 
-
-
-
+    except Exception as e:
+        logging.error(e)
 
     return render_template('Analytics.html', tempdata=temp_points, hummdata=humm_points)
 
@@ -58,28 +59,34 @@ def graphsmonthly():
 
 @app.route('/transactions')
 def transactions():
-    s = time()
-    temp, humm = client.query('SELECT * FROM temperature'), client.query('SELECT * FROM hummidity ')
-    humm_raw, temp_raw = humm.raw["series"][0]["values"], temp.raw["series"][0]["values"]
-    print(humm_raw)
-    table_data = humm_raw + temp_raw #TODO sort values when None is
-    st = time()
-    logging.info("fetching transactions from influxdb: {}".format(str(st-s)))
+    try:
+        s = time()
+        temp, humm = client.query('SELECT * FROM temperature'), client.query('SELECT * FROM hummidity ')
+        humm_raw, temp_raw = humm.raw["series"][0]["values"], temp.raw["series"][0]["values"]
+        print(humm_raw)
+        table_data = sorted(humm_raw + temp_raw)  # TODO sort values when None is
+        st = time()
+        logging.info("fetching transactions from influxdb: {}".format(str(round(st - s, 3))))
+    except Exception as e:
+        logging.error(e)
+
     return render_template("Transactions.html",table_html=table_data)
 
 
 
 @app.route('/logs')
 def logs():
-    s = time()
-    readDbLog = LogReader("updatedatabase.log")
-    readSensorLog = LogReader("sensor.log")
-    dbLog = readDbLog.readlog()
-    sensorLog = readSensorLog.readlog()
-    st = time()
-    logging.info("reading log files: {}".format(str(st-s)))
+    try:
+        s = time()
+        readDbLog, readSensorLog, readFlaskLog = LogReader("updatedatabase.log"), LogReader("sensor.log"), LogReader("flask.log")
+        dbLog, sensorLog, flaskLog  = readDbLog.readlog(), readSensorLog.readlog(), readFlaskLog.readlog()
+        st = time()
+        logging.info("reading log files: {}".format(str(round(st-s,3))))
 
-    return render_template('Logs.html', databaselog=dbLog, sensorlog=sensorLog ) #TODO add sensorlog=sensorLog
+    except Exception as e:
+        logging.error(e)
+
+    return render_template('Logs.html', databaselog=dbLog, sensorlog=sensorLog, flasklog=flaskLog ) #TODO add sensorlog=sensorLog
 
 
 

@@ -14,7 +14,7 @@ test1 = FetchIotaTxs(mainNet, seed_main_monitor, [target_addres])
 temp_data, humm_data = test1.get_querry_list()
 stop  = time()
 print("duration= "+str(stop-start))
-logging.info("fetch iota's duration: "+str(stop-start)+" s")
+logging.info("fetch iota's duration: "+str(round(stop-start,3))+" s")
 logging.info("total length samples "+str(len(temp_data)+len(humm_data)))
 
 
@@ -25,7 +25,7 @@ st = time()
 print(temp_list)
 print(humm_list)
 print("duration sorting " +str(st-s))
-logging.info("duration sorting values: " +str(st-s)+" s")
+logging.info("duration sorting values: " +str(round(st-s,6))+" s")
 
 
 # influxdb

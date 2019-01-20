@@ -36,11 +36,11 @@
             <file leaf-file-name="update_database.py" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/update_database.py">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="578">
-                    <caret line="34" column="39" lean-forward="false" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+                  <state relative-caret-position="581">
+                    <caret line="46" column="4" lean-forward="false" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
                     <folding>
                       <element signature="e#0#14#0" expanded="true" />
-                      <marker date="1547899596177" expanded="true" signature="1686:1711" ph="SELECT * FRO... temperature" />
+                      <marker date="1547941425000" expanded="true" signature="2002:2027" ph="SELECT * FRO... temperature" />
                     </folding>
                   </state>
                 </provider>
@@ -50,7 +50,7 @@
               <entry file="file://$PROJECT_DIR$/model/FetchIotaTxs.py">
                 <provider selected="true" editor-type-id="text-editor">
                   <state relative-caret-position="682">
-                    <caret line="71" column="6" lean-forward="true" selection-start-line="71" selection-start-column="6" selection-end-line="71" selection-end-column="6" />
+                    <caret line="71" column="6" lean-forward="false" selection-start-line="71" selection-start-column="6" selection-end-line="71" selection-end-column="6" />
                     <folding />
                   </state>
                 </provider>
@@ -67,13 +67,13 @@
         <entry file="file://$PROJECT_DIR$/IOTA_monitor.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="215">
-              <caret line="60" column="19" lean-forward="true" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
+              <caret line="60" column="19" lean-forward="false" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
-                <marker date="1547900644432" expanded="true" signature="763:794" ph="SELECT &quot;valu... temperature" />
-                <marker date="1547900644432" expanded="true" signature="826:855" ph="SELECT &quot;valu... hummidity" />
-                <marker date="1547900644432" expanded="true" signature="1743:1768" ph="SELECT * FRO... temperature" />
-                <marker date="1547900644432" expanded="true" signature="1786:1809" ph="SELECT * FRO... hummidity" />
+                <marker date="1547900644000" expanded="true" signature="763:794" ph="SELECT &quot;valu... temperature" />
+                <marker date="1547900644000" expanded="true" signature="826:855" ph="SELECT &quot;valu... hummidity" />
+                <marker date="1547900644000" expanded="true" signature="1743:1768" ph="SELECT * FRO... temperature" />
+                <marker date="1547900644000" expanded="true" signature="1786:1809" ph="SELECT * FRO... hummidity" />
               </folding>
             </state>
           </provider>
@@ -82,8 +82,18 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-272">
-              <caret line="38" column="24" lean-forward="true" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+            <state relative-caret-position="374">
+              <caret line="25" column="35" lean-forward="false" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="graphs.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/graphs.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="39" column="9" lean-forward="false" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -93,7 +103,7 @@
         <entry file="file://$PROJECT_DIR$/get_new_address.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -103,7 +113,7 @@
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="43">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -113,7 +123,7 @@
         <entry file="file://$PROJECT_DIR$/templates/Logs.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+              <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -123,7 +133,7 @@
         <entry file="file://$PROJECT_DIR$/templates/Transactions.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+              <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -145,9 +155,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>debug</find>
-      <find>signature_message_f</find>
-      <find>attach</find>
       <find>table_txs</find>
       <find>th</find>
       <find>1004</find>
@@ -175,6 +182,9 @@
       <find>#</find>
       <find>40px</find>
       <find>SLO</find>
+      <find>.logo</find>
+      <find>-y</find>
+      <find>body</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -207,7 +217,6 @@
         <option value="$PROJECT_DIR$/FetchIotaTxs.py" />
         <option value="$PROJECT_DIR$/test_classes.py" />
         <option value="$PROJECT_DIR$/templates/Analytics.html" />
-        <option value="$PROJECT_DIR$/static/graphs.js" />
         <option value="$PROJECT_DIR$/garbage_v2.py" />
         <option value="$PROJECT_DIR$/model/simpletable.py" />
         <option value="$PROJECT_DIR$/static/bundje.js" />
@@ -216,11 +225,12 @@
         <option value="$PROJECT_DIR$/FetchIotaTransfers.py" />
         <option value="$PROJECT_DIR$/model/FetchIotaTxs.py" />
         <option value="$PROJECT_DIR$/get_new_address.py" />
-        <option value="$PROJECT_DIR$/update_database.py" />
         <option value="$PROJECT_DIR$/IOTA_monitor.py" />
         <option value="$PROJECT_DIR$/templates/Logs.html" />
         <option value="$PROJECT_DIR$/templates/Transactions.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/static/graphs.js" />
+        <option value="$PROJECT_DIR$/update_database.py" />
         <option value="$PROJECT_DIR$/static/style.css" />
       </list>
     </option>
@@ -231,7 +241,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -282,23 +292,17 @@
             <path>
               <item name="IOTA_monitor" type="b2602c69:ProjectViewProjectNode" />
               <item name="IOTA_monitor" type="462c0819:PsiDirectoryNode" />
+              <item name="launch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IOTA_monitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IOTA_monitor" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IOTA_monitor" type="b2602c69:ProjectViewProjectNode" />
               <item name="IOTA_monitor" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IOTA_monitor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IOTA_monitor" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IOTA_monitor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IOTA_monitor" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -312,7 +316,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../IOTA_sensor" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -480,8 +484,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2057264" sideWeight="0.50416666" order="7" side_tool="true" content_ui="tabs" />
@@ -710,14 +713,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/graphs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="27" lean-forward="false" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/dropdownbutton.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -841,7 +836,7 @@
     <entry file="file://$PROJECT_DIR$/model/FetchIotaTxs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="682">
-          <caret line="71" column="6" lean-forward="true" selection-start-line="71" selection-start-column="6" selection-end-line="71" selection-end-column="6" />
+          <caret line="71" column="6" lean-forward="false" selection-start-line="71" selection-start-column="6" selection-end-line="71" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -849,7 +844,7 @@
     <entry file="file://$PROJECT_DIR$/get_new_address.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -857,7 +852,7 @@
     <entry file="file://$PROJECT_DIR$/templates/Transactions.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -865,7 +860,7 @@
     <entry file="file://$PROJECT_DIR$/templates/Logs.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -873,13 +868,13 @@
     <entry file="file://$PROJECT_DIR$/IOTA_monitor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
-          <caret line="60" column="19" lean-forward="true" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
+          <caret line="60" column="19" lean-forward="false" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
-            <marker date="1547900644432" expanded="true" signature="763:794" ph="SELECT &quot;valu... temperature" />
-            <marker date="1547900644432" expanded="true" signature="826:855" ph="SELECT &quot;valu... hummidity" />
-            <marker date="1547900644432" expanded="true" signature="1743:1768" ph="SELECT * FRO... temperature" />
-            <marker date="1547900644432" expanded="true" signature="1786:1809" ph="SELECT * FRO... hummidity" />
+            <marker date="1547900644000" expanded="true" signature="763:794" ph="SELECT &quot;valu... temperature" />
+            <marker date="1547900644000" expanded="true" signature="826:855" ph="SELECT &quot;valu... hummidity" />
+            <marker date="1547900644000" expanded="true" signature="1743:1768" ph="SELECT * FRO... temperature" />
+            <marker date="1547900644000" expanded="true" signature="1786:1809" ph="SELECT * FRO... hummidity" />
           </folding>
         </state>
       </provider>
@@ -887,26 +882,34 @@
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="43">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/graphs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="39" column="9" lean-forward="false" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/update_database.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="39" lean-forward="false" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+        <state relative-caret-position="581">
+          <caret line="46" column="4" lean-forward="false" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1547899596177" expanded="true" signature="1686:1711" ph="SELECT * FRO... temperature" />
+            <marker date="1547941425000" expanded="true" signature="2002:2027" ph="SELECT * FRO... temperature" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-272">
-          <caret line="38" column="24" lean-forward="true" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+        <state relative-caret-position="374">
+          <caret line="25" column="35" lean-forward="false" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
           <folding />
         </state>
       </provider>

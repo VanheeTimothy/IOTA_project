@@ -33,11 +33,21 @@ print("influx db:")
 host = 'localhost'
 port = 8086
 client = InfluxDBClient(host=host,port=port)
-client.switch_database("sensorvaluesiota")
-print("write data into db")
-logging.info("write data into db")
+db_name = "sensorvaluesiota"
+db_found = False
+dblist = client.get_list_database()
+for db in dblist:
+        if db['name'] == db_name:
+            db_found = True
+        if not(db_found):
+            logging.info('Database <%s> not found, trying to create it', db_name)
+            client.create_database(db_name)
+
 
 try:
+    print("write data into db")
+    logging.info("write data into db")
+    client.switch_database(db_name)
     client.write_points(temp_data)
     client.write_points(humm_list)
 except Exception as e:

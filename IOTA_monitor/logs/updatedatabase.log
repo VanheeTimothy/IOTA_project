@@ -1,0 +1,156 @@
+INFO 2019-01-19 12:28:05,957 fetch iota's duration: 16.262 s
+INFO 2019-01-19 12:28:05,957 total length samples 2
+INFO 2019-01-19 12:28:05,958 duration sorting values: 0.0 s
+INFO 2019-01-19 12:28:05,959 write data into db
+INFO 2019-01-19 12:49:55,424 fetch iota's duration: 26.578 s
+INFO 2019-01-19 12:49:55,425 total length samples 4
+INFO 2019-01-19 12:49:55,426 duration sorting values: 0.0 s
+INFO 2019-01-19 12:49:55,427 write data into db
+INFO 2019-01-19 13:09:02,087 fetch iota's duration: 47.553 s
+INFO 2019-01-19 13:09:02,088 total length samples 8
+INFO 2019-01-19 13:09:02,089 duration sorting values: 7e-05 s
+INFO 2019-01-19 13:09:02,090 write data into db
+INFO 2019-01-19 13:15:52,959 fetch iota's duration: 47.923 s
+INFO 2019-01-19 13:15:52,959 total length samples 8
+INFO 2019-01-19 13:15:52,960 duration sorting values: 6.8e-05 s
+INFO 2019-01-19 13:15:52,961 write data into db
+INFO 2019-01-19 13:31:03,056 fetch iota's duration: 58.352 s
+INFO 2019-01-19 13:31:03,057 total length samples 10
+INFO 2019-01-19 13:31:03,058 duration sorting values: 7.5e-05 s
+INFO 2019-01-19 13:31:03,059 write data into db
+INFO 2019-01-19 13:46:13,556 fetch iota's duration: 68.667 s
+INFO 2019-01-19 13:46:13,557 total length samples 12
+INFO 2019-01-19 13:46:13,558 duration sorting values: 7.9e-05 s
+INFO 2019-01-19 13:46:13,559 write data into db
+INFO 2019-01-19 14:01:23,329 fetch iota's duration: 79.113 s
+INFO 2019-01-19 14:01:23,330 total length samples 14
+INFO 2019-01-19 14:01:23,331 duration sorting values: 8.4e-05 s
+INFO 2019-01-19 14:01:23,332 write data into db
+INFO 2019-01-19 14:16:33,879 fetch iota's duration: 89.686 s
+INFO 2019-01-19 14:16:33,880 total length samples 16
+INFO 2019-01-19 14:16:33,881 duration sorting values: 9e-05 s
+INFO 2019-01-19 14:16:33,882 write data into db
+INFO 2019-01-19 14:31:45,337 fetch iota's duration: 100.626 s
+INFO 2019-01-19 14:31:45,337 total length samples 18
+INFO 2019-01-19 14:31:45,339 duration sorting values: 9.6e-05 s
+INFO 2019-01-19 14:31:45,340 write data into db
+INFO 2019-01-19 14:47:00,905 fetch iota's duration: 115.884 s
+INFO 2019-01-19 14:47:00,906 total length samples 20
+INFO 2019-01-19 14:47:00,907 duration sorting values: 0.000102 s
+INFO 2019-01-19 14:47:00,908 write data into db
+INFO 2019-01-19 15:02:05,247 fetch iota's duration: 120.753 s
+INFO 2019-01-19 15:02:05,247 total length samples 22
+INFO 2019-01-19 15:02:05,249 duration sorting values: 0.000104 s
+INFO 2019-01-19 15:02:05,250 write data into db
+INFO 2019-01-19 15:17:16,766 fetch iota's duration: 131.818 s
+INFO 2019-01-19 15:17:16,766 total length samples 24
+INFO 2019-01-19 15:17:16,768 duration sorting values: 0.000108 s
+INFO 2019-01-19 15:17:16,769 write data into db
+INFO 2019-01-19 15:32:26,108 fetch iota's duration: 141.698 s
+INFO 2019-01-19 15:32:26,108 total length samples 26
+INFO 2019-01-19 15:32:26,110 duration sorting values: 0.000117 s
+INFO 2019-01-19 15:32:26,111 write data into db
+INFO 2019-01-19 15:47:37,799 fetch iota's duration: 153.004 s
+INFO 2019-01-19 15:47:37,800 total length samples 28
+INFO 2019-01-19 15:47:37,802 duration sorting values: 0.000126 s
+INFO 2019-01-19 15:47:37,803 write data into db
+INFO 2019-01-19 16:02:47,898 fetch iota's duration: 163.343 s
+INFO 2019-01-19 16:02:47,898 total length samples 30
+INFO 2019-01-19 16:02:47,900 duration sorting values: 0.000128 s
+INFO 2019-01-19 16:02:47,901 write data into db
+INFO 2019-01-19 16:17:58,548 fetch iota's duration: 173.987 s
+INFO 2019-01-19 16:17:58,548 total length samples 32
+INFO 2019-01-19 16:17:58,551 duration sorting values: 0.000134 s
+INFO 2019-01-19 16:17:58,552 write data into db
+INFO 2019-01-19 16:33:13,636 fetch iota's duration: 189.425 s
+INFO 2019-01-19 16:33:13,637 total length samples 34
+INFO 2019-01-19 16:33:13,639 duration sorting values: 0.000135 s
+INFO 2019-01-19 16:33:13,640 write data into db
+INFO 2019-01-19 16:48:23,753 fetch iota's duration: 199.311 s
+INFO 2019-01-19 16:48:23,753 total length samples 36
+INFO 2019-01-19 16:48:23,756 duration sorting values: 0.000139 s
+INFO 2019-01-19 16:48:23,757 write data into db
+INFO 2019-01-19 17:03:29,541 fetch iota's duration: 205.095 s
+INFO 2019-01-19 17:03:29,541 total length samples 38
+INFO 2019-01-19 17:03:29,544 duration sorting values: 0.000154 s
+INFO 2019-01-19 17:03:29,545 write data into db
+INFO 2019-01-19 17:18:39,062 fetch iota's duration: 214.72 s
+INFO 2019-01-19 17:18:39,063 total length samples 40
+INFO 2019-01-19 17:18:39,066 duration sorting values: 0.000158 s
+INFO 2019-01-19 17:18:39,067 write data into db
+INFO 2019-01-19 17:33:51,000 fetch iota's duration: 226.266 s
+INFO 2019-01-19 17:33:51,001 total length samples 42
+INFO 2019-01-19 17:33:51,003 duration sorting values: 0.00016 s
+INFO 2019-01-19 17:33:51,004 write data into db
+INFO 2019-01-19 17:49:01,116 fetch iota's duration: 236.493 s
+INFO 2019-01-19 17:49:01,117 total length samples 44
+INFO 2019-01-19 17:49:01,120 duration sorting values: 0.000168 s
+INFO 2019-01-19 17:49:01,121 write data into db
+INFO 2019-01-19 18:04:14,398 fetch iota's duration: 248.066 s
+INFO 2019-01-19 18:04:14,399 total length samples 46
+INFO 2019-01-19 18:04:14,402 duration sorting values: 0.000186 s
+INFO 2019-01-19 18:04:14,403 write data into db
+INFO 2019-01-19 18:19:25,055 fetch iota's duration: 260.784 s
+INFO 2019-01-19 18:19:25,055 total length samples 48
+INFO 2019-01-19 18:19:25,058 duration sorting values: 0.000177 s
+INFO 2019-01-19 18:19:25,059 write data into db
+INFO 2019-01-19 18:34:37,951 fetch iota's duration: 273.154 s
+INFO 2019-01-19 18:34:37,951 total length samples 50
+INFO 2019-01-19 18:34:37,955 duration sorting values: 0.000185 s
+INFO 2019-01-19 18:34:37,956 write data into db
+INFO 2019-01-19 18:49:45,679 fetch iota's duration: 279.046 s
+INFO 2019-01-19 18:49:45,682 total length samples 52
+INFO 2019-01-19 18:49:45,685 duration sorting values: 0.000204 s
+INFO 2019-01-19 18:49:45,686 write data into db
+INFO 2019-01-19 19:04:53,721 fetch iota's duration: 289.085 s
+INFO 2019-01-19 19:04:53,722 total length samples 54
+INFO 2019-01-19 19:04:53,725 duration sorting values: 0.000198 s
+INFO 2019-01-19 19:04:53,726 write data into db
+INFO 2019-01-19 19:20:09,598 fetch iota's duration: 305.154 s
+INFO 2019-01-19 19:20:09,599 total length samples 56
+INFO 2019-01-19 19:20:09,602 duration sorting values: 0.000199 s
+INFO 2019-01-19 19:20:09,603 write data into db
+INFO 2019-01-19 19:37:23,896 fetch iota's duration: 308.841 s
+INFO 2019-01-19 19:37:23,899 total length samples 58
+INFO 2019-01-19 19:37:23,903 duration sorting values: 0.000214 s
+INFO 2019-01-19 19:37:23,904 write data into db
+INFO 2019-01-19 19:50:34,617 fetch iota's duration: 319.665 s
+INFO 2019-01-19 19:50:34,618 total length samples 60
+INFO 2019-01-19 19:50:34,621 duration sorting values: 0.000212 s
+INFO 2019-01-19 19:50:34,622 write data into db
+INFO 2019-01-19 20:05:35,237 fetch iota's duration: 330.323 s
+INFO 2019-01-19 20:05:35,238 total length samples 62
+INFO 2019-01-19 20:05:35,241 duration sorting values: 0.000221 s
+INFO 2019-01-19 20:05:35,242 write data into db
+INFO 2019-01-19 20:20:44,666 fetch iota's duration: 340.2 s
+INFO 2019-01-19 20:20:44,666 total length samples 64
+INFO 2019-01-19 20:20:44,670 duration sorting values: 0.000231 s
+INFO 2019-01-19 20:20:44,671 write data into db
+INFO 2019-01-19 20:38:08,068 fetch iota's duration: 481.614 s
+INFO 2019-01-19 20:38:08,070 total length samples 66
+INFO 2019-01-19 20:38:08,074 duration sorting values: 0.000245 s
+INFO 2019-01-19 20:38:08,075 write data into db
+INFO 2019-01-19 20:51:17,658 fetch iota's duration: 373.303 s
+INFO 2019-01-19 20:51:17,659 total length samples 70
+INFO 2019-01-19 20:51:17,663 duration sorting values: 0.00024 s
+INFO 2019-01-19 20:51:17,664 write data into db
+INFO 2019-01-19 21:06:32,652 fetch iota's duration: 387.828 s
+INFO 2019-01-19 21:06:32,652 total length samples 72
+INFO 2019-01-19 21:06:32,656 duration sorting values: 0.000248 s
+INFO 2019-01-19 21:06:32,658 write data into db
+INFO 2019-01-19 21:21:39,117 fetch iota's duration: 394.323 s
+INFO 2019-01-19 21:21:39,117 total length samples 74
+INFO 2019-01-19 21:21:39,122 duration sorting values: 0.000259 s
+INFO 2019-01-19 21:21:39,123 write data into db
+INFO 2019-01-19 21:36:49,391 fetch iota's duration: 405.004 s
+INFO 2019-01-19 21:36:49,392 total length samples 76
+INFO 2019-01-19 21:36:49,396 duration sorting values: 0.000267 s
+INFO 2019-01-19 21:36:49,397 write data into db
+INFO 2019-01-19 21:52:03,592 fetch iota's duration: 419.04 s
+INFO 2019-01-19 21:52:03,592 total length samples 78
+INFO 2019-01-19 21:52:03,597 duration sorting values: 0.000262 s
+INFO 2019-01-19 21:52:03,598 write data into db
+INFO 2019-01-19 22:07:10,293 fetch iota's duration: 425.549 s
+INFO 2019-01-19 22:07:10,293 total length samples 80
+INFO 2019-01-19 22:07:10,298 duration sorting values: 0.000286 s
+INFO 2019-01-19 22:07:10,299 write data into db

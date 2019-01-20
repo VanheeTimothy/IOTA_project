@@ -1,0 +1,643 @@
+INFO 2019-01-19 12:51:10,840 connected to influxdb using database: dbname
+INFO 2019-01-19 12:51:10,951  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO 2019-01-19 12:51:10,956  * Restarting with stat
+INFO 2019-01-19 12:51:12,609 connected to influxdb using database: dbname
+WARNING 2019-01-19 12:51:12,686  * Debugger is active!
+INFO 2019-01-19 12:51:12,687  * Debugger pin code: 978-154-476
+INFO 2019-01-19 12:51:58,118 192.168.0.160 - - [19/Jan/2019 12:51:58] "GET / HTTP/1.1" 500 -
+INFO 2019-01-19 12:51:58,152 192.168.0.160 - - [19/Jan/2019 12:51:58] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO 2019-01-19 12:52:48,134  * Detected change in '/home/pi/IOTA_project/IOTA_monitor.py', reloading
+INFO 2019-01-19 12:52:48,413  * Restarting with stat
+INFO 2019-01-19 12:52:52,897 connected to influxdb using database: sensorvaluesiota
+INFO 2019-01-19 12:52:52,976  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO 2019-01-19 12:52:52,980  * Restarting with stat
+INFO 2019-01-19 12:52:54,618 connected to influxdb using database: sensorvaluesiota
+WARNING 2019-01-19 12:52:54,702  * Debugger is active!
+INFO 2019-01-19 12:52:54,703  * Debugger pin code: 978-154-476
+INFO 2019-01-19 12:53:19,867 fetching temp and humm values from influxdb: 0.03s
+INFO 2019-01-19 12:53:19,968 192.168.0.160 - - [19/Jan/2019 12:53:19] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 12:53:20,020 192.168.0.160 - - [19/Jan/2019 12:53:20] "GET /static/reset.css HTTP/1.1" 200 -
+INFO 2019-01-19 12:53:20,033 192.168.0.160 - - [19/Jan/2019 12:53:20] "GET /static/style.css HTTP/1.1" 200 -
+INFO 2019-01-19 12:53:20,046 192.168.0.160 - - [19/Jan/2019 12:53:20] "GET /static/graphs.js HTTP/1.1" 200 -
+INFO 2019-01-19 12:53:27,723 192.168.0.160 - - [19/Jan/2019 12:53:27] "GET /favicon.ico HTTP/1.1" 404 -
+INFO 2019-01-19 12:53:55,467 reading log files: 0.001
+INFO 2019-01-19 12:53:55,532 192.168.0.160 - - [19/Jan/2019 12:53:55] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 12:53:55,540 reading log files: 0.001
+INFO 2019-01-19 12:53:55,556 192.168.0.160 - - [19/Jan/2019 12:53:55] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 12:54:38,572 fetching transactions from influxdb: 0.045
+INFO 2019-01-19 12:54:38,629 192.168.0.160 - - [19/Jan/2019 12:54:38] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 12:54:38,657 fetching transactions from influxdb: 0.024
+INFO 2019-01-19 12:54:38,665 192.168.0.160 - - [19/Jan/2019 12:54:38] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 12:54:44,014 fetching temp and humm values from influxdb: 0.044s
+INFO 2019-01-19 12:54:44,023 192.168.0.160 - - [19/Jan/2019 12:54:44] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 12:54:56,660 fetching transactions from influxdb: 0.042
+INFO 2019-01-19 12:54:56,675 192.168.0.160 - - [19/Jan/2019 12:54:56] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 12:54:56,720 fetching transactions from influxdb: 0.037
+INFO 2019-01-19 12:54:56,728 192.168.0.160 - - [19/Jan/2019 12:54:56] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 12:55:01,289 reading log files: 0.001
+INFO 2019-01-19 12:55:01,304 192.168.0.160 - - [19/Jan/2019 12:55:01] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 12:55:03,138 fetching transactions from influxdb: 0.042
+INFO 2019-01-19 12:55:03,153 192.168.0.160 - - [19/Jan/2019 12:55:03] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 12:55:48,318 reading log files: 0.001
+INFO 2019-01-19 12:55:48,333 192.168.0.160 - - [19/Jan/2019 12:55:48] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 12:58:56,115  * Detected change in '/home/pi/IOTA_project/IOTA_monitor.py', reloading
+INFO 2019-01-19 12:58:56,371  * Restarting with stat
+INFO 2019-01-19 12:58:58,029 connected to influxdb using database: sensorvaluesiota
+WARNING 2019-01-19 12:58:58,107  * Debugger is active!
+INFO 2019-01-19 12:58:58,108  * Debugger pin code: 978-154-476
+INFO 2019-01-19 12:59:21,280  * Detected change in '/home/pi/IOTA_project/IOTA_monitor.py', reloading
+INFO 2019-01-19 12:59:21,547  * Restarting with stat
+INFO 2019-01-19 12:59:23,183 connected to influxdb using database: sensorvaluesiota
+WARNING 2019-01-19 12:59:23,259  * Debugger is active!
+INFO 2019-01-19 12:59:23,261  * Debugger pin code: 978-154-476
+INFO 2019-01-19 13:00:25,961 reading log files: 0.001
+INFO 2019-01-19 13:00:26,101 192.168.0.160 - - [19/Jan/2019 13:00:26] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 13:00:26,106 reading log files: 0.001
+INFO 2019-01-19 13:00:26,114 192.168.0.160 - - [19/Jan/2019 13:00:26] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 13:02:24,410 fetching temp and humm values from influxdb: 0.032s
+INFO 2019-01-19 13:02:24,439 192.168.0.160 - - [19/Jan/2019 13:02:24] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 13:02:49,540 fetching temp and humm values from influxdb: 0.027s
+INFO 2019-01-19 13:02:49,549 192.168.0.160 - - [19/Jan/2019 13:02:49] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 13:02:49,577 fetching temp and humm values from influxdb: 0.023s
+INFO 2019-01-19 13:02:49,585 192.168.0.160 - - [19/Jan/2019 13:02:49] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 13:02:52,713 fetching transactions from influxdb: 0.043
+INFO 2019-01-19 13:02:52,772 192.168.0.160 - - [19/Jan/2019 13:02:52] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 13:05:00,460  * Detected change in '/home/pi/IOTA_project/IOTA_monitor.py', reloading
+INFO 2019-01-19 13:05:00,721  * Restarting with stat
+INFO 2019-01-19 13:05:02,435 connected to influxdb using database: sensorvaluesiota
+WARNING 2019-01-19 13:05:02,512  * Debugger is active!
+INFO 2019-01-19 13:05:02,513  * Debugger pin code: 978-154-476
+INFO 2019-01-19 13:05:11,649 fetching transactions from influxdb: 0.053
+INFO 2019-01-19 13:05:11,801 192.168.0.160 - - [19/Jan/2019 13:05:11] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 13:05:11,827 fetching transactions from influxdb: 0.022
+INFO 2019-01-19 13:05:11,835 192.168.0.160 - - [19/Jan/2019 13:05:11] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 13:05:13,549 fetching temp and humm values from influxdb: 0.041s
+INFO 2019-01-19 13:05:13,605 192.168.0.160 - - [19/Jan/2019 13:05:13] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 13:05:30,905 fetching transactions from influxdb: 0.04
+INFO 2019-01-19 13:05:30,921 192.168.0.160 - - [19/Jan/2019 13:05:30] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 13:05:30,971 fetching transactions from influxdb: 0.042
+INFO 2019-01-19 13:05:30,985 192.168.0.160 - - [19/Jan/2019 13:05:30] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 13:06:03,133 reading log files: 0.001
+INFO 2019-01-19 13:06:03,200 192.168.0.160 - - [19/Jan/2019 13:06:03] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 13:08:55,813 fetching transactions from influxdb: 0.022
+INFO 2019-01-19 13:08:55,821 192.168.0.160 - - [19/Jan/2019 13:08:55] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 13:09:00,007 fetching transactions from influxdb: 0.022
+INFO 2019-01-19 13:09:00,015 192.168.0.160 - - [19/Jan/2019 13:09:00] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 13:09:03,835 fetching temp and humm values from influxdb: 0.049s
+INFO 2019-01-19 13:09:03,852 192.168.0.160 - - [19/Jan/2019 13:09:03] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 13:09:08,900 fetching transactions from influxdb: 0.041
+INFO 2019-01-19 13:09:08,915 192.168.0.160 - - [19/Jan/2019 13:09:08] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 13:09:21,353 reading log files: 0.001
+INFO 2019-01-19 13:09:21,369 192.168.0.160 - - [19/Jan/2019 13:09:21] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 13:10:14,257 fetching transactions from influxdb: 0.04
+INFO 2019-01-19 13:10:14,266 192.168.0.160 - - [19/Jan/2019 13:10:14] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 13:10:14,292 fetching transactions from influxdb: 0.022
+INFO 2019-01-19 13:10:14,300 192.168.0.160 - - [19/Jan/2019 13:10:14] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 13:10:45,096 fetching temp and humm values from influxdb: 0.04s
+INFO 2019-01-19 13:10:45,112 192.168.0.160 - - [19/Jan/2019 13:10:45] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 13:10:45,164 fetching temp and humm values from influxdb: 0.042s
+INFO 2019-01-19 13:10:45,181 192.168.0.160 - - [19/Jan/2019 13:10:45] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 13:11:05,590 reading log files: 0.002
+INFO 2019-01-19 13:11:05,608 192.168.0.160 - - [19/Jan/2019 13:11:05] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 13:12:05,605 192.168.0.160 - - [19/Jan/2019 13:12:05] "GET /graphsdaily HTTP/1.1" 200 -
+INFO 2019-01-19 13:12:08,715 fetching temp and humm values from influxdb: 0.04s
+INFO 2019-01-19 13:12:08,731 192.168.0.160 - - [19/Jan/2019 13:12:08] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 13:13:19,391 fetching transactions from influxdb: 0.027
+INFO 2019-01-19 13:13:19,399 192.168.0.160 - - [19/Jan/2019 13:13:19] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 13:13:19,431 fetching transactions from influxdb: 0.027
+INFO 2019-01-19 13:13:19,439 192.168.0.160 - - [19/Jan/2019 13:13:19] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 13:14:18,006 reading log files: 0.001
+INFO 2019-01-19 13:14:18,024 192.168.0.160 - - [19/Jan/2019 13:14:18] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 13:14:18,034 reading log files: 0.001
+INFO 2019-01-19 13:14:18,051 192.168.0.160 - - [19/Jan/2019 13:14:18] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 13:14:42,201 fetching transactions from influxdb: 0.05
+INFO 2019-01-19 13:14:42,217 192.168.0.160 - - [19/Jan/2019 13:14:42] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 13:14:42,266 fetching transactions from influxdb: 0.04
+INFO 2019-01-19 13:14:42,274 192.168.0.160 - - [19/Jan/2019 13:14:42] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 13:14:44,055 fetching temp and humm values from influxdb: 0.039s
+INFO 2019-01-19 13:14:44,071 192.168.0.160 - - [19/Jan/2019 13:14:44] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 13:15:36,886 reading log files: 0.001
+INFO 2019-01-19 13:15:36,894 192.168.0.160 - - [19/Jan/2019 13:15:36] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 13:18:03,411 fetching transactions from influxdb: 0.044
+INFO 2019-01-19 13:18:03,426 192.168.0.160 - - [19/Jan/2019 13:18:03] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 13:18:03,469 fetching transactions from influxdb: 0.035
+INFO 2019-01-19 13:18:03,477 192.168.0.160 - - [19/Jan/2019 13:18:03] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 13:18:29,482  * Detected change in '/home/pi/IOTA_project/IOTA_monitor.py', reloading
+INFO 2019-01-19 13:18:29,726  * Restarting with stat
+INFO 2019-01-19 13:18:31,426 connected to influxdb using database: sensorvaluesiota
+WARNING 2019-01-19 13:18:31,503  * Debugger is active!
+INFO 2019-01-19 13:18:31,504  * Debugger pin code: 978-154-476
+INFO 2019-01-19 13:18:47,096 reading log files: 0.001
+INFO 2019-01-19 13:18:47,248 192.168.0.160 - - [19/Jan/2019 13:18:47] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 13:18:47,253 reading log files: 0.001
+INFO 2019-01-19 13:18:47,262 192.168.0.160 - - [19/Jan/2019 13:18:47] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 13:19:00,367 fetching transactions from influxdb: 0.051
+INFO 2019-01-19 13:19:00,418 192.168.0.160 - - [19/Jan/2019 13:19:00] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 13:19:00,448 fetching transactions from influxdb: 0.026
+INFO 2019-01-19 13:19:00,456 192.168.0.160 - - [19/Jan/2019 13:19:00] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 13:19:06,248 fetching temp and humm values from influxdb: 0.043s
+INFO 2019-01-19 13:19:06,300 192.168.0.160 - - [19/Jan/2019 13:19:06] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 13:19:11,268 fetching transactions from influxdb: 0.042
+INFO 2019-01-19 13:19:11,285 192.168.0.160 - - [19/Jan/2019 13:19:11] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 13:19:23,752 reading log files: 0.001
+INFO 2019-01-19 13:19:23,769 192.168.0.160 - - [19/Jan/2019 13:19:23] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 13:24:05,305  * Detected change in '/home/pi/IOTA_project/IOTA_monitor.py', reloading
+INFO 2019-01-19 13:24:05,560  * Restarting with stat
+INFO 2019-01-19 13:24:07,205 connected to influxdb using database: sensorvaluesiota
+WARNING 2019-01-19 13:24:07,282  * Debugger is active!
+INFO 2019-01-19 13:24:07,284  * Debugger pin code: 978-154-476
+INFO 2019-01-19 13:24:31,717 fetching temp and humm values from influxdb: 0.063s
+INFO 2019-01-19 13:24:31,828 192.168.0.160 - - [19/Jan/2019 13:24:31] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 13:24:31,854 fetching temp and humm values from influxdb: 0.023s
+INFO 2019-01-19 13:24:31,863 192.168.0.160 - - [19/Jan/2019 13:24:31] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 13:25:21,679 reading log files: 0.002
+INFO 2019-01-19 13:25:21,755 192.168.0.160 - - [19/Jan/2019 13:25:21] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 13:25:21,767 reading log files: 0.004
+INFO 2019-01-19 13:25:21,778 192.168.0.160 - - [19/Jan/2019 13:25:21] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 13:26:16,695 reading log files: 0.003
+INFO 2019-01-19 13:26:16,782 192.168.0.160 - - [19/Jan/2019 13:26:16] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 13:26:16,792 reading log files: 0.001
+INFO 2019-01-19 13:26:16,805 192.168.0.160 - - [19/Jan/2019 13:26:16] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 13:30:20,011 fetching temp and humm values from influxdb: 0.024s
+INFO 2019-01-19 13:30:20,019 192.168.0.160 - - [19/Jan/2019 13:30:20] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 13:30:24,417 fetching transactions from influxdb: 0.024
+INFO 2019-01-19 13:30:24,450 192.168.0.160 - - [19/Jan/2019 13:30:24] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 13:30:26,365 reading log files: 0.001
+INFO 2019-01-19 13:30:26,409 192.168.0.160 - - [19/Jan/2019 13:30:26] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 13:32:57,548 fetching transactions from influxdb: 0.043
+INFO 2019-01-19 13:32:57,564 192.168.0.160 - - [19/Jan/2019 13:32:57] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 13:32:57,617 fetching transactions from influxdb: 0.047
+INFO 2019-01-19 13:32:57,626 192.168.0.160 - - [19/Jan/2019 13:32:57] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 13:33:00,130 reading log files: 0.003
+INFO 2019-01-19 13:33:00,218 192.168.0.160 - - [19/Jan/2019 13:33:00] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 13:33:41,699 reading log files: 0.003
+INFO 2019-01-19 13:33:41,725 192.168.0.160 - - [19/Jan/2019 13:33:41] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 13:33:41,747 reading log files: 0.003
+INFO 2019-01-19 13:33:41,773 192.168.0.160 - - [19/Jan/2019 13:33:41] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 13:33:41,793 192.168.0.160 - - [19/Jan/2019 13:33:41] "GET /static/reset.css HTTP/1.1" 200 -
+INFO 2019-01-19 13:33:41,799 192.168.0.160 - - [19/Jan/2019 13:33:41] "GET /static/style.css HTTP/1.1" 200 -
+INFO 2019-01-19 13:33:41,808 192.168.0.160 - - [19/Jan/2019 13:33:41] "GET /static/dropdownbutton.js HTTP/1.1" 200 -
+INFO 2019-01-19 13:37:07,294 reading log files: 0.004
+INFO 2019-01-19 13:37:07,379 192.168.0.160 - - [19/Jan/2019 13:37:07] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 13:37:07,398 reading log files: 0.001
+INFO 2019-01-19 13:37:07,413 192.168.0.160 - - [19/Jan/2019 13:37:07] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 13:37:07,505 reading log files: 0.001
+INFO 2019-01-19 13:37:07,519 192.168.0.160 - - [19/Jan/2019 13:37:07] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 13:37:38,447 fetching temp and humm values from influxdb: 0.048s
+INFO 2019-01-19 13:37:38,463 192.168.0.160 - - [19/Jan/2019 13:37:38] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 13:37:38,495 fetching temp and humm values from influxdb: 0.024s
+INFO 2019-01-19 13:37:38,503 192.168.0.160 - - [19/Jan/2019 13:37:38] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 13:37:38,600 192.168.0.160 - - [19/Jan/2019 13:37:38] "GET /static/reset.css HTTP/1.1" 200 -
+INFO 2019-01-19 13:37:38,607 192.168.0.160 - - [19/Jan/2019 13:37:38] "GET /static/style.css HTTP/1.1" 200 -
+INFO 2019-01-19 13:37:38,613 192.168.0.160 - - [19/Jan/2019 13:37:38] "GET /static/dropdownbutton.js HTTP/1.1" 200 -
+INFO 2019-01-19 13:37:38,619 192.168.0.160 - - [19/Jan/2019 13:37:38] "GET /static/graphs.js HTTP/1.1" 200 -
+INFO 2019-01-19 13:37:45,097 fetching transactions from influxdb: 0.042
+INFO 2019-01-19 13:37:45,113 192.168.0.160 - - [19/Jan/2019 13:37:45] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 13:38:35,839 fetching transactions from influxdb: 0.022
+INFO 2019-01-19 13:38:35,847 192.168.0.160 - - [19/Jan/2019 13:38:35] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 13:38:35,875 fetching transactions from influxdb: 0.023
+INFO 2019-01-19 13:38:35,883 192.168.0.160 - - [19/Jan/2019 13:38:35] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 13:38:35,889 192.168.0.160 - - [19/Jan/2019 13:38:35] "GET /static/reset.css HTTP/1.1" 200 -
+INFO 2019-01-19 13:38:35,895 192.168.0.160 - - [19/Jan/2019 13:38:35] "GET /static/style.css HTTP/1.1" 200 -
+INFO 2019-01-19 13:38:35,901 192.168.0.160 - - [19/Jan/2019 13:38:35] "GET /static/dropdownbutton.js HTTP/1.1" 200 -
+INFO 2019-01-19 13:41:53,323 reading log files: 0.003
+INFO 2019-01-19 13:41:53,350 192.168.0.160 - - [19/Jan/2019 13:41:53] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 13:44:16,038 reading log files: 0.003
+INFO 2019-01-19 13:44:16,130 192.168.0.160 - - [19/Jan/2019 13:44:16] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 13:44:16,161 reading log files: 0.001
+INFO 2019-01-19 13:44:16,177 192.168.0.160 - - [19/Jan/2019 13:44:16] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 13:44:34,783 reading log files: 0.003
+INFO 2019-01-19 13:44:34,874 192.168.0.160 - - [19/Jan/2019 13:44:34] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 13:44:35,073 reading log files: 0.002
+INFO 2019-01-19 13:44:35,087 192.168.0.160 - - [19/Jan/2019 13:44:35] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 13:48:06,502 reading log files: 0.003
+INFO 2019-01-19 13:48:06,582 192.168.0.160 - - [19/Jan/2019 13:48:06] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 13:48:06,592 reading log files: 0.003
+INFO 2019-01-19 13:48:06,611 192.168.0.160 - - [19/Jan/2019 13:48:06] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 13:54:21,457 reading log files: 0.003
+INFO 2019-01-19 13:54:21,548 192.168.0.160 - - [19/Jan/2019 13:54:21] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 13:54:21,735 reading log files: 0.002
+INFO 2019-01-19 13:54:21,749 192.168.0.160 - - [19/Jan/2019 13:54:21] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 13:56:41,898 reading log files: 0.003
+INFO 2019-01-19 13:56:41,928 192.168.0.160 - - [19/Jan/2019 13:56:41] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 13:56:42,171 reading log files: 0.003
+INFO 2019-01-19 13:56:42,201 192.168.0.160 - - [19/Jan/2019 13:56:42] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 13:56:42,377 192.168.0.160 - - [19/Jan/2019 13:56:42] "GET /static/reset.css HTTP/1.1" 200 -
+INFO 2019-01-19 13:56:42,388 192.168.0.160 - - [19/Jan/2019 13:56:42] "GET /static/dropdownbutton.js HTTP/1.1" 200 -
+INFO 2019-01-19 13:56:42,400 192.168.0.160 - - [19/Jan/2019 13:56:42] "GET /static/style.css HTTP/1.1" 200 -
+INFO 2019-01-19 13:57:13,552 reading log files: 0.003
+INFO 2019-01-19 13:57:13,582 192.168.0.160 - - [19/Jan/2019 13:57:13] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 13:57:13,614 192.168.0.160 - - [19/Jan/2019 13:57:13] "GET /static/reset.css HTTP/1.1" 200 -
+INFO 2019-01-19 13:57:13,635 192.168.0.160 - - [19/Jan/2019 13:57:13] "GET /static/style.css HTTP/1.1" 200 -
+INFO 2019-01-19 13:57:13,646 192.168.0.160 - - [19/Jan/2019 13:57:13] "GET /static/dropdownbutton.js HTTP/1.1" 200 -
+INFO 2019-01-19 14:13:52,057 reading log files: 0.003
+INFO 2019-01-19 14:13:52,089 192.168.0.160 - - [19/Jan/2019 14:13:52] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 14:13:52,122 reading log files: 0.004
+INFO 2019-01-19 14:13:52,158 192.168.0.160 - - [19/Jan/2019 14:13:52] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 14:17:02,011 reading log files: 0.003
+INFO 2019-01-19 14:17:02,043 192.168.0.160 - - [19/Jan/2019 14:17:02] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 14:17:02,078 reading log files: 0.005
+INFO 2019-01-19 14:17:02,112 192.168.0.160 - - [19/Jan/2019 14:17:02] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 14:17:02,125 192.168.0.160 - - [19/Jan/2019 14:17:02] "GET /static/reset.css HTTP/1.1" 200 -
+INFO 2019-01-19 14:17:02,137 192.168.0.160 - - [19/Jan/2019 14:17:02] "GET /static/style.css HTTP/1.1" 200 -
+INFO 2019-01-19 14:17:02,148 192.168.0.160 - - [19/Jan/2019 14:17:02] "GET /static/dropdownbutton.js HTTP/1.1" 200 -
+INFO 2019-01-19 14:17:03,731 reading log files: 0.003
+INFO 2019-01-19 14:17:03,763 192.168.0.160 - - [19/Jan/2019 14:17:03] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 14:17:03,791 reading log files: 0.004
+INFO 2019-01-19 14:17:03,826 192.168.0.160 - - [19/Jan/2019 14:17:03] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 14:17:41,631 reading log files: 0.008
+INFO 2019-01-19 14:17:41,663 192.168.0.160 - - [19/Jan/2019 14:17:41] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 14:17:41,691 reading log files: 0.003
+INFO 2019-01-19 14:17:41,727 192.168.0.160 - - [19/Jan/2019 14:17:41] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 14:18:25,834 reading log files: 0.004
+INFO 2019-01-19 14:18:25,867 192.168.0.160 - - [19/Jan/2019 14:18:25] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 14:18:25,891 reading log files: 0.003
+INFO 2019-01-19 14:18:25,931 192.168.0.160 - - [19/Jan/2019 14:18:25] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 14:18:25,947 192.168.0.160 - - [19/Jan/2019 14:18:25] "GET /static/reset.css HTTP/1.1" 200 -
+INFO 2019-01-19 14:18:25,954 192.168.0.160 - - [19/Jan/2019 14:18:25] "GET /static/style.css HTTP/1.1" 200 -
+INFO 2019-01-19 14:18:25,962 192.168.0.160 - - [19/Jan/2019 14:18:25] "GET /static/dropdownbutton.js HTTP/1.1" 200 -
+INFO 2019-01-19 14:18:27,000 reading log files: 0.003
+INFO 2019-01-19 14:18:27,033 192.168.0.160 - - [19/Jan/2019 14:18:27] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 14:20:42,957 reading log files: 0.004
+INFO 2019-01-19 14:20:42,990 192.168.0.160 - - [19/Jan/2019 14:20:42] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 14:20:46,481 fetching temp and humm values from influxdb: 0.043s
+INFO 2019-01-19 14:20:46,496 192.168.0.160 - - [19/Jan/2019 14:20:46] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 14:20:46,506 reading log files: 0.003
+INFO 2019-01-19 14:20:46,538 192.168.0.160 - - [19/Jan/2019 14:20:46] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 14:20:46,598 192.168.0.160 - - [19/Jan/2019 14:20:46] "GET /static/reset.css HTTP/1.1" 200 -
+INFO 2019-01-19 14:20:46,605 192.168.0.160 - - [19/Jan/2019 14:20:46] "GET /static/style.css HTTP/1.1" 200 -
+INFO 2019-01-19 14:20:46,611 192.168.0.160 - - [19/Jan/2019 14:20:46] "GET /static/dropdownbutton.js HTTP/1.1" 200 -
+INFO 2019-01-19 14:20:46,628 192.168.0.160 - - [19/Jan/2019 14:20:46] "GET /static/graphs.js HTTP/1.1" 200 -
+INFO 2019-01-19 14:21:08,337 fetching transactions from influxdb: 0.047
+INFO 2019-01-19 14:21:08,354 192.168.0.160 - - [19/Jan/2019 14:21:08] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 14:21:11,141 reading log files: 0.003
+INFO 2019-01-19 14:21:11,174 192.168.0.160 - - [19/Jan/2019 14:21:11] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 14:24:06,056 reading log files: 0.003
+INFO 2019-01-19 14:24:06,089 192.168.0.160 - - [19/Jan/2019 14:24:06] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 14:24:06,381 reading log files: 0.003
+INFO 2019-01-19 14:24:06,414 192.168.0.160 - - [19/Jan/2019 14:24:06] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 14:25:40,414 reading log files: 0.004
+INFO 2019-01-19 14:25:40,448 192.168.0.160 - - [19/Jan/2019 14:25:40] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 14:25:40,460 reading log files: 0.003
+INFO 2019-01-19 14:25:40,494 192.168.0.160 - - [19/Jan/2019 14:25:40] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 14:25:40,536 192.168.0.160 - - [19/Jan/2019 14:25:40] "GET /static/reset.css HTTP/1.1" 200 -
+INFO 2019-01-19 14:25:40,542 192.168.0.160 - - [19/Jan/2019 14:25:40] "GET /static/dropdownbutton.js HTTP/1.1" 200 -
+INFO 2019-01-19 14:25:40,548 192.168.0.160 - - [19/Jan/2019 14:25:40] "GET /static/style.css HTTP/1.1" 200 -
+INFO 2019-01-19 14:26:39,436 fetching transactions from influxdb: 0.026
+INFO 2019-01-19 14:26:39,445 192.168.0.160 - - [19/Jan/2019 14:26:39] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 14:27:19,359 reading log files: 0.002
+INFO 2019-01-19 14:27:19,377 192.168.0.160 - - [19/Jan/2019 14:27:19] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 14:27:19,401 reading log files: 0.002
+INFO 2019-01-19 14:27:19,419 192.168.0.160 - - [19/Jan/2019 14:27:19] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 14:27:33,455 fetching transactions from influxdb: 0.049
+INFO 2019-01-19 14:27:33,473 192.168.0.160 - - [19/Jan/2019 14:27:33] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 14:27:33,508 fetching transactions from influxdb: 0.03
+INFO 2019-01-19 14:27:33,517 192.168.0.160 - - [19/Jan/2019 14:27:33] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 14:28:11,713 fetching transactions from influxdb: 0.044
+INFO 2019-01-19 14:28:11,730 192.168.0.160 - - [19/Jan/2019 14:28:11] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 14:28:11,954 fetching transactions from influxdb: 0.049
+INFO 2019-01-19 14:28:11,971 192.168.0.160 - - [19/Jan/2019 14:28:11] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 14:28:12,832 fetching transactions from influxdb: 0.046
+INFO 2019-01-19 14:28:12,848 192.168.0.160 - - [19/Jan/2019 14:28:12] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 14:28:13,433 fetching transactions from influxdb: 0.025
+INFO 2019-01-19 14:28:13,443 192.168.0.160 - - [19/Jan/2019 14:28:13] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 14:28:14,548 fetching transactions from influxdb: 0.042
+INFO 2019-01-19 14:28:14,557 192.168.0.160 - - [19/Jan/2019 14:28:14] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 14:28:14,758 fetching transactions from influxdb: 0.025
+INFO 2019-01-19 14:28:14,768 192.168.0.160 - - [19/Jan/2019 14:28:14] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 14:28:20,584 reading log files: 0.004
+INFO 2019-01-19 14:28:20,620 192.168.0.160 - - [19/Jan/2019 14:28:20] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 14:32:29,617 reading log files: 0.002
+INFO 2019-01-19 14:32:29,635 192.168.0.160 - - [19/Jan/2019 14:32:29] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 14:32:29,663 192.168.0.160 - - [19/Jan/2019 14:32:29] "GET /static/reset.css HTTP/1.1" 200 -
+INFO 2019-01-19 14:32:29,679 192.168.0.160 - - [19/Jan/2019 14:32:29] "GET /static/dropdownbutton.js HTTP/1.1" 200 -
+INFO 2019-01-19 14:32:29,687 192.168.0.160 - - [19/Jan/2019 14:32:29] "GET /static/style.css HTTP/1.1" 200 -
+INFO 2019-01-19 14:33:05,313 reading log files: 0.004
+INFO 2019-01-19 14:33:05,349 192.168.0.160 - - [19/Jan/2019 14:33:05] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 14:33:05,378 reading log files: 0.005
+INFO 2019-01-19 14:33:05,420 192.168.0.160 - - [19/Jan/2019 14:33:05] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 14:33:05,437 192.168.0.160 - - [19/Jan/2019 14:33:05] "GET /static/reset.css HTTP/1.1" 200 -
+INFO 2019-01-19 14:33:05,449 192.168.0.160 - - [19/Jan/2019 14:33:05] "GET /static/style.css HTTP/1.1" 200 -
+INFO 2019-01-19 14:33:05,463 192.168.0.160 - - [19/Jan/2019 14:33:05] "GET /static/dropdownbutton.js HTTP/1.1" 200 -
+INFO 2019-01-19 14:33:50,783 reading log files: 0.004
+INFO 2019-01-19 14:33:50,821 192.168.0.160 - - [19/Jan/2019 14:33:50] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 14:33:50,855 reading log files: 0.006
+INFO 2019-01-19 14:33:50,885 192.168.0.160 - - [19/Jan/2019 14:33:50] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 14:33:50,898 192.168.0.160 - - [19/Jan/2019 14:33:50] "GET /static/reset.css HTTP/1.1" 200 -
+INFO 2019-01-19 14:33:50,905 192.168.0.160 - - [19/Jan/2019 14:33:50] "GET /static/style.css HTTP/1.1" 200 -
+INFO 2019-01-19 14:33:50,912 192.168.0.160 - - [19/Jan/2019 14:33:50] "GET /static/dropdownbutton.js HTTP/1.1" 200 -
+INFO 2019-01-19 14:34:03,934 fetching transactions from influxdb: 0.051
+INFO 2019-01-19 14:34:03,954 192.168.0.160 - - [19/Jan/2019 14:34:03] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 14:35:48,273 fetching transactions from influxdb: 0.055
+INFO 2019-01-19 14:35:48,290 192.168.0.160 - - [19/Jan/2019 14:35:48] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 14:35:48,513 fetching transactions from influxdb: 0.046
+INFO 2019-01-19 14:35:48,530 192.168.0.160 - - [19/Jan/2019 14:35:48] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 14:35:56,087 fetching transactions from influxdb: 0.046
+INFO 2019-01-19 14:35:56,106 192.168.0.160 - - [19/Jan/2019 14:35:56] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 14:35:56,147 fetching transactions from influxdb: 0.032
+INFO 2019-01-19 14:35:56,156 192.168.0.160 - - [19/Jan/2019 14:35:56] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 14:35:56,163 192.168.0.160 - - [19/Jan/2019 14:35:56] "GET /static/reset.css HTTP/1.1" 200 -
+INFO 2019-01-19 14:35:56,168 192.168.0.160 - - [19/Jan/2019 14:35:56] "GET /static/style.css HTTP/1.1" 200 -
+INFO 2019-01-19 14:35:56,175 192.168.0.160 - - [19/Jan/2019 14:35:56] "GET /static/dropdownbutton.js HTTP/1.1" 200 -
+INFO 2019-01-19 14:38:42,492 reading log files: 0.004
+INFO 2019-01-19 14:38:42,530 192.168.0.160 - - [19/Jan/2019 14:38:42] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 14:39:35,416 reading log files: 0.004
+INFO 2019-01-19 14:39:35,455 192.168.0.160 - - [19/Jan/2019 14:39:35] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 14:39:35,488 reading log files: 0.004
+INFO 2019-01-19 14:39:35,517 192.168.0.160 - - [19/Jan/2019 14:39:35] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 14:41:53,961 fetching transactions from influxdb: 0.044
+INFO 2019-01-19 14:41:54,052 192.168.0.160 - - [19/Jan/2019 14:41:54] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 14:41:54,101 fetching transactions from influxdb: 0.042
+INFO 2019-01-19 14:41:54,116 192.168.0.160 - - [19/Jan/2019 14:41:54] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 14:43:34,069 fetching transactions from influxdb: 0.047
+INFO 2019-01-19 14:43:34,127 192.168.0.160 - - [19/Jan/2019 14:43:34] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 14:44:22,112 fetching transactions from influxdb: 0.046
+INFO 2019-01-19 14:44:22,178 192.168.0.160 - - [19/Jan/2019 14:44:22] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 14:44:22,338 fetching transactions from influxdb: 0.026
+INFO 2019-01-19 14:44:22,347 192.168.0.160 - - [19/Jan/2019 14:44:22] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 14:44:23,408 fetching transactions from influxdb: 0.041
+INFO 2019-01-19 14:44:23,426 192.168.0.160 - - [19/Jan/2019 14:44:23] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 14:44:23,605 fetching transactions from influxdb: 0.041
+INFO 2019-01-19 14:44:23,622 192.168.0.160 - - [19/Jan/2019 14:44:23] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 14:44:24,476 fetching transactions from influxdb: 0.044
+INFO 2019-01-19 14:44:24,494 192.168.0.160 - - [19/Jan/2019 14:44:24] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 14:44:24,671 fetching transactions from influxdb: 0.024
+INFO 2019-01-19 14:44:24,680 192.168.0.160 - - [19/Jan/2019 14:44:24] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 14:45:45,308 fetching transactions from influxdb: 0.03
+INFO 2019-01-19 14:45:45,317 192.168.0.160 - - [19/Jan/2019 14:45:45] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 14:45:45,496 fetching transactions from influxdb: 0.028
+INFO 2019-01-19 14:45:45,505 192.168.0.160 - - [19/Jan/2019 14:45:45] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 14:45:46,333 fetching transactions from influxdb: 0.027
+INFO 2019-01-19 14:45:46,341 192.168.0.160 - - [19/Jan/2019 14:45:46] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 14:45:46,524 fetching transactions from influxdb: 0.028
+INFO 2019-01-19 14:45:46,533 192.168.0.160 - - [19/Jan/2019 14:45:46] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 14:46:32,059 fetching transactions from influxdb: 0.028
+INFO 2019-01-19 14:46:32,068 192.168.0.160 - - [19/Jan/2019 14:46:32] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 14:46:32,258 fetching transactions from influxdb: 0.025
+INFO 2019-01-19 14:46:32,267 192.168.0.160 - - [19/Jan/2019 14:46:32] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 14:46:33,116 fetching transactions from influxdb: 0.026
+INFO 2019-01-19 14:46:33,125 192.168.0.160 - - [19/Jan/2019 14:46:33] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 14:46:33,303 fetching transactions from influxdb: 0.028
+INFO 2019-01-19 14:46:33,312 192.168.0.160 - - [19/Jan/2019 14:46:33] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 14:46:33,944 fetching transactions from influxdb: 0.029
+INFO 2019-01-19 14:46:33,953 192.168.0.160 - - [19/Jan/2019 14:46:33] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 14:46:39,133 fetching transactions from influxdb: 0.027
+INFO 2019-01-19 14:46:39,142 192.168.0.160 - - [19/Jan/2019 14:46:39] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 14:46:39,175 fetching transactions from influxdb: 0.029
+INFO 2019-01-19 14:46:39,209 192.168.0.160 - - [19/Jan/2019 14:46:39] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 14:46:39,215 192.168.0.160 - - [19/Jan/2019 14:46:39] "GET /static/reset.css HTTP/1.1" 200 -
+INFO 2019-01-19 14:46:39,221 192.168.0.160 - - [19/Jan/2019 14:46:39] "GET /static/style.css HTTP/1.1" 200 -
+INFO 2019-01-19 14:46:39,233 192.168.0.160 - - [19/Jan/2019 14:46:39] "GET /static/dropdownbutton.js HTTP/1.1" 200 -
+INFO 2019-01-19 14:46:41,205 fetching transactions from influxdb: 0.024
+INFO 2019-01-19 14:46:41,214 192.168.0.160 - - [19/Jan/2019 14:46:41] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 14:46:41,241 fetching transactions from influxdb: 0.023
+INFO 2019-01-19 14:46:41,250 192.168.0.160 - - [19/Jan/2019 14:46:41] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 14:47:37,619 fetching transactions from influxdb: 0.048
+INFO 2019-01-19 14:47:37,660 192.168.0.160 - - [19/Jan/2019 14:47:37] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 14:47:37,690 fetching transactions from influxdb: 0.026
+INFO 2019-01-19 14:47:37,700 192.168.0.160 - - [19/Jan/2019 14:47:37] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 14:47:37,707 192.168.0.160 - - [19/Jan/2019 14:47:37] "GET /static/reset.css HTTP/1.1" 200 -
+INFO 2019-01-19 14:47:37,713 192.168.0.160 - - [19/Jan/2019 14:47:37] "GET /static/style.css HTTP/1.1" 200 -
+INFO 2019-01-19 14:47:37,720 192.168.0.160 - - [19/Jan/2019 14:47:37] "GET /static/dropdownbutton.js HTTP/1.1" 200 -
+INFO 2019-01-19 14:47:43,115 reading log files: 0.005
+INFO 2019-01-19 14:47:43,157 192.168.0.160 - - [19/Jan/2019 14:47:43] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 14:47:43,196 reading log files: 0.004
+INFO 2019-01-19 14:47:43,240 192.168.0.160 - - [19/Jan/2019 14:47:43] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 14:50:56,719 fetching transactions from influxdb: 0.047
+INFO 2019-01-19 14:50:56,731 192.168.0.160 - - [19/Jan/2019 14:50:56] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 14:50:56,761 fetching transactions from influxdb: 0.026
+INFO 2019-01-19 14:50:56,770 192.168.0.160 - - [19/Jan/2019 14:50:56] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 14:51:00,952 fetching temp and humm values from influxdb: 0.043s
+INFO 2019-01-19 14:51:00,968 192.168.0.160 - - [19/Jan/2019 14:51:00] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 14:51:01,003 192.168.0.160 - - [19/Jan/2019 14:51:01] "GET /static/graphs.js HTTP/1.1" 200 -
+INFO 2019-01-19 14:51:32,546 reading log files: 0.005
+INFO 2019-01-19 14:51:32,587 192.168.0.160 - - [19/Jan/2019 14:51:32] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 14:51:32,626 reading log files: 0.002
+INFO 2019-01-19 14:51:32,649 192.168.0.160 - - [19/Jan/2019 14:51:32] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 15:00:33,591 fetching temp and humm values from influxdb: 0.026s
+INFO 2019-01-19 15:00:33,600 192.168.0.160 - - [19/Jan/2019 15:00:33] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 15:00:33,629 fetching temp and humm values from influxdb: 0.024s
+INFO 2019-01-19 15:00:33,638 192.168.0.160 - - [19/Jan/2019 15:00:33] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 15:01:10,725 fetching temp and humm values from influxdb: 0.027s
+INFO 2019-01-19 15:01:10,734 192.168.0.160 - - [19/Jan/2019 15:01:10] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 15:01:10,763 fetching temp and humm values from influxdb: 0.024s
+INFO 2019-01-19 15:01:10,771 192.168.0.160 - - [19/Jan/2019 15:01:10] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 15:01:12,620 fetching temp and humm values from influxdb: 0.025s
+INFO 2019-01-19 15:01:12,628 192.168.0.160 - - [19/Jan/2019 15:01:12] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 15:01:14,255 fetching temp and humm values from influxdb: 0.025s
+INFO 2019-01-19 15:01:14,267 192.168.0.160 - - [19/Jan/2019 15:01:14] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 15:01:17,005 fetching temp and humm values from influxdb: 0.027s
+INFO 2019-01-19 15:01:17,013 192.168.0.160 - - [19/Jan/2019 15:01:17] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 15:01:21,823 fetching temp and humm values from influxdb: 0.027s
+INFO 2019-01-19 15:01:21,831 192.168.0.160 - - [19/Jan/2019 15:01:21] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 15:01:41,856 fetching transactions from influxdb: 0.029
+INFO 2019-01-19 15:01:41,866 192.168.0.160 - - [19/Jan/2019 15:01:41] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 15:01:41,899 fetching transactions from influxdb: 0.029
+INFO 2019-01-19 15:01:41,908 192.168.0.160 - - [19/Jan/2019 15:01:41] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 15:01:50,719 reading log files: 0.002
+INFO 2019-01-19 15:01:50,741 192.168.0.160 - - [19/Jan/2019 15:01:50] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 15:02:28,212 fetching temp and humm values from influxdb: 0.044s
+INFO 2019-01-19 15:02:28,229 192.168.0.160 - - [19/Jan/2019 15:02:28] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 15:02:28,274 fetching temp and humm values from influxdb: 0.037s
+INFO 2019-01-19 15:02:28,283 192.168.0.160 - - [19/Jan/2019 15:02:28] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 15:18:08,115 fetching temp and humm values from influxdb: 0.05s
+INFO 2019-01-19 15:18:08,190 192.168.0.160 - - [19/Jan/2019 15:18:08] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 15:18:08,221 192.168.0.160 - - [19/Jan/2019 15:18:08] "GET /static/img/iotalogo.png HTTP/1.1" 200 -
+INFO 2019-01-19 15:19:45,779 fetching temp and humm values from influxdb: 0.047s
+INFO 2019-01-19 15:19:45,858 192.168.0.160 - - [19/Jan/2019 15:19:45] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 15:19:45,886 fetching temp and humm values from influxdb: 0.024s
+INFO 2019-01-19 15:19:45,894 192.168.0.160 - - [19/Jan/2019 15:19:45] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 15:19:45,900 192.168.0.160 - - [19/Jan/2019 15:19:45] "GET /static/img/iota.png HTTP/1.1" 200 -
+INFO 2019-01-19 15:22:03,076 fetching temp and humm values from influxdb: 0.049s
+INFO 2019-01-19 15:22:03,092 192.168.0.160 - - [19/Jan/2019 15:22:03] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 15:22:03,139 fetching temp and humm values from influxdb: 0.04s
+INFO 2019-01-19 15:22:03,148 192.168.0.160 - - [19/Jan/2019 15:22:03] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 15:22:04,023 fetching temp and humm values from influxdb: 0.042s
+INFO 2019-01-19 15:22:04,039 192.168.0.160 - - [19/Jan/2019 15:22:04] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 15:22:04,311 fetching temp and humm values from influxdb: 0.043s
+INFO 2019-01-19 15:22:04,327 192.168.0.160 - - [19/Jan/2019 15:22:04] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 15:22:05,017 fetching temp and humm values from influxdb: 0.042s
+INFO 2019-01-19 15:22:05,033 192.168.0.160 - - [19/Jan/2019 15:22:05] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 15:22:05,292 fetching temp and humm values from influxdb: 0.043s
+INFO 2019-01-19 15:22:05,308 192.168.0.160 - - [19/Jan/2019 15:22:05] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 15:22:05,561 fetching temp and humm values from influxdb: 0.024s
+INFO 2019-01-19 15:22:05,570 192.168.0.160 - - [19/Jan/2019 15:22:05] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 15:22:12,699 fetching temp and humm values from influxdb: 0.045s
+INFO 2019-01-19 15:22:12,716 192.168.0.160 - - [19/Jan/2019 15:22:12] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 15:22:13,509 fetching temp and humm values from influxdb: 0.042s
+INFO 2019-01-19 15:22:13,526 192.168.0.160 - - [19/Jan/2019 15:22:13] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 15:22:13,758 fetching temp and humm values from influxdb: 0.024s
+INFO 2019-01-19 15:22:13,766 192.168.0.160 - - [19/Jan/2019 15:22:13] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 15:22:14,729 fetching temp and humm values from influxdb: 0.04s
+INFO 2019-01-19 15:22:14,745 192.168.0.160 - - [19/Jan/2019 15:22:14] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 15:23:40,247 fetching temp and humm values from influxdb: 0.045s
+INFO 2019-01-19 15:23:40,360 192.168.0.160 - - [19/Jan/2019 15:23:40] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 15:23:40,399 192.168.0.160 - - [19/Jan/2019 15:23:40] "GET /static/img/iota_monitor.png HTTP/1.1" 200 -
+INFO 2019-01-19 15:33:43,439 reading log files: 0.005
+INFO 2019-01-19 15:33:43,561 192.168.0.160 - - [19/Jan/2019 15:33:43] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 15:33:43,595 reading log files: 0.004
+INFO 2019-01-19 15:33:43,622 192.168.0.160 - - [19/Jan/2019 15:33:43] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 15:33:52,677 fetching temp and humm values from influxdb: 0.046s
+INFO 2019-01-19 15:33:52,693 192.168.0.160 - - [19/Jan/2019 15:33:52] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 15:33:52,749 fetching temp and humm values from influxdb: 0.049s
+INFO 2019-01-19 15:33:52,759 192.168.0.160 - - [19/Jan/2019 15:33:52] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 15:34:27,758 fetching temp and humm values from influxdb: 0.044s
+INFO 2019-01-19 15:34:27,775 192.168.0.160 - - [19/Jan/2019 15:34:27] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 15:34:28,091 fetching temp and humm values from influxdb: 0.045s
+INFO 2019-01-19 15:34:28,108 192.168.0.160 - - [19/Jan/2019 15:34:28] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 15:34:35,355 fetching temp and humm values from influxdb: 0.04s
+INFO 2019-01-19 15:34:35,371 192.168.0.160 - - [19/Jan/2019 15:34:35] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 15:34:35,507 192.168.0.160 - - [19/Jan/2019 15:34:35] "GET /static/reset.css HTTP/1.1" 200 -
+INFO 2019-01-19 15:34:35,519 192.168.0.160 - - [19/Jan/2019 15:34:35] "GET /static/style.css HTTP/1.1" 200 -
+INFO 2019-01-19 15:34:35,532 192.168.0.160 - - [19/Jan/2019 15:34:35] "GET /static/dropdownbutton.js HTTP/1.1" 200 -
+INFO 2019-01-19 15:34:35,544 192.168.0.160 - - [19/Jan/2019 15:34:35] "GET /static/graphs.js HTTP/1.1" 200 -
+INFO 2019-01-19 15:34:35,556 192.168.0.160 - - [19/Jan/2019 15:34:35] "GET /static/img/iota_monitor.png HTTP/1.1" 200 -
+INFO 2019-01-19 15:34:35,948 fetching temp and humm values from influxdb: 0.024s
+INFO 2019-01-19 15:34:35,956 192.168.0.160 - - [19/Jan/2019 15:34:35] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 15:35:46,381 fetching temp and humm values from influxdb: 0.043s
+INFO 2019-01-19 15:35:46,396 192.168.0.160 - - [19/Jan/2019 15:35:46] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 15:35:46,674 fetching temp and humm values from influxdb: 0.04s
+INFO 2019-01-19 15:35:46,690 192.168.0.160 - - [19/Jan/2019 15:35:46] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 15:35:47,830 fetching temp and humm values from influxdb: 0.041s
+INFO 2019-01-19 15:35:47,846 192.168.0.160 - - [19/Jan/2019 15:35:47] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 15:35:48,153 fetching temp and humm values from influxdb: 0.04s
+INFO 2019-01-19 15:35:48,169 192.168.0.160 - - [19/Jan/2019 15:35:48] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 15:35:49,234 fetching temp and humm values from influxdb: 0.046s
+INFO 2019-01-19 15:35:49,250 192.168.0.160 - - [19/Jan/2019 15:35:49] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 15:36:03,541 fetching temp and humm values from influxdb: 0.043s
+INFO 2019-01-19 15:36:03,557 192.168.0.160 - - [19/Jan/2019 15:36:03] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 15:36:04,341 fetching temp and humm values from influxdb: 0.046s
+INFO 2019-01-19 15:36:04,357 192.168.0.160 - - [19/Jan/2019 15:36:04] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 15:36:04,628 fetching temp and humm values from influxdb: 0.042s
+INFO 2019-01-19 15:36:04,644 192.168.0.160 - - [19/Jan/2019 15:36:04] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 15:36:05,518 fetching temp and humm values from influxdb: 0.041s
+INFO 2019-01-19 15:36:05,534 192.168.0.160 - - [19/Jan/2019 15:36:05] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 17:41:48,377 fetching temp and humm values from influxdb: 0.055s
+INFO 2019-01-19 17:41:48,393 192.168.0.160 - - [19/Jan/2019 17:41:48] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 17:41:48,483 192.168.0.160 - - [19/Jan/2019 17:41:48] "GET /static/reset.css HTTP/1.1" 200 -
+INFO 2019-01-19 17:41:48,494 192.168.0.160 - - [19/Jan/2019 17:41:48] "GET /static/style.css HTTP/1.1" 200 -
+INFO 2019-01-19 17:41:48,505 192.168.0.160 - - [19/Jan/2019 17:41:48] "GET /static/dropdownbutton.js HTTP/1.1" 200 -
+INFO 2019-01-19 17:41:48,516 192.168.0.160 - - [19/Jan/2019 17:41:48] "GET /static/graphs.js HTTP/1.1" 200 -
+INFO 2019-01-19 17:41:48,527 192.168.0.160 - - [19/Jan/2019 17:41:48] "GET /static/img/iota_monitor.png HTTP/1.1" 200 -
+INFO 2019-01-19 17:43:30,492 fetching temp and humm values from influxdb: 0.047s
+INFO 2019-01-19 17:43:30,508 192.168.0.160 - - [19/Jan/2019 17:43:30] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 17:43:51,835 fetching temp and humm values from influxdb: 0.051s
+INFO 2019-01-19 17:43:51,851 192.168.0.160 - - [19/Jan/2019 17:43:51] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 17:43:51,888 192.168.0.160 - - [19/Jan/2019 17:43:51] "GET /static/style.css HTTP/1.1" 200 -
+INFO 2019-01-19 17:43:51,899 192.168.0.160 - - [19/Jan/2019 17:43:51] "GET /static/reset.css HTTP/1.1" 200 -
+INFO 2019-01-19 17:43:51,910 192.168.0.160 - - [19/Jan/2019 17:43:51] "GET /static/dropdownbutton.js HTTP/1.1" 200 -
+INFO 2019-01-19 17:43:51,921 192.168.0.160 - - [19/Jan/2019 17:43:51] "GET /static/graphs.js HTTP/1.1" 200 -
+INFO 2019-01-19 17:43:51,934 192.168.0.160 - - [19/Jan/2019 17:43:51] "GET /static/img/iota_monitor.png HTTP/1.1" 200 -
+INFO 2019-01-19 17:44:22,051 fetching transactions from influxdb: 0.053
+INFO 2019-01-19 17:44:22,072 192.168.0.160 - - [19/Jan/2019 17:44:22] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 17:44:28,165 reading log files: 0.006
+INFO 2019-01-19 17:44:28,218 192.168.0.160 - - [19/Jan/2019 17:44:28] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 17:45:57,771 reading log files: 0.003
+INFO 2019-01-19 17:45:57,799 192.168.0.160 - - [19/Jan/2019 17:45:57] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 17:45:58,722 reading log files: 0.003
+INFO 2019-01-19 17:45:58,749 192.168.0.160 - - [19/Jan/2019 17:45:58] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 17:46:08,497 fetching temp and humm values from influxdb: 0.033s
+INFO 2019-01-19 17:46:08,505 192.168.0.160 - - [19/Jan/2019 17:46:08] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 17:46:08,544 192.168.0.160 - - [19/Jan/2019 17:46:08] "GET /static/reset.css HTTP/1.1" 200 -
+INFO 2019-01-19 17:46:08,550 192.168.0.160 - - [19/Jan/2019 17:46:08] "GET /static/style.css HTTP/1.1" 200 -
+INFO 2019-01-19 17:46:08,558 192.168.0.160 - - [19/Jan/2019 17:46:08] "GET /static/dropdownbutton.js HTTP/1.1" 200 -
+INFO 2019-01-19 17:46:08,565 192.168.0.160 - - [19/Jan/2019 17:46:08] "GET /static/graphs.js HTTP/1.1" 200 -
+INFO 2019-01-19 17:46:08,573 192.168.0.160 - - [19/Jan/2019 17:46:08] "GET /static/img/iota_monitor.png HTTP/1.1" 200 -
+INFO 2019-01-19 17:46:15,361 fetching transactions from influxdb: 0.036
+INFO 2019-01-19 17:46:15,374 192.168.0.160 - - [19/Jan/2019 17:46:15] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 17:46:58,170 fetching transactions from influxdb: 0.031
+INFO 2019-01-19 17:46:58,182 192.168.0.160 - - [19/Jan/2019 17:46:58] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 17:46:58,217 192.168.0.160 - - [19/Jan/2019 17:46:58] "GET /static/reset.css HTTP/1.1" 200 -
+INFO 2019-01-19 17:46:58,224 192.168.0.160 - - [19/Jan/2019 17:46:58] "GET /static/style.css HTTP/1.1" 200 -
+INFO 2019-01-19 17:46:58,232 192.168.0.160 - - [19/Jan/2019 17:46:58] "GET /static/dropdownbutton.js HTTP/1.1" 200 -
+INFO 2019-01-19 17:46:58,239 192.168.0.160 - - [19/Jan/2019 17:46:58] "GET /static/img/iota_monitor.png HTTP/1.1" 200 -
+INFO 2019-01-19 17:46:58,419 fetching transactions from influxdb: 0.031
+INFO 2019-01-19 17:46:58,430 192.168.0.160 - - [19/Jan/2019 17:46:58] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 17:47:00,178 fetching transactions from influxdb: 0.032
+INFO 2019-01-19 17:47:00,189 192.168.0.160 - - [19/Jan/2019 17:47:00] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 17:47:01,045 fetching transactions from influxdb: 0.033
+INFO 2019-01-19 17:47:01,056 192.168.0.160 - - [19/Jan/2019 17:47:01] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 17:47:13,960 fetching transactions from influxdb: 0.029
+INFO 2019-01-19 17:47:13,970 192.168.0.160 - - [19/Jan/2019 17:47:13] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 17:47:14,005 192.168.0.160 - - [19/Jan/2019 17:47:14] "GET /static/reset.css HTTP/1.1" 200 -
+INFO 2019-01-19 17:47:14,012 192.168.0.160 - - [19/Jan/2019 17:47:14] "GET /static/style.css HTTP/1.1" 200 -
+INFO 2019-01-19 17:47:14,019 192.168.0.160 - - [19/Jan/2019 17:47:14] "GET /static/dropdownbutton.js HTTP/1.1" 200 -
+INFO 2019-01-19 17:47:14,026 192.168.0.160 - - [19/Jan/2019 17:47:14] "GET /static/img/iota_monitor.png HTTP/1.1" 200 -
+INFO 2019-01-19 17:47:24,913 fetching transactions from influxdb: 0.03
+INFO 2019-01-19 17:47:24,924 192.168.0.160 - - [19/Jan/2019 17:47:24] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 17:47:24,963 192.168.0.160 - - [19/Jan/2019 17:47:24] "GET /static/reset.css HTTP/1.1" 200 -
+INFO 2019-01-19 17:47:24,970 192.168.0.160 - - [19/Jan/2019 17:47:24] "GET /static/img/iota_monitor.png HTTP/1.1" 200 -
+INFO 2019-01-19 17:47:24,977 192.168.0.160 - - [19/Jan/2019 17:47:24] "GET /static/dropdownbutton.js HTTP/1.1" 200 -
+INFO 2019-01-19 17:47:24,984 192.168.0.160 - - [19/Jan/2019 17:47:24] "GET /static/style.css HTTP/1.1" 200 -
+INFO 2019-01-19 17:47:43,380 fetching temp and humm values from influxdb: 0.028s
+INFO 2019-01-19 17:47:43,388 192.168.0.160 - - [19/Jan/2019 17:47:43] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 17:47:43,422 192.168.0.160 - - [19/Jan/2019 17:47:43] "GET /static/graphs.js HTTP/1.1" 200 -
+INFO 2019-01-19 17:47:47,308 fetching transactions from influxdb: 0.03
+INFO 2019-01-19 17:47:47,319 192.168.0.160 - - [19/Jan/2019 17:47:47] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 17:47:58,647 reading log files: 0.003
+INFO 2019-01-19 17:47:58,676 192.168.0.160 - - [19/Jan/2019 17:47:58] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 17:48:24,506 fetching temp and humm values from influxdb: 0.027s
+INFO 2019-01-19 17:48:24,514 192.168.0.160 - - [19/Jan/2019 17:48:24] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 19:42:21,919 connected to influxdb using database: sensorvaluesiota
+INFO 2019-01-19 19:42:22,097  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO 2019-01-19 19:42:22,104  * Restarting with stat
+INFO 2019-01-19 19:42:24,281 connected to influxdb using database: sensorvaluesiota
+WARNING 2019-01-19 19:42:24,375  * Debugger is active!
+INFO 2019-01-19 19:42:24,377  * Debugger pin code: 978-154-476
+INFO 2019-01-19 19:45:35,423 fetching temp and humm values from influxdb: 0.071s
+INFO 2019-01-19 19:45:35,525 192.168.0.160 - - [19/Jan/2019 19:45:35] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 19:45:35,751 192.168.0.160 - - [19/Jan/2019 19:45:35] "GET /static/img/iota_monitor.png HTTP/1.1" 200 -
+INFO 2019-01-19 19:45:45,381 fetching transactions from influxdb: 0.033
+INFO 2019-01-19 19:45:45,421 192.168.0.160 - - [19/Jan/2019 19:45:45] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 19:45:53,400 reading log files: 0.016
+INFO 2019-01-19 19:45:53,465 192.168.0.160 - - [19/Jan/2019 19:45:53] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 19:46:02,912 fetching temp and humm values from influxdb: 0.027s
+INFO 2019-01-19 19:46:02,921 192.168.0.160 - - [19/Jan/2019 19:46:02] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 19:46:14,588 fetching transactions from influxdb: 0.031
+INFO 2019-01-19 19:46:14,600 192.168.0.160 - - [19/Jan/2019 19:46:14] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 19:46:44,437 fetching temp and humm values from influxdb: 0.028s
+INFO 2019-01-19 19:46:44,445 192.168.0.160 - - [19/Jan/2019 19:46:44] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 19:47:13,713 fetching transactions from influxdb: 0.035
+INFO 2019-01-19 19:47:13,725 192.168.0.160 - - [19/Jan/2019 19:47:13] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 19:47:17,621 reading log files: 0.003
+INFO 2019-01-19 19:47:17,653 192.168.0.160 - - [19/Jan/2019 19:47:17] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 19:47:44,574 fetching transactions from influxdb: 0.031
+INFO 2019-01-19 19:47:44,586 192.168.0.160 - - [19/Jan/2019 19:47:44] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 19:47:51,415 fetching temp and humm values from influxdb: 0.052s
+INFO 2019-01-19 19:47:51,423 192.168.0.160 - - [19/Jan/2019 19:47:51] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 19:48:05,837 fetching temp and humm values from influxdb: 0.027s
+INFO 2019-01-19 19:48:05,846 192.168.0.160 - - [19/Jan/2019 19:48:05] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 19:48:06,824 fetching temp and humm values from influxdb: 0.048s
+INFO 2019-01-19 19:48:06,833 192.168.0.160 - - [19/Jan/2019 19:48:06] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 19:49:49,214 fetching temp and humm values from influxdb: 0.028s
+INFO 2019-01-19 19:49:49,222 192.168.0.160 - - [19/Jan/2019 19:49:49] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 19:49:50,745 fetching transactions from influxdb: 0.032
+INFO 2019-01-19 19:49:50,757 192.168.0.160 - - [19/Jan/2019 19:49:50] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 19:49:53,039 reading log files: 0.003
+INFO 2019-01-19 19:49:53,072 192.168.0.160 - - [19/Jan/2019 19:49:53] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 19:51:33,617 fetching temp and humm values from influxdb: 0.068s
+INFO 2019-01-19 19:51:33,625 192.168.0.160 - - [19/Jan/2019 19:51:33] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 20:10:04,272 fetching transactions from influxdb: 0.062
+INFO 2019-01-19 20:10:04,296 192.168.0.160 - - [19/Jan/2019 20:10:04] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 20:10:08,700 reading log files: 0.007
+INFO 2019-01-19 20:10:08,766 192.168.0.160 - - [19/Jan/2019 20:10:08] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 20:26:29,757 reading log files: 0.004
+INFO 2019-01-19 20:26:29,791 192.168.0.160 - - [19/Jan/2019 20:26:29] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 20:27:37,779 fetching temp and humm values from influxdb: 0.054s
+INFO 2019-01-19 20:27:37,795 192.168.0.160 - - [19/Jan/2019 20:27:37] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 20:27:42,909 fetching temp and humm values from influxdb: 0.055s
+INFO 2019-01-19 20:27:42,926 192.168.0.160 - - [19/Jan/2019 20:27:42] "GET / HTTP/1.1" 200 -
+INFO 2019-01-19 20:27:44,009 fetching transactions from influxdb: 0.053
+INFO 2019-01-19 20:27:44,033 192.168.0.160 - - [19/Jan/2019 20:27:44] "GET /transactions HTTP/1.1" 200 -
+INFO 2019-01-19 20:27:47,403 reading log files: 0.007
+INFO 2019-01-19 20:27:47,469 192.168.0.160 - - [19/Jan/2019 20:27:47] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 20:29:29,789 reading log files: 0.004
+INFO 2019-01-19 20:29:29,823 192.168.0.160 - - [19/Jan/2019 20:29:29] "GET /logs HTTP/1.1" 200 -
+INFO 2019-01-19 20:30:00,358 connected to influxdb using database: sensorvaluesiota
+INFO 2019-01-19 20:30:00,547  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO 2019-01-19 20:30:00,599  * Restarting with stat
+INFO 2019-01-19 20:30:02,844 connected to influxdb using database: sensorvaluesiota
+WARNING 2019-01-19 20:30:02,937  * Debugger is active!
+INFO 2019-01-19 20:30:02,939  * Debugger pin code: 978-154-476
+INFO 2019-01-19 20:53:49,047 fetching temp and humm values from influxdb: 0.077s
+INFO 2019-01-19 20:53:49,151 192.168.0.160 - - [19/Jan/2019 20:53:49] "GET / HTTP/1.1" 200 -

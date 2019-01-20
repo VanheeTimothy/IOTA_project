@@ -39,7 +39,7 @@ var lineChartData = {
     },
         {
             label: "DHT-11",
-            fill: false,
+            fill: true,
             lineTension: 0.9,
             backgroundColor: "rgba(232,58,61,0.4)",
             borderColor: "rgba(232,58,61,1)",

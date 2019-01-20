@@ -18,7 +18,7 @@ INFO 2019-01-19 12:53:19,867 fetching temp and humm values from influxdb: 0.03s
 INFO 2019-01-19 12:53:19,968 192.168.0.160 - - [19/Jan/2019 12:53:19] "GET / HTTP/1.1" 200 -
 INFO 2019-01-19 12:53:20,020 192.168.0.160 - - [19/Jan/2019 12:53:20] "GET /static/reset.css HTTP/1.1" 200 -
 INFO 2019-01-19 12:53:20,033 192.168.0.160 - - [19/Jan/2019 12:53:20] "GET /static/style.css HTTP/1.1" 200 -
-INFO 2019-01-19 12:53:20,046 192.168.0.160 - - [19/Jan/2019 12:53:20] "GET /static/graphs.js HTTP/1.1" 200 -
+INFO 2019-01-19 12:53:20,046 192.168.0.160 - - [19/Jan/2019 12:53:20] "GET /static/sensorcharts.js HTTP/1.1" 200 -
 INFO 2019-01-19 12:53:27,723 192.168.0.160 - - [19/Jan/2019 12:53:27] "GET /favicon.ico HTTP/1.1" 404 -
 INFO 2019-01-19 12:53:55,467 reading log files: 0.001
 INFO 2019-01-19 12:53:55,532 192.168.0.160 - - [19/Jan/2019 12:53:55] "GET /logs HTTP/1.1" 200 -
@@ -190,7 +190,7 @@ INFO 2019-01-19 13:37:38,503 192.168.0.160 - - [19/Jan/2019 13:37:38] "GET / HTT
 INFO 2019-01-19 13:37:38,600 192.168.0.160 - - [19/Jan/2019 13:37:38] "GET /static/reset.css HTTP/1.1" 200 -
 INFO 2019-01-19 13:37:38,607 192.168.0.160 - - [19/Jan/2019 13:37:38] "GET /static/style.css HTTP/1.1" 200 -
 INFO 2019-01-19 13:37:38,613 192.168.0.160 - - [19/Jan/2019 13:37:38] "GET /static/dropdownbutton.js HTTP/1.1" 200 -
-INFO 2019-01-19 13:37:38,619 192.168.0.160 - - [19/Jan/2019 13:37:38] "GET /static/graphs.js HTTP/1.1" 200 -
+INFO 2019-01-19 13:37:38,619 192.168.0.160 - - [19/Jan/2019 13:37:38] "GET /static/sensorcharts.js HTTP/1.1" 200 -
 INFO 2019-01-19 13:37:45,097 fetching transactions from influxdb: 0.042
 INFO 2019-01-19 13:37:45,113 192.168.0.160 - - [19/Jan/2019 13:37:45] "GET /transactions HTTP/1.1" 200 -
 INFO 2019-01-19 13:38:35,839 fetching transactions from influxdb: 0.022
@@ -267,7 +267,7 @@ INFO 2019-01-19 14:20:46,538 192.168.0.160 - - [19/Jan/2019 14:20:46] "GET /logs
 INFO 2019-01-19 14:20:46,598 192.168.0.160 - - [19/Jan/2019 14:20:46] "GET /static/reset.css HTTP/1.1" 200 -
 INFO 2019-01-19 14:20:46,605 192.168.0.160 - - [19/Jan/2019 14:20:46] "GET /static/style.css HTTP/1.1" 200 -
 INFO 2019-01-19 14:20:46,611 192.168.0.160 - - [19/Jan/2019 14:20:46] "GET /static/dropdownbutton.js HTTP/1.1" 200 -
-INFO 2019-01-19 14:20:46,628 192.168.0.160 - - [19/Jan/2019 14:20:46] "GET /static/graphs.js HTTP/1.1" 200 -
+INFO 2019-01-19 14:20:46,628 192.168.0.160 - - [19/Jan/2019 14:20:46] "GET /static/sensorcharts.js HTTP/1.1" 200 -
 INFO 2019-01-19 14:21:08,337 fetching transactions from influxdb: 0.047
 INFO 2019-01-19 14:21:08,354 192.168.0.160 - - [19/Jan/2019 14:21:08] "GET /transactions HTTP/1.1" 200 -
 INFO 2019-01-19 14:21:11,141 reading log files: 0.003
@@ -409,7 +409,7 @@ INFO 2019-01-19 14:50:56,761 fetching transactions from influxdb: 0.026
 INFO 2019-01-19 14:50:56,770 192.168.0.160 - - [19/Jan/2019 14:50:56] "GET /transactions HTTP/1.1" 200 -
 INFO 2019-01-19 14:51:00,952 fetching temp and humm values from influxdb: 0.043s
 INFO 2019-01-19 14:51:00,968 192.168.0.160 - - [19/Jan/2019 14:51:00] "GET / HTTP/1.1" 200 -
-INFO 2019-01-19 14:51:01,003 192.168.0.160 - - [19/Jan/2019 14:51:01] "GET /static/graphs.js HTTP/1.1" 200 -
+INFO 2019-01-19 14:51:01,003 192.168.0.160 - - [19/Jan/2019 14:51:01] "GET /static/sensorcharts.js HTTP/1.1" 200 -
 INFO 2019-01-19 14:51:32,546 reading log files: 0.005
 INFO 2019-01-19 14:51:32,587 192.168.0.160 - - [19/Jan/2019 14:51:32] "GET /logs HTTP/1.1" 200 -
 INFO 2019-01-19 14:51:32,626 reading log files: 0.002
@@ -490,7 +490,7 @@ INFO 2019-01-19 15:34:35,371 192.168.0.160 - - [19/Jan/2019 15:34:35] "GET / HTT
 INFO 2019-01-19 15:34:35,507 192.168.0.160 - - [19/Jan/2019 15:34:35] "GET /static/reset.css HTTP/1.1" 200 -
 INFO 2019-01-19 15:34:35,519 192.168.0.160 - - [19/Jan/2019 15:34:35] "GET /static/style.css HTTP/1.1" 200 -
 INFO 2019-01-19 15:34:35,532 192.168.0.160 - - [19/Jan/2019 15:34:35] "GET /static/dropdownbutton.js HTTP/1.1" 200 -
-INFO 2019-01-19 15:34:35,544 192.168.0.160 - - [19/Jan/2019 15:34:35] "GET /static/graphs.js HTTP/1.1" 200 -
+INFO 2019-01-19 15:34:35,544 192.168.0.160 - - [19/Jan/2019 15:34:35] "GET /static/sensorcharts.js HTTP/1.1" 200 -
 INFO 2019-01-19 15:34:35,556 192.168.0.160 - - [19/Jan/2019 15:34:35] "GET /static/img/iota_monitor.png HTTP/1.1" 200 -
 INFO 2019-01-19 15:34:35,948 fetching temp and humm values from influxdb: 0.024s
 INFO 2019-01-19 15:34:35,956 192.168.0.160 - - [19/Jan/2019 15:34:35] "GET / HTTP/1.1" 200 -
@@ -517,7 +517,7 @@ INFO 2019-01-19 17:41:48,393 192.168.0.160 - - [19/Jan/2019 17:41:48] "GET / HTT
 INFO 2019-01-19 17:41:48,483 192.168.0.160 - - [19/Jan/2019 17:41:48] "GET /static/reset.css HTTP/1.1" 200 -
 INFO 2019-01-19 17:41:48,494 192.168.0.160 - - [19/Jan/2019 17:41:48] "GET /static/style.css HTTP/1.1" 200 -
 INFO 2019-01-19 17:41:48,505 192.168.0.160 - - [19/Jan/2019 17:41:48] "GET /static/dropdownbutton.js HTTP/1.1" 200 -
-INFO 2019-01-19 17:41:48,516 192.168.0.160 - - [19/Jan/2019 17:41:48] "GET /static/graphs.js HTTP/1.1" 200 -
+INFO 2019-01-19 17:41:48,516 192.168.0.160 - - [19/Jan/2019 17:41:48] "GET /static/sensorcharts.js HTTP/1.1" 200 -
 INFO 2019-01-19 17:41:48,527 192.168.0.160 - - [19/Jan/2019 17:41:48] "GET /static/img/iota_monitor.png HTTP/1.1" 200 -
 INFO 2019-01-19 17:43:30,492 fetching temp and humm values from influxdb: 0.047s
 INFO 2019-01-19 17:43:30,508 192.168.0.160 - - [19/Jan/2019 17:43:30] "GET / HTTP/1.1" 200 -
@@ -526,7 +526,7 @@ INFO 2019-01-19 17:43:51,851 192.168.0.160 - - [19/Jan/2019 17:43:51] "GET / HTT
 INFO 2019-01-19 17:43:51,888 192.168.0.160 - - [19/Jan/2019 17:43:51] "GET /static/style.css HTTP/1.1" 200 -
 INFO 2019-01-19 17:43:51,899 192.168.0.160 - - [19/Jan/2019 17:43:51] "GET /static/reset.css HTTP/1.1" 200 -
 INFO 2019-01-19 17:43:51,910 192.168.0.160 - - [19/Jan/2019 17:43:51] "GET /static/dropdownbutton.js HTTP/1.1" 200 -
-INFO 2019-01-19 17:43:51,921 192.168.0.160 - - [19/Jan/2019 17:43:51] "GET /static/graphs.js HTTP/1.1" 200 -
+INFO 2019-01-19 17:43:51,921 192.168.0.160 - - [19/Jan/2019 17:43:51] "GET /static/sensorcharts.js HTTP/1.1" 200 -
 INFO 2019-01-19 17:43:51,934 192.168.0.160 - - [19/Jan/2019 17:43:51] "GET /static/img/iota_monitor.png HTTP/1.1" 200 -
 INFO 2019-01-19 17:44:22,051 fetching transactions from influxdb: 0.053
 INFO 2019-01-19 17:44:22,072 192.168.0.160 - - [19/Jan/2019 17:44:22] "GET /transactions HTTP/1.1" 200 -
@@ -541,7 +541,7 @@ INFO 2019-01-19 17:46:08,505 192.168.0.160 - - [19/Jan/2019 17:46:08] "GET / HTT
 INFO 2019-01-19 17:46:08,544 192.168.0.160 - - [19/Jan/2019 17:46:08] "GET /static/reset.css HTTP/1.1" 200 -
 INFO 2019-01-19 17:46:08,550 192.168.0.160 - - [19/Jan/2019 17:46:08] "GET /static/style.css HTTP/1.1" 200 -
 INFO 2019-01-19 17:46:08,558 192.168.0.160 - - [19/Jan/2019 17:46:08] "GET /static/dropdownbutton.js HTTP/1.1" 200 -
-INFO 2019-01-19 17:46:08,565 192.168.0.160 - - [19/Jan/2019 17:46:08] "GET /static/graphs.js HTTP/1.1" 200 -
+INFO 2019-01-19 17:46:08,565 192.168.0.160 - - [19/Jan/2019 17:46:08] "GET /static/sensorcharts.js HTTP/1.1" 200 -
 INFO 2019-01-19 17:46:08,573 192.168.0.160 - - [19/Jan/2019 17:46:08] "GET /static/img/iota_monitor.png HTTP/1.1" 200 -
 INFO 2019-01-19 17:46:15,361 fetching transactions from influxdb: 0.036
 INFO 2019-01-19 17:46:15,374 192.168.0.160 - - [19/Jan/2019 17:46:15] "GET /transactions HTTP/1.1" 200 -
@@ -571,7 +571,7 @@ INFO 2019-01-19 17:47:24,977 192.168.0.160 - - [19/Jan/2019 17:47:24] "GET /stat
 INFO 2019-01-19 17:47:24,984 192.168.0.160 - - [19/Jan/2019 17:47:24] "GET /static/style.css HTTP/1.1" 200 -
 INFO 2019-01-19 17:47:43,380 fetching temp and humm values from influxdb: 0.028s
 INFO 2019-01-19 17:47:43,388 192.168.0.160 - - [19/Jan/2019 17:47:43] "GET / HTTP/1.1" 200 -
-INFO 2019-01-19 17:47:43,422 192.168.0.160 - - [19/Jan/2019 17:47:43] "GET /static/graphs.js HTTP/1.1" 200 -
+INFO 2019-01-19 17:47:43,422 192.168.0.160 - - [19/Jan/2019 17:47:43] "GET /static/sensorcharts.js HTTP/1.1" 200 -
 INFO 2019-01-19 17:47:47,308 fetching transactions from influxdb: 0.03
 INFO 2019-01-19 17:47:47,319 192.168.0.160 - - [19/Jan/2019 17:47:47] "GET /transactions HTTP/1.1" 200 -
 INFO 2019-01-19 17:47:58,647 reading log files: 0.003

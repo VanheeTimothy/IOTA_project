@@ -2,15 +2,15 @@ import logging
 from time import time
 from influxdb import InfluxDBClient
 from model.FetchIotaTxs import FetchIotaTxs
-
+import credentials
 logging.basicConfig(filename='logs/updatedatabase.log', level=logging.INFO, format='%(levelname)s %(asctime)s %(message)s')
 
 mainNet = "https://nodes.thetangle.org:443"
-seed_main_monitor = "CEKYETVXHVZOFEABGSTROBTGPGGGVSBMPYTDCTRCULBWRMDLFXQZ9CQBHUMWVKHOEYXQZG9DEWXJRMLCT"
-target_addres = "OOJTC99SSUPQIQCPVDUBXR9HM9FBZ9PXPNJAWUVRWHEPJWIGUFERAJYWOZCDXRSICYLVRBBYNEXBTEEVD"
+seed_main_monitor = credentials.login["seed_main_monitor"]
+target_address = credentials.login["target_address"]
 
 start = time()
-test1 = FetchIotaTxs(mainNet, seed_main_monitor, [target_addres])
+test1 = FetchIotaTxs(mainNet, seed_main_monitor, [target_address])
 temp_data, humm_data = test1.get_querry_list()
 stop  = time()
 print("duration= "+str(stop-start))
@@ -40,7 +40,6 @@ for db in dblist:
         if db['name'] == db_name:
             db_found = True
         if not(db_found):
-            logging.info('Database <%s> not found, trying to create it', db_name)
             client.create_database(db_name)
 
 

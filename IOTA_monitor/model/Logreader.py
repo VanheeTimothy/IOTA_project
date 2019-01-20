@@ -13,8 +13,12 @@ class LogReader():
             logs = [x.rstrip() for x in f.readlines()]
         return logs
 
-    def readlog2(self):
-        filename = "logs/"+self.name
-        f = subprocess.Popen(['tail', '-F', filename], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-        while True:
-            yield f.stdout.readline()
+
+    def getDatapointslog(self):
+        duration, samples = [], []
+        for line in self.readlog():
+            if line[42:50] == "duration":
+                duration.append(float(line[52:58]))
+            elif line[42:49] == "samples":
+                samples.append(int(line[50:]))
+        return duration, samples

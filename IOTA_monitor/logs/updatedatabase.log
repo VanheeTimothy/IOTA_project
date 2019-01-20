@@ -154,3 +154,302 @@ INFO 2019-01-19 22:07:10,293 fetch iota's duration: 425.549 s
 INFO 2019-01-19 22:07:10,293 total length samples 80
 INFO 2019-01-19 22:07:10,298 duration sorting values: 0.000286 s
 INFO 2019-01-19 22:07:10,299 write data into db
+INFO 2019-01-20 01:54:50,540 fetch iota's duration: 585.427 s
+INFO 2019-01-20 01:54:50,541 total length samples 110
+INFO 2019-01-20 01:54:50,547 duration sorting values: 0.000372 s
+INFO 2019-01-20 01:54:50,575 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 01:54:50,588 write data into db
+INFO 2019-01-20 02:09:58,072 fetch iota's duration: 593.648 s
+INFO 2019-01-20 02:09:58,073 total length samples 112
+INFO 2019-01-20 02:09:58,079 duration sorting values: 0.000369 s
+INFO 2019-01-20 02:09:58,094 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 02:09:58,107 write data into db
+INFO 2019-01-20 02:25:05,950 fetch iota's duration: 601.595 s
+INFO 2019-01-20 02:25:05,950 total length samples 114
+INFO 2019-01-20 02:25:05,957 duration sorting values: 0.000381 s
+INFO 2019-01-20 02:25:05,972 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 02:25:05,985 write data into db
+INFO 2019-01-20 02:40:17,799 fetch iota's duration: 612.756 s
+INFO 2019-01-20 02:40:17,800 total length samples 116
+INFO 2019-01-20 02:40:17,807 duration sorting values: 0.00039 s
+INFO 2019-01-20 02:40:17,823 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 02:40:17,836 write data into db
+INFO 2019-01-20 02:55:26,942 fetch iota's duration: 622.348 s
+INFO 2019-01-20 02:55:26,943 total length samples 118
+INFO 2019-01-20 02:55:26,949 duration sorting values: 0.000393 s
+INFO 2019-01-20 02:55:26,965 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 02:55:26,979 write data into db
+INFO 2019-01-20 03:10:38,038 fetch iota's duration: 633.683 s
+INFO 2019-01-20 03:10:38,039 total length samples 120
+INFO 2019-01-20 03:10:38,045 duration sorting values: 0.000398 s
+INFO 2019-01-20 03:10:38,061 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 03:10:38,075 write data into db
+INFO 2019-01-20 03:25:49,313 fetch iota's duration: 644.18 s
+INFO 2019-01-20 03:25:49,313 total length samples 122
+INFO 2019-01-20 03:25:49,320 duration sorting values: 0.000403 s
+INFO 2019-01-20 03:25:49,337 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 03:25:49,350 write data into db
+INFO 2019-01-20 03:41:00,354 fetch iota's duration: 655.602 s
+INFO 2019-01-20 03:41:00,355 total length samples 124
+INFO 2019-01-20 03:41:00,362 duration sorting values: 0.000408 s
+INFO 2019-01-20 03:41:00,377 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 03:41:00,391 write data into db
+INFO 2019-01-20 03:56:09,538 fetch iota's duration: 665.147 s
+INFO 2019-01-20 03:56:09,539 total length samples 126
+INFO 2019-01-20 03:56:09,546 duration sorting values: 0.000467 s
+INFO 2019-01-20 03:56:09,563 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 03:56:09,576 write data into db
+INFO 2019-01-20 04:11:27,634 fetch iota's duration: 682.661 s
+INFO 2019-01-20 04:11:27,635 total length samples 128
+INFO 2019-01-20 04:11:27,642 duration sorting values: 0.000426 s
+INFO 2019-01-20 04:11:27,657 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 04:11:27,671 write data into db
+INFO 2019-01-20 04:26:33,385 fetch iota's duration: 688.663 s
+INFO 2019-01-20 04:26:33,386 total length samples 130
+INFO 2019-01-20 04:26:33,393 duration sorting values: 0.00045 s
+INFO 2019-01-20 04:26:33,409 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 04:26:33,423 write data into db
+INFO 2019-01-20 04:41:41,722 fetch iota's duration: 697.376 s
+INFO 2019-01-20 04:41:41,723 total length samples 132
+INFO 2019-01-20 04:41:41,730 duration sorting values: 0.00044 s
+INFO 2019-01-20 04:41:41,745 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 04:41:41,758 write data into db
+INFO 2019-01-20 04:56:51,875 fetch iota's duration: 706.879 s
+INFO 2019-01-20 04:56:51,876 total length samples 134
+INFO 2019-01-20 04:56:51,883 duration sorting values: 0.000446 s
+INFO 2019-01-20 04:56:51,898 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 04:56:51,912 write data into db
+INFO 2019-01-20 05:12:01,320 fetch iota's duration: 716.452 s
+INFO 2019-01-20 05:12:01,321 total length samples 136
+INFO 2019-01-20 05:12:01,328 duration sorting values: 0.000456 s
+INFO 2019-01-20 05:12:01,348 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 05:12:01,364 write data into db
+INFO 2019-01-20 05:27:11,921 fetch iota's duration: 727.253 s
+INFO 2019-01-20 05:27:11,921 total length samples 138
+INFO 2019-01-20 05:27:11,929 duration sorting values: 0.000467 s
+INFO 2019-01-20 05:27:11,945 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 05:27:11,959 write data into db
+INFO 2019-01-20 05:42:28,528 fetch iota's duration: 744.182 s
+INFO 2019-01-20 05:42:28,529 total length samples 140
+INFO 2019-01-20 05:42:28,536 duration sorting values: 0.000473 s
+INFO 2019-01-20 05:42:28,552 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 05:42:28,566 write data into db
+INFO 2019-01-20 05:57:34,432 fetch iota's duration: 749.447 s
+INFO 2019-01-20 05:57:34,433 total length samples 142
+INFO 2019-01-20 05:57:34,440 duration sorting values: 0.000481 s
+INFO 2019-01-20 05:57:34,456 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 05:57:34,469 write data into db
+INFO 2019-01-20 06:12:44,968 fetch iota's duration: 760.47 s
+INFO 2019-01-20 06:12:44,969 total length samples 144
+INFO 2019-01-20 06:12:44,977 duration sorting values: 0.000535 s
+INFO 2019-01-20 06:12:44,993 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 06:12:45,007 write data into db
+INFO 2019-01-20 06:27:54,449 fetch iota's duration: 770.118 s
+INFO 2019-01-20 06:27:54,449 total length samples 146
+INFO 2019-01-20 06:27:54,457 duration sorting values: 0.00048 s
+INFO 2019-01-20 06:27:54,472 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 06:27:54,486 write data into db
+INFO 2019-01-20 06:43:05,139 fetch iota's duration: 780.388 s
+INFO 2019-01-20 06:43:05,140 total length samples 148
+INFO 2019-01-20 06:43:05,148 duration sorting values: 0.000488 s
+INFO 2019-01-20 06:43:05,163 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 06:43:05,177 write data into db
+INFO 2019-01-20 06:58:14,564 fetch iota's duration: 790.095 s
+INFO 2019-01-20 06:58:14,565 total length samples 150
+INFO 2019-01-20 06:58:14,573 duration sorting values: 0.00049 s
+INFO 2019-01-20 06:58:14,589 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 06:58:14,603 write data into db
+INFO 2019-01-20 07:13:26,757 fetch iota's duration: 802.036 s
+INFO 2019-01-20 07:13:26,758 total length samples 152
+INFO 2019-01-20 07:13:26,766 duration sorting values: 0.000519 s
+INFO 2019-01-20 07:13:26,783 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 07:13:26,796 write data into db
+INFO 2019-01-20 07:28:35,833 fetch iota's duration: 811.549 s
+INFO 2019-01-20 07:28:35,833 total length samples 154
+INFO 2019-01-20 07:28:35,842 duration sorting values: 0.000512 s
+INFO 2019-01-20 07:28:35,857 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 07:28:35,870 write data into db
+INFO 2019-01-20 07:43:46,426 fetch iota's duration: 821.395 s
+INFO 2019-01-20 07:43:46,426 total length samples 156
+INFO 2019-01-20 07:43:46,435 duration sorting values: 0.000521 s
+INFO 2019-01-20 07:43:46,450 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 07:43:46,464 write data into db
+INFO 2019-01-20 07:58:56,308 fetch iota's duration: 831.451 s
+INFO 2019-01-20 07:58:56,309 total length samples 158
+INFO 2019-01-20 07:58:56,318 duration sorting values: 0.000594 s
+INFO 2019-01-20 07:58:56,333 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 07:58:56,347 write data into db
+INFO 2019-01-20 08:14:09,366 fetch iota's duration: 844.633 s
+INFO 2019-01-20 08:14:09,367 total length samples 160
+INFO 2019-01-20 08:14:09,375 duration sorting values: 0.000538 s
+INFO 2019-01-20 08:14:09,392 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 08:14:09,406 write data into db
+INFO 2019-01-20 08:29:19,563 fetch iota's duration: 855.067 s
+INFO 2019-01-20 08:29:19,563 total length samples 162
+INFO 2019-01-20 08:29:19,572 duration sorting values: 0.000537 s
+INFO 2019-01-20 08:29:19,589 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 08:29:19,604 write data into db
+INFO 2019-01-20 08:44:27,160 fetch iota's duration: 862.871 s
+INFO 2019-01-20 08:44:27,161 total length samples 164
+INFO 2019-01-20 08:44:27,170 duration sorting values: 0.000536 s
+INFO 2019-01-20 08:44:27,185 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 08:44:27,199 write data into db
+INFO 2019-01-20 08:59:41,427 fetch iota's duration: 876.476 s
+INFO 2019-01-20 08:59:41,427 total length samples 166
+INFO 2019-01-20 08:59:41,436 duration sorting values: 0.000573 s
+INFO 2019-01-20 08:59:41,454 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 08:59:41,468 write data into db
+INFO 2019-01-20 09:14:51,096 fetch iota's duration: 886.447 s
+INFO 2019-01-20 09:14:51,096 total length samples 168
+INFO 2019-01-20 09:14:51,106 duration sorting values: 0.000556 s
+INFO 2019-01-20 09:14:51,121 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 09:14:51,136 write data into db
+INFO 2019-01-20 09:30:00,696 fetch iota's duration: 896.279 s
+INFO 2019-01-20 09:30:00,696 total length samples 170
+INFO 2019-01-20 09:30:00,705 duration sorting values: 0.000567 s
+INFO 2019-01-20 09:30:00,721 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 09:30:00,735 write data into db
+INFO 2019-01-20 09:45:11,071 fetch iota's duration: 905.982 s
+INFO 2019-01-20 09:45:11,072 total length samples 172
+INFO 2019-01-20 09:45:11,081 duration sorting values: 0.000591 s
+INFO 2019-01-20 09:45:11,097 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 09:45:11,111 write data into db
+INFO 2019-01-20 10:00:20,756 fetch iota's duration: 916.033 s
+INFO 2019-01-20 10:00:20,757 total length samples 174
+INFO 2019-01-20 10:00:20,766 duration sorting values: 0.000583 s
+INFO 2019-01-20 10:00:20,782 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 10:00:20,795 write data into db
+INFO 2019-01-20 10:15:29,836 fetch iota's duration: 925.491 s
+INFO 2019-01-20 10:15:29,836 total length samples 176
+INFO 2019-01-20 10:15:29,846 duration sorting values: 0.000594 s
+INFO 2019-01-20 10:15:29,868 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 10:15:29,882 write data into db
+INFO 2019-01-20 10:30:42,169 fetch iota's duration: 937.211 s
+INFO 2019-01-20 10:30:42,170 total length samples 178
+INFO 2019-01-20 10:30:42,180 duration sorting values: 0.000608 s
+INFO 2019-01-20 10:30:42,195 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 10:30:42,208 write data into db
+INFO 2019-01-20 10:45:58,937 fetch iota's duration: 954.372 s
+INFO 2019-01-20 10:45:58,938 total length samples 180
+INFO 2019-01-20 10:45:58,948 duration sorting values: 0.000646 s
+INFO 2019-01-20 10:45:58,964 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 10:45:58,978 write data into db
+INFO 2019-01-20 11:01:01,837 fetch iota's duration: 957.703 s
+INFO 2019-01-20 11:01:01,838 total length samples 182
+INFO 2019-01-20 11:01:01,848 duration sorting values: 0.000591 s
+INFO 2019-01-20 11:01:01,863 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 11:01:01,877 write data into db
+INFO 2019-01-20 11:16:14,162 fetch iota's duration: 969.275 s
+INFO 2019-01-20 11:16:14,162 total length samples 184
+INFO 2019-01-20 11:16:14,172 duration sorting values: 0.000618 s
+INFO 2019-01-20 11:16:14,190 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 11:16:14,204 write data into db
+INFO 2019-01-20 11:31:24,324 fetch iota's duration: 979.662 s
+INFO 2019-01-20 11:31:24,324 total length samples 186
+INFO 2019-01-20 11:31:24,334 duration sorting values: 0.000614 s
+INFO 2019-01-20 11:31:24,351 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 11:31:24,366 write data into db
+INFO 2019-01-20 11:46:38,765 fetch iota's duration: 994.406 s
+INFO 2019-01-20 11:46:38,766 total length samples 188
+INFO 2019-01-20 11:46:38,776 duration sorting values: 0.000638 s
+INFO 2019-01-20 11:46:38,793 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 11:46:38,808 write data into db
+INFO 2019-01-20 12:01:46,264 fetch iota's duration: 1001.325 s
+INFO 2019-01-20 12:01:46,265 total length samples 190
+INFO 2019-01-20 12:01:46,275 duration sorting values: 0.000638 s
+INFO 2019-01-20 12:01:46,290 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 12:01:46,305 write data into db
+INFO 2019-01-20 12:16:56,375 fetch iota's duration: 1011.9 s
+INFO 2019-01-20 12:16:56,376 total length samples 192
+INFO 2019-01-20 12:16:56,387 duration sorting values: 0.000649 s
+INFO 2019-01-20 12:16:56,402 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 12:16:56,417 write data into db
+INFO 2019-01-20 12:32:10,995 fetch iota's duration: 1026.821 s
+INFO 2019-01-20 12:32:10,996 total length samples 194
+INFO 2019-01-20 12:32:11,006 duration sorting values: 0.000658 s
+INFO 2019-01-20 12:32:11,023 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 12:32:11,036 write data into db
+INFO 2019-01-20 12:47:16,361 fetch iota's duration: 1031.458 s
+INFO 2019-01-20 12:47:16,362 total length samples 196
+INFO 2019-01-20 12:47:16,372 duration sorting values: 0.000658 s
+INFO 2019-01-20 12:47:16,387 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 12:47:16,401 write data into db
+INFO 2019-01-20 13:02:27,173 fetch iota's duration: 1042.567 s
+INFO 2019-01-20 13:02:27,174 total length samples 198
+INFO 2019-01-20 13:02:27,184 duration sorting values: 0.000653 s
+INFO 2019-01-20 13:02:27,199 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 13:02:27,212 write data into db
+INFO 2019-01-20 13:17:38,310 fetch iota's duration: 1053.897 s
+INFO 2019-01-20 13:17:38,311 total length samples 200
+INFO 2019-01-20 13:17:38,322 duration sorting values: 0.000653 s
+INFO 2019-01-20 13:17:38,339 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 13:17:38,354 write data into db
+INFO 2019-01-20 13:32:47,542 fetch iota's duration: 1062.506 s
+INFO 2019-01-20 13:32:47,543 total length samples 202
+INFO 2019-01-20 13:32:47,553 duration sorting values: 0.000664 s
+INFO 2019-01-20 13:32:47,569 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 13:32:47,583 write data into db
+INFO 2019-01-20 13:47:57,969 fetch iota's duration: 1073.209 s
+INFO 2019-01-20 13:47:57,970 total length samples 204
+INFO 2019-01-20 13:47:57,980 duration sorting values: 0.000684 s
+INFO 2019-01-20 13:47:57,996 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 13:47:58,009 write data into db
+INFO 2019-01-20 14:03:07,832 fetch iota's duration: 1083.497 s
+INFO 2019-01-20 14:03:07,832 total length samples 206
+INFO 2019-01-20 14:03:07,844 duration sorting values: 0.000695 s
+INFO 2019-01-20 14:03:07,860 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 14:03:07,874 write data into db
+INFO 2019-01-20 14:18:20,909 fetch iota's duration: 1095.761 s
+INFO 2019-01-20 14:18:20,910 total length samples 208
+INFO 2019-01-20 14:18:20,921 duration sorting values: 0.0007 s
+INFO 2019-01-20 14:18:20,936 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 14:18:20,949 write data into db
+INFO 2019-01-20 14:33:29,036 fetch iota's duration: 1104.65 s
+INFO 2019-01-20 14:33:29,037 total length samples 210
+INFO 2019-01-20 14:33:29,048 duration sorting values: 0.000706 s
+INFO 2019-01-20 14:33:29,063 Database <sensorvaluesiota> not found, trying to create it
+INFO 2019-01-20 14:33:29,076 write data into db
+INFO 2019-01-20 14:48:37,553 fetch iota's duration: 1113.411 s
+INFO 2019-01-20 14:48:37,553 total length samples 212
+INFO 2019-01-20 14:48:37,564 duration sorting values: 0.000714 s
+INFO 2019-01-20 14:48:37,590 write data into db
+INFO 2019-01-20 15:03:49,057 fetch iota's duration: 1124.216 s
+INFO 2019-01-20 15:03:49,058 total length samples 214
+INFO 2019-01-20 15:03:49,069 duration sorting values: 0.000723 s
+INFO 2019-01-20 15:03:49,095 write data into db
+INFO 2019-01-20 15:19:01,676 fetch iota's duration: 1136.908 s
+INFO 2019-01-20 15:19:01,677 total length samples 216
+INFO 2019-01-20 15:19:01,688 duration sorting values: 0.000724 s
+INFO 2019-01-20 15:19:01,714 write data into db
+INFO 2019-01-20 15:34:10,222 fetch iota's duration: 1145.482 s
+INFO 2019-01-20 15:34:10,223 total length samples 218
+INFO 2019-01-20 15:34:10,234 duration sorting values: 0.000745 s
+INFO 2019-01-20 15:34:10,260 write data into db
+INFO 2019-01-20 15:49:21,694 fetch iota's duration: 1157.286 s
+INFO 2019-01-20 15:49:21,694 total length samples 220
+INFO 2019-01-20 15:49:21,706 duration sorting values: 0.000748 s
+INFO 2019-01-20 15:49:21,732 write data into db
+INFO 2019-01-20 16:04:34,165 fetch iota's duration: 1169.234 s
+INFO 2019-01-20 16:04:34,166 total length samples 222
+INFO 2019-01-20 16:04:34,177 duration sorting values: 0.000748 s
+INFO 2019-01-20 16:04:34,205 write data into db
+INFO 2019-01-20 16:19:45,159 fetch iota's duration: 1180.646 s
+INFO 2019-01-20 16:19:45,160 total length samples 224
+INFO 2019-01-20 16:19:45,173 duration sorting values: 0.000761 s
+INFO 2019-01-20 16:19:45,200 write data into db
+INFO 2019-01-20 16:35:34,977 fetch iota's duration: 1229.839 s
+INFO 2019-01-20 16:35:34,978 total length samples 234
+INFO 2019-01-20 16:35:34,990 duration sorting values: 0.00081 s
+INFO 2019-01-20 16:35:35,017 write data into db
+INFO 2019-01-20 17:21:12,195 fetch iota's duration: 1267.828 s
+INFO 2019-01-20 17:21:12,196 total length samples 240
+INFO 2019-01-20 17:21:12,209 duration sorting values: 0.0008 s
+INFO 2019-01-20 17:21:12,234 write data into db
+INFO 2019-01-20 17:36:16,261 fetch iota's duration: 1271.377 s
+INFO 2019-01-20 17:36:16,262 total length samples 242
+INFO 2019-01-20 17:36:16,275 duration sorting values: 0.000836 s
+INFO 2019-01-20 17:36:16,309 write data into db
+INFO 2019-01-20 17:51:26,386 fetch iota's duration: 1281.735 s
+INFO 2019-01-20 17:51:26,386 total length samples 244
+INFO 2019-01-20 17:51:26,399 duration sorting values: 0.000829 s
+INFO 2019-01-20 17:51:26,425 write data into db

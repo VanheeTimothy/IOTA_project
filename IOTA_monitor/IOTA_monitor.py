@@ -6,14 +6,15 @@ import logging
 
 logging.basicConfig(filename='logs/flask.log', level=logging.INFO, format='%(levelname)s %(asctime)s %(message)s')
 
+port = 8086
+host = 'localhost'
+dbname = "sensorvaluesiota"
 
 
 try:
 
     start = time()
-    port = 8086
-    host = 'localhost'
-    dbname ="sensorvaluesiota"
+
     client = InfluxDBClient(host=host, port=port)
     client.switch_database(dbname)
     stop = time()
@@ -44,7 +45,10 @@ def analytics():
 
 @app.route('/graphsdaily')
 def graphsdaily():
-    return render_template('GraphsDaily.html')
+    readDbLog = LogReader("updatedatabase.log")
+    duration, samples = readDbLog.getDatapointslog()
+
+    return render_template('GraphsDaily.html', duration=duration, samples=samples)
 
 
 @app.route('/graphsweekly')

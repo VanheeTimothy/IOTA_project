@@ -11,6 +11,7 @@ This project will demonstrate how to send sensor data from a Raspberry Pi to the
 ```bash
 IoT_IOTA/
 ├── IOTA_monitor
+│   ├── credentials.py
 │   ├── get_new_address.py
 │   ├── IOTA_monitor.py
 │   ├── launch
@@ -26,15 +27,7 @@ IoT_IOTA/
 │   │   └── updatedatabase.log
 │   ├── model
 │   │   ├── FetchIotaTxs.py
-│   │   ├── Logreader.py
-│   │   └── __pycache__
-│   │       ├── FetchIotaTxs.cpython-35.pyc
-│   │       └── Logreader.cpython-35.pyc
-│   ├── __pycache__
-│   │   ├── FetchIotaTransfers.cpython-35.pyc
-│   │   ├── FetchIotaTransfers.cpython-36.pyc
-│   │   ├── FetchIotaTxs.cpython-35.pyc
-│   │   └── FetchIotaTxs.cpython-36.pyc
+│   │   └── Logreader.py
 │   ├── static
 │   │   ├── dropdownbutton.js
 │   │   ├── graphs.js
@@ -42,9 +35,11 @@ IoT_IOTA/
 │   │   │   ├── iotalogo.png
 │   │   │   ├── iota_monitor.png
 │   │   │   └── iota.png
+│   │   ├── insightscharts.js
 │   │   ├── lib
 │   │   │   └── mam.client.js
 │   │   ├── reset.css
+│   │   ├── sensorcharts.js
 │   │   └── style.css
 │   ├── templates
 │   │   ├── Analytics.html
@@ -54,9 +49,11 @@ IoT_IOTA/
 │   │   ├── index.html
 │   │   ├── Logs.html
 │   │   ├── Settings.html
+│   │   ├── TangleExplorer.html
 │   │   └── Transactions.html
 │   └── update_database.py
 ├── IOTA_sensor
+│   ├── credentials.py
 │   ├── generate_seed.py
 │   ├── launch
 │   │   └── launchsendiota.sh
@@ -69,17 +66,12 @@ IoT_IOTA/
 │       ├── DHT11.py
 │       ├── OneWire.py
 │       ├── OneWire.pyc
-│       ├── __pycache__
-│       │   ├── DHT11.cpython-35.pyc
-│       │   ├── DHT11.cpython-36.pyc
-│       │   ├── OneWire.cpython-35.pyc
-│       │   ├── RGBmixer.cpython-35.pyc
-│       │   └── TransferIotaTxs.cpython-35.pyc
 │       ├── RGBmixer.py
 │       └── TransferIotaTxs.py
 ├── projectstructure.txt
 ├── README.md
 └── requirements.txt
 
-15 directories, 55 files
+12 directories, 49 files
+
 ```

@@ -8,15 +8,13 @@ function getHummData() {
     return hummdata;
 }
 
-
-var templabel = [];
-for (i = 0; i < tempdata.length; i++) {
-    templabel.push(i);
+function getLabels() {
+    return labels;
 }
 
 
 var lineChartSensors = {
-    labels: templabel,
+    labels: getLabels(),
     datasets: [{
         label: "one-wire",
         fill: true,
@@ -63,21 +61,25 @@ window.onload = function () {
             responsive: true,
             options: {
                 legend: {
-                   fontColor: 'rgb(255, 255, 255)'
+                    fontColor: 'rgb(255, 255, 255)'
 
                 },
                 scales: {
                     xAxes: [{
-                        display: false,
-                        labelString: "time (t)"
+                        display: true,
+                        labelString: "time (t)",
+                        stepSize: 20,
+                        ticks: {
+                            fontColor: "white",
+                            fontSize: 12
+
+                        }
                     }],
                     yAxes: [{
                         stacked: false,
                         ticks: {
                             fontColor: "white",
-                            fontSize: 12,
-                            beginAtZero: true
-
+                            fontSize: 12
                         }
                     }]
                 },
@@ -86,7 +88,7 @@ window.onload = function () {
                     text: 'sensorvalues',
                     fontColor: "white",
                     fontFamily: "Source Sans Pro",
-                    fontSize: 14,
+                    fontSize: 14
 
                 }
 

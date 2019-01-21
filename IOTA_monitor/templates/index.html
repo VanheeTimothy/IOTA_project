@@ -21,7 +21,7 @@
 
 <aside class="sidebar">
 
-    <img class="logo" src="static/img/iota_monitor.png">
+    <a href="https://iota.org" target="_blank"> <img class="logo" src="static/img/iota_monitor.png"></a>
 
     <ul>
 
@@ -32,6 +32,7 @@
                 <a href="{{ url_for('graphsdaily') }}">day</a>
                 <a href="{{ url_for('grahpsweekly') }}">week</a>
                 <a href="{{ url_for('graphsmonthly') }}">month</a>
+                <a href="{{ url_for('insightslog') }}">insights log</a>
             </div>
         </li>
 
@@ -39,7 +40,7 @@
                 class="fa fa-folder-open"></i>View Transactions</a></li>
 
         <li {% block logs %} {% endblock %}><a href="{{ url_for('logs') }}"><i class="fa fa-wrench"></i>Logs</a>
-        <li {%  block tangleexplorer %}{% endblock %}><a href="https://thetangle.org/address/OOJTC99SSUPQIQCPVDUBXR9HM9FBZ9PXPNJAWUVRWHEPJWIGUFERAJYWOZCDXRSICYLVRBBYNEXBTEEVD" target="_blank">The Tangle Explorer</a>
+        <li {%  block tangleexplorer %}{% endblock %}><a href="https://thetangle.org/address/XENBXJLEIQPGRWLTICODNYSMHMFZOIJVBJT9YAFAENIVIIYYNVNLKT9QPATCXKSENHDOHLLILMQZQGVAA" target="_blank">The Tangle Explorer</a>
 
         </li>
 

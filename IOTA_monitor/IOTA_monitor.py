@@ -2,6 +2,7 @@ from time import time
 from flask import Flask, render_template
 from influxdb import InfluxDBClient
 from model.Logreader import LogReader
+from model.DatabaseManager import DatabaseManager
 import logging
 
 logging.basicConfig(filename='logs/flask.log', level=logging.INFO, format='%(levelname)s %(asctime)s %(message)s')
@@ -11,12 +12,10 @@ host = 'localhost'
 dbname = "sensorvaluesiota"
 
 
+
 try:
-
     start = time()
-
-    client = InfluxDBClient(host=host, port=port)
-    client.switch_database(dbname)
+    dbManager = DatabaseManager(host, port, dbname)
     stop = time()
     logging.info("connected to influxdb using database: {}".format(dbname))
     print("duration connect to influxdb: "+str(stop-start))
@@ -29,26 +28,20 @@ app = Flask(__name__)
 def analytics():
     try:
         s = time()
-        temp = client.query('SELECT "value" FROM temperature')
-        humm = client.query('SELECT "value" FROM hummidity ')
+        temp_points, humm_points, labels = dbManager.getSensorData()
         st = time()
-        print("duration: " + str(st-s))
         logging.info("fetching temp and humm values from influxdb: {}s".format(round(st-s,3)))
-        temp_raw, humm_raw = temp.raw["series"][0]["values"], humm.raw["series"][0]["values"]
-        temp_points, humm_points = [l[1] for l in temp_raw], [l[1] for l in humm_raw]
-
     except Exception as e:
         logging.error(e)
 
-    return render_template('Analytics.html', tempdata=temp_points, hummdata=humm_points)
+    return render_template('Analytics.html', tempdata=temp_points, hummdata=humm_points, labels=labels)
 
 
 @app.route('/graphsdaily')
 def graphsdaily():
-    readDbLog = LogReader("updatedatabase.log")
-    duration, samples = readDbLog.getDatapointslog()
 
-    return render_template('GraphsDaily.html', duration=duration, samples=samples)
+
+    return render_template('GraphsDaily.html')
 
 
 @app.route('/graphsweekly')
@@ -59,22 +52,31 @@ def grahpsweekly():
 def graphsmonthly():
     return render_template('GraphsMonthly.html')
 
+@app.route('/insightslog')
+def insightslog():
+    try:
+        readDbLog = LogReader("updatedatabase.log")
+        duration, samples = readDbLog.getDatapointslog()
+    except Exception as e:
+        logging.error(e)
+
+    return render_template('InsightsLog.html',duration=duration, samples=samples)
+
+
+
 
 
 @app.route('/transactions')
 def transactions():
     try:
         s = time()
-        temp, humm = client.query('SELECT * FROM temperature'), client.query('SELECT * FROM hummidity ')
-        humm_raw, temp_raw = humm.raw["series"][0]["values"], temp.raw["series"][0]["values"]
-        print(humm_raw)
-        table_data = sorted(humm_raw + temp_raw)  # TODO sort values when None is
+        txs = dbManager.getTransactions()
         st = time()
         logging.info("fetching transactions from influxdb: {}".format(str(round(st - s, 3))))
     except Exception as e:
         logging.error(e)
 
-    return render_template("Transactions.html",table_html=table_data)
+    return render_template("Transactions.html",table_html=txs)
 
 
 

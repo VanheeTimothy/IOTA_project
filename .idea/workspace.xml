@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7497524c-2b01-4dff-8b95-c2ce23465813" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projectstructure.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOTA_monitor/.idea/workspace.xml" afterPath="$PROJECT_DIR$/IOTA_monitor/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOTA_monitor/IOTA_monitor.py" afterPath="$PROJECT_DIR$/IOTA_monitor/IOTA_monitor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOTA_monitor/get_new_address.py" afterPath="$PROJECT_DIR$/IOTA_monitor/get_new_address.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOTA_monitor/logs/flask.log" afterPath="$PROJECT_DIR$/IOTA_monitor/logs/flask.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOTA_monitor/logs/updatedatabase.log" afterPath="$PROJECT_DIR$/IOTA_monitor/logs/updatedatabase.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOTA_monitor/model/FetchIotaTxs.py" afterPath="$PROJECT_DIR$/IOTA_monitor/model/FetchIotaTxs.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOTA_monitor/model/Logreader.py" afterPath="$PROJECT_DIR$/IOTA_monitor/model/Logreader.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOTA_monitor/static/graphs.js" afterPath="$PROJECT_DIR$/IOTA_monitor/static/graphs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOTA_monitor/templates/Analytics.html" afterPath="$PROJECT_DIR$/IOTA_monitor/templates/Analytics.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOTA_monitor/templates/GraphsDaily.html" afterPath="$PROJECT_DIR$/IOTA_monitor/templates/GraphsDaily.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOTA_monitor/update_database.py" afterPath="$PROJECT_DIR$/IOTA_monitor/update_database.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOTA_sensor/.idea/workspace.xml" afterPath="$PROJECT_DIR$/IOTA_sensor/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOTA_sensor/generate_seed.py" afterPath="$PROJECT_DIR$/IOTA_sensor/generate_seed.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOTA_sensor/main.py" afterPath="$PROJECT_DIR$/IOTA_sensor/main.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -108,9 +94,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="width" value="960" />
-    <option name="height" value="1040" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -247,7 +235,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />

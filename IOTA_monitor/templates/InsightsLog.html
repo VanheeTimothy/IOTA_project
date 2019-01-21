@@ -2,13 +2,12 @@
 
 {% block headscript %}
     <script type="text/javascript">
-        var tempdata = {{ tempdata | safe }};
-        var hummdata = {{ hummdata | safe}};
-        var labels = {{ labels | safe }};
+        var duration = {{ duration  }};
+        var samples = {{ samples }};
     </script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
-    <script type="text/javascript" src="{{ url_for('static', filename='sensorcharts.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='insightscharts.js') }}"></script>
 
 {% endblock %}
 
@@ -20,8 +19,7 @@
 {% block body %}
     <div class="dashboard">
 
-        <canvas id="tempChart"></canvas>
-        <canvas id="hummChart"></canvas>
+        <canvas id="sampleChart"></canvas>
     </div>
 {% endblock %}
 

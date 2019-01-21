@@ -1,13 +1,22 @@
 from model.Logreader import LogReader
+import urllib
+from influxdb import InfluxDBClient
+from time import time
+import logging
+from model.DatabaseManager import DatabaseManager
+port = 8086
+host = 'localhost'
+dbname = "sensorvaluesiota"
 
-readFlaskLog = LogReader("updatedatabase.log").readlog()
-
-duration, samples = [], []
-for line in readFlaskLog:
-    if line[42:50] == "duration":
-        duration.append(float(line[52:58]))
-    elif line[42:49] == "samples":
-        samples.append(int(line[50:]))
 
 
-print(duration)
+
+start = time()
+dbManager = DatabaseManager(host, port, dbname)
+stop = time()
+logging.info("connected to influxdb using database: {}".format(dbname))
+print("duration connect to influxdb: "+str(stop-start))
+dd = dbManager.getSensorDatatest()
+print(dd)
+
+

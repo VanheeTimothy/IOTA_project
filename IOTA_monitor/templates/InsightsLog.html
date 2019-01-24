@@ -2,8 +2,15 @@
 
 {% block headscript %}
     <script type="text/javascript">
-        var duration = {{ duration  }};
-        var samples = {{ samples }};
+        var dur_gettransfer = {{ dur_gettransfer   }};
+        var samples_gettransfer = {{ samples_gettransfer   }};
+        var dt_gettransfers = {{ dt_gettransfers |safe }};
+
+        var dur_txobject = {{ dur_txobject }};
+        var samples_txobject = {{ samples_txobject }};
+
+        var ds_transfer = {{ ds_getransfer |safe}};
+        var ds_txobject = {{  ds_txobject | safe}};
     </script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
@@ -17,9 +24,15 @@
 
 
 {% block body %}
-    <div class="dashboard">
+    <div class="dashboard insightcharts">
+    <button class="togglegraph" onclick="togglegraph()">toggle graph</button>
 
-        <canvas id="sampleChart"></canvas>
+
+
+        <div id="scatter"><canvas id="scatterChart"></canvas></div>
+        <div id="line"><canvas id="lineChart"></canvas></div>
+
+
     </div>
 {% endblock %}
 

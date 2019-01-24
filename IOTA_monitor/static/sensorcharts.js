@@ -79,7 +79,8 @@ window.onload = function () {
                         stacked: false,
                         ticks: {
                             fontColor: "white",
-                            fontSize: 12
+                            fontSize: 12,
+                            beginAtZero: true
                         }
                     }]
                 },

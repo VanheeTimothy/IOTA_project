@@ -3,7 +3,10 @@ import iota
 from iota.adapter import BaseAdapter, HttpAdapter
 import time
 from datetime import datetime
-import credentials
+import sys
+
+sys.path.append("..")
+
 
 class FetchIotaTxs():
     def __init__(self, uriNet, mySeed, listTargetAdresses):
@@ -11,46 +14,55 @@ class FetchIotaTxs():
         self.uriNet = uriNet
         self.listAddr = listTargetAdresses
 
-    def fetchTxs(self):
+    def fetchTxs_fto(self):
         return find_transaction_objects(adapter=HttpAdapter(self.uriNet), addresses=self.listAddr)
 
+    def fetchTxs_get_transfer(self):
+        return self.api.get_transfers(start=0, stop=3)
 
-    def get_querry_list(self):
-        temp_data = []
-        humm_data = []
-        try:
-            for tx in self.fetchTxs():
-                print(vars(tx))
+    def get_querry_list(self, methode=0):
+        methode = self.fetchTxs_get_transfer()["bundles"]
+        if methode == 0:
+            methode = self.fetchTxs_fto()
+        temp_data, humm_data = [], []
+
+        for bundle in methode:
+            for tx in bundle:
                 if str(tx.tag).rstrip("9") == "DHTIOTA":
-                    humm_data.append({"measurement":"hummidity",
-                                      "tags":{
-                                          "sensor":"DHT11",
+                    humm_data.append({"measurement": "humidity",
+                                      "tags": {
+                                          "sensor": "DHT11",
                                           "hash": tx.hash
                                       },
-                                      "time":datetime.utcfromtimestamp(int(tx.timestamp)).strftime('%Y-%m-%d %H:%M:%S'),
-                                      "fields":{
+                                      "time": datetime.utcfromtimestamp(int(tx.timestamp)).strftime(
+                                          '%Y-%m-%d %H:%M:%S'),
+                                      "fields": {
                                           "value": float(tx.signature_message_fragment.decode())
                                       }})
-
                 else:
-                    temp_data.append({"measurement":"temperature",
-                                      "tags":{
-                                          "sensor":"DS18B20",
-                                          "hash":tx.hash
+                    temp_data.append({"measurement": "temperature",
+                                      "tags": {
+                                          "sensor": "DS18B20",
+                                          "hash": tx.hash
                                       },
-                                      "time":datetime.utcfromtimestamp(int(tx.timestamp)).strftime('%Y-%m-%d %H:%M:%S'),
-                                      "fields":{
+                                      "time": datetime.utcfromtimestamp(int(tx.timestamp)).strftime(
+                                          '%Y-%m-%d %H:%M:%S'),
+                                      "fields": {
                                           "value": float(tx.signature_message_fragment.decode())
                                       }})
 
-        except Exception as e:
-            pass
-        return temp_data,humm_data
+        return temp_data, humm_data
+
+
 
 
 if __name__ == '__main__':
     mainNet = "https://nodes.thetangle.org:443"
-    seed_main_monitor = credentials.login["seed_main_monitor"]
-    target_address = credentials.login["target_address"]
+    seed_main_monitor = "AAFHNKDVMOENJMSRJEFNZMEMLVSYOKO9QTAYPDNQDSMLPFBEWXMPAQIUWVZYQMAOJARF9SRYLUSQAVNYI"
+    target_address = "HLQIJMGCJGYLYR9UIAXTVBFXEEN9QSVAMQBWDWAHHUSIU9UAOAVMVKVNCANLUWSECPPPCSNGZLTGJSMSZ"
+    s = time.time()
     test1 = FetchIotaTxs(mainNet, seed_main_monitor, [target_address])
     temp_data, humm_data = test1.get_querry_list()
+    st = time.time()
+    print(temp_data)
+    print("duration= " + str(st - s))

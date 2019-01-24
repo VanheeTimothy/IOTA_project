@@ -29,14 +29,17 @@ function get_dstxobject() {
 function togglegraph() {
     var ctx1 = document.getElementById("scatter");
     var ctxl2 = document.getElementById("line");
+    var elem = document.getElementById("toggle");
 
     if (ctx1.style.display === "none") {
         ctx1.style.display = "block";
         ctxl2.style.display = "none";
+        elem.value =  "line";
 
     } else {
         ctx1.style.display = "none";
         ctxl2.style.display = "block";
+        elem.value =  "scatter";
     }
 }
 
@@ -120,7 +123,7 @@ var lineChartSamples = {
 
 var scatterplot = {
     datasets: [{
-        label: "duration get_transfers",
+        label: "get_transfers",
         fill: false,
         lineTension: 0.9,
         backgroundColor: "rgba(130,255,67,0.9)",
@@ -137,7 +140,7 @@ var scatterplot = {
         data: get_dstransfer()
     },
         {
-            label: "samples transaction_object",
+            label: "transaction_object",
             fill: false,
             lineTension: 0.9,
             backgroundColor: "rgba(255,255,255,0.9)",

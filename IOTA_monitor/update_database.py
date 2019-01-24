@@ -78,8 +78,6 @@ try:
     client.write_points(temp_data)
     client.write_points(hum_list)
 except Exception as e:
-    print("#####################################")
-    print(e)
     logging.error(e)
 
 

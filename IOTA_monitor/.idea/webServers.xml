@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="8ce35e0e-4e3d-4a31-a8c7-ab87142fb536" name="IOTA_monitor" url="http://192.168.0.239">
-        <fileTransfer host="192.168.0.239" port="22" accessType="SFTP">
+      <webServer id="8ce35e0e-4e3d-4a31-a8c7-ab87142fb536" name="IOTA_monitor" url="http://192.168.0.180">
+        <fileTransfer host="192.168.0.180" port="22" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>

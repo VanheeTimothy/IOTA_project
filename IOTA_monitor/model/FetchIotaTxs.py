@@ -56,13 +56,3 @@ class FetchIotaTxs():
 
 
 
-if __name__ == '__main__':
-    mainNet = "https://nodes.thetangle.org:443"
-    seed_main_monitor = "AAFHNKDVMOENJMSRJEFNZMEMLVSYOKO9QTAYPDNQDSMLPFBEWXMPAQIUWVZYQMAOJARF9SRYLUSQAVNYI"
-    target_address = "HLQIJMGCJGYLYR9UIAXTVBFXEEN9QSVAMQBWDWAHHUSIU9UAOAVMVKVNCANLUWSECPPPCSNGZLTGJSMSZ"
-    s = time.time()
-    test1 = FetchIotaTxs(mainNet, seed_main_monitor, [target_address])
-    temp_data, humm_data = test1.get_querry_list()
-    st = time.time()
-    print(temp_data)
-    print("duration= " + str(st - s))

@@ -23,18 +23,6 @@ except Exception as e:
 app = Flask(__name__)
 
 
-# @app.route('/')
-# def analytics():
-#     try:
-#         s = time()
-#         temp_points, humm_points, labels = dbManager.getAllSensorData()
-#         st = time()
-#         logging.info("fetching temp and humm values from influxdb: {}s".format(round(st - s, 3)))
-#     except Exception as e:
-#         logging.error(e)
-#
-#     return render_template('Analytics.html', tempdata=temp_points, hummdata=humm_points, labels=labels)
-
 
 @app.route('/')
 def graphsdaily():
@@ -95,13 +83,6 @@ def insightslog():
 
 
     try:
-        # ds_getransfer, ds_txobject = [], []
-        # for x, y in zip( dur_gettransfers, samples_gettransfer):
-        #     ds_getransfer.append({'x': x, 'y': y})
-        # for x, y in zip(dur_txobject, samples_txobject):
-        #     ds_txobject.append({'x': x, 'y': y})
-        # ds_getransfer = str(ds_getransfer).replace('\'', '')
-        # ds_txobject = str(ds_txobject).replace('\'', '')
 
         ds_getransfer, ds_txobject = readDbLog.preparedata_scatterplot()
         logging.info(ds_getransfer)
